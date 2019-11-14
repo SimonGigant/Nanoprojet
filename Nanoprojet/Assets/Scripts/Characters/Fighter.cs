@@ -7,11 +7,11 @@ public enum FighterState {Idle, SetUpAttack, Block, Parry, Attack, AttackLag, Da
 public class Fighter : MonoBehaviour
 {
     //Stats
-    private float speed = 0.1f;
+    private float speed = 0.2f;
     private int maxHP = 3;
     
-    private float dashSpeed = 0.3f;
-    private float dashDuration = 0.5f;
+    private float dashSpeed = 0.8f;
+    private float dashDuration = 0.2f;
     private float setUpAttackDuration;
     private float blockDuration;
     private float attackDuration;
@@ -22,10 +22,13 @@ public class Fighter : MonoBehaviour
     private FighterState state;
     private Vector2 currentDirection;
 
+    private GameObject currentHitbox;
+
     //Counters
     private float counterInState;
 
     [SerializeField] private Fighter opponent;
+    [SerializeField] private GameObject hitboxPrefab;
 
     private void Initialize()
     {
@@ -69,6 +72,12 @@ public class Fighter : MonoBehaviour
             case FighterState.Dash:
                 {
 
+                    break;
+                }
+            case FighterState.Attack:
+                {
+                    currentHitbox = GameObject.Instantiate(hitboxPrefab, transform.position, transform.rotation, transform);
+                    currentHitbox.GetComponent<Hitbox>().opponent = opponent;
                     break;
                 }
         }
@@ -128,5 +137,14 @@ public class Fighter : MonoBehaviour
             return true;
         }
         return false;
+    }
+
+    public void Damage(int amount)
+    {
+        hp -= amount;
+        if (hp <= 0)
+        {
+            ChangeState(FighterState.Death);
+        }
     }
 }
