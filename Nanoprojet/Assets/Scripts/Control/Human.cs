@@ -15,6 +15,10 @@ public class Human : Control
             {
                 fighter.DashButton();
             }
+            if (Input.GetButtonDown("Fire3"))
+            {
+                fighter.AttackButton();
+            }
             if (Input.GetAxis("Horizontal") != 0f || Input.GetAxis("Vertical") != 0f)
             {
                 fighter.Move(new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")));

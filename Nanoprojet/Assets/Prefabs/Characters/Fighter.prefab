@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6610259109831697702}
   - component: {fileID: 6610259109831697701}
   - component: {fileID: 6610259109831697700}
+  - component: {fileID: 4722861633996897794}
   m_Layer: 0
   m_Name: Fighter
   m_TagString: Untagged
@@ -106,6 +107,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9746cd35af1711a48b1d6abc093ec388, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  opponent: {fileID: 0}
+  hitboxPrefab: {fileID: 0}
 --- !u!114 &6610259109831697700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119,3 +122,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fighter: {fileID: 6610259109831697701}
+  controller: 0
+--- !u!54 &4722861633996897794
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6610259109831697723}
+  serializedVersion: 2
+  m_Mass: 100
+  m_Drag: 100
+  m_AngularDrag: 100
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 0

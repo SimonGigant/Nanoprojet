@@ -6,12 +6,12 @@ public class Hitbox : MonoBehaviour
 {
     public Fighter opponent;
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerStay(Collider collider)
     {
-        if (collision.gameObject.GetComponent<Fighter>().Equals(opponent))
+        if (collider.gameObject != null && collider.gameObject.GetComponent<Fighter>() != null && collider.gameObject.GetComponent<Fighter>().Equals(opponent))
         {
             opponent.Damage(1);
-            Destroy(this);
+            GetComponentInParent<Fighter>().SucceedAttack();
         }
     }
 }

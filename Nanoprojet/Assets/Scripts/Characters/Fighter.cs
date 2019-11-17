@@ -12,10 +12,10 @@ public class Fighter : MonoBehaviour
     
     private float dashSpeed = 0.8f;
     private float dashDuration = 0.2f;
-    private float setUpAttackDuration;
-    private float blockDuration;
-    private float attackDuration;
-    private float attackLagDuration;
+    private float setUpAttackDuration = 0.1f;
+    private float blockDuration = 0.1f;
+    private float attackDuration = 0.5f;
+    private float attackLagDuration = 0.1f;
 
     //Values
     private int hp;
@@ -27,6 +27,7 @@ public class Fighter : MonoBehaviour
     //Counters
     private float counterInState;
 
+    //Serialized fields
     [SerializeField] private Fighter opponent;
     [SerializeField] private GameObject hitboxPrefab;
 
@@ -36,9 +37,12 @@ public class Fighter : MonoBehaviour
         state = FighterState.Idle;
     }
 
+    /**
+     * Turn the fighter to look at the opponent
+     */
     private void FaceOpponent()
     {
-        transform.LookAt(opponent.transform, transform.forward);
+        transform.LookAt(opponent.transform);
     }
     
     void Start()
@@ -60,9 +64,34 @@ public class Fighter : MonoBehaviour
                     Dash();
                     break;
                 }
+            case FighterState.SetUpAttack:
+                {
+                    SetUpAttack();
+                    break;
+                }
+            case FighterState.Block:
+                {
+                    Block();
+                    break;
+                }
+            case FighterState.Attack:
+                {
+                    Attack();
+                    break;
+                }
+            case FighterState.AttackLag:
+                {
+                    AttackLag();
+                    break;
+                }
         }
     }
 
+    /**
+     * Called to change the fighter state.
+     * Initializes attributes depending on the state
+     * @param nextState the state to which the fighter will go
+     */
     private void ChangeState(FighterState nextState)
     {
         //Initialisations
@@ -77,12 +106,27 @@ public class Fighter : MonoBehaviour
             case FighterState.Attack:
                 {
                     currentHitbox = GameObject.Instantiate(hitboxPrefab, transform.position, transform.rotation, transform);
-                    currentHitbox.GetComponent<Hitbox>().opponent = opponent;
+                    currentHitbox.GetComponentInChildren<Hitbox>().opponent = opponent;
+                    break;
+                }
+            case FighterState.AttackLag:
+                {
+                    Destroy(currentHitbox);
+                    break;
+                }
+            case FighterState.Death:
+                {
+                    Destroy(gameObject);
                     break;
                 }
         }
         state = nextState;
     }
+    
+
+    //***************************************
+    // Specific states methods called in Idle
+    //***************************************
 
     private void Idle()
     {
@@ -99,18 +143,59 @@ public class Fighter : MonoBehaviour
         }
     }
 
+    private void SetUpAttack()
+    {
+        counterInState += Time.deltaTime;
+        FaceOpponent();
+        if(counterInState > setUpAttackDuration)
+        {
+            ChangeState(FighterState.Block);
+        }
+    }
+
+    private void Block()
+    {
+        counterInState += Time.deltaTime;
+        if(counterInState > blockDuration)
+        {
+            ChangeState(FighterState.Attack);
+        }
+    }
+
+    private void Attack()
+    {
+        counterInState += Time.deltaTime;
+        if(counterInState > attackDuration)
+        {
+            ChangeState(FighterState.AttackLag);
+        }
+    }
+    
+    private void AttackLag()
+    {
+        counterInState += Time.deltaTime;
+        if(counterInState > attackLagDuration)
+        {
+            ChangeState(FighterState.Idle);
+        }
+    }
+
+    //****************
+    // Utility methods
+    //****************
+
     private void Movement(Vector2 movement)
     {
         transform.position += new Vector3(movement.x, 0f, movement.y);
     }
 
     //************************************************************************
-    //Public methods to control the character in Control class and derivatives
+    // Public methods to control the character in Control class and derivatives
     //************************************************************************
 
     public bool Move(Vector2 dir)
     {
-        if(dir.magnitude.Equals(0f))
+        if(dir.magnitude.Equals(0f) || (state != FighterState.Idle && state != FighterState.Dash))
         {
             return false;
         }
@@ -139,12 +224,43 @@ public class Fighter : MonoBehaviour
         return false;
     }
 
+    public bool AttackButton()
+    {
+        if(state == FighterState.Idle)
+        {
+            ChangeState(FighterState.SetUpAttack);
+            return true;
+        }
+        return false;
+    }
+
+
+
+    //*************************************
+    // Public methods for other scripts
+    // (Do not call them in the controller)
+    //*************************************
+
     public void Damage(int amount)
     {
+        if(state == FighterState.Block)
+        {
+            ChangeState(FighterState.Idle);
+            return;
+        }
         hp -= amount;
         if (hp <= 0)
         {
             ChangeState(FighterState.Death);
+        }
+    }
+
+    public void SucceedAttack()
+    {
+        if(state == FighterState.Attack)
+        {
+            Destroy(currentHitbox.gameObject);
+            currentHitbox = null;
         }
     }
 }

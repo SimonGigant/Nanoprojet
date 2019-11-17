@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 766}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -113,7 +113,7 @@ MonoBehaviour:
   m_MinSize: {x: 681, y: 716}
   m_MaxSize: {x: 14002, y: 18066}
   vertical: 1
-  controlID: 150
+  controlID: 153
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_MinSize: {x: 681, y: 716}
   m_MaxSize: {x: 14002, y: 18066}
   vertical: 0
-  controlID: 151
+  controlID: 154
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -163,7 +163,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 716}
   m_MaxSize: {x: 10002, y: 18066}
   vertical: 1
-  controlID: 86
+  controlID: 85
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -188,7 +188,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 444}
   m_MaxSize: {x: 8006, y: 8044}
   vertical: 0
-  controlID: 87
+  controlID: 86
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -208,8 +208,8 @@ MonoBehaviour:
     y: 0
     width: 274
     height: 459
-  m_MinSize: {x: 202, y: 222}
-  m_MaxSize: {x: 4002, y: 4022}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -239,7 +239,7 @@ MonoBehaviour:
   m_MinSize: {x: 204, y: 444}
   m_MaxSize: {x: 4004, y: 8044}
   vertical: 1
-  controlID: 88
+  controlID: 87
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -258,9 +258,9 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 780
-    height: 228
-  m_MinSize: {x: 204, y: 222}
-  m_MaxSize: {x: 4004, y: 4022}
+    height: 231
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -283,11 +283,11 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 228
+    y: 231
     width: 780
-    height: 231
-  m_MinSize: {x: 204, y: 222}
-  m_MaxSize: {x: 4004, y: 4022}
+    height: 228
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -372,9 +372,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 274.4
-    y: 301.6
+    y: 304
     width: 778
-    height: 212
+    height: 209
   m_ViewDataDictionary: {fileID: 0}
   m_VSyncEnabled: 0
   m_MaximizeOnPlay: 0
@@ -389,8 +389,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -311.2
     m_HBaseRangeMax: 311.2
-    m_VBaseRangeMin: -78
-    m_VBaseRangeMax: 78
+    m_VBaseRangeMin: -76.8
+    m_VBaseRangeMax: 76.8
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -409,9 +409,9 @@ MonoBehaviour:
       x: 0
       y: 17
       width: 778
-      height: 195
+      height: 192
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 389, y: 97.5}
+    m_Translation: {x: 389, y: 96}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -419,14 +419,14 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -389
-      y: -97.5
+      y: -96
       width: 778
-      height: 195
+      height: 192
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 1
-  m_LastWindowPixelSize: {x: 972.5, y: 265}
+  m_LastWindowPixelSize: {x: 972.5, y: 261.25}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -460,9 +460,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 54fbffff
-      m_LastClickedID: -1196
-      m_ExpandedIDs: 54fbffff
+      m_SelectedIDs: 583e0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: a085ffff58fbffff66fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -510,7 +510,7 @@ MonoBehaviour:
     x: 274.4
     y: 73.6
     width: 778
-    height: 209
+    height: 212
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 436c9db5fabeb8b4b8c032562fd3a459
@@ -522,9 +522,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0.6999999}
+    m_Target: {x: 1.3802735, y: 0.5, z: -0.4080397}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0.6999999}
+    m_Value: {x: 1.3802735, y: 0.5, z: -0.4080397}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -553,13 +553,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.31431454, y: -0.10791091, z: 0.035987496, w: 0.9424807}
+    m_Target: {x: 0.24274215, y: -0.5374048, z: 0.16500142, w: 0.79060125}
     speed: 2
-    m_Value: {x: 0.314314, y: -0.10791073, z: 0.035987437, w: 0.94247913}
+    m_Value: {x: 0.24274175, y: -0.5374039, z: 0.16500115, w: 0.79059994}
   m_Size:
-    m_Target: 6.4285235
+    m_Target: 2.8578837
     speed: 2
-    m_Value: 6.4285235
+    m_Value: 2.8578837
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -677,7 +677,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -4618
+  m_LastSelectedObjectID: -1192
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -717,20 +717,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs/Hitboxes
+    - Assets/Prefabs/Characters
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs/Hitboxes
+  - Assets/Prefabs/Characters
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 273.78802}
-    m_SelectedIDs: fe4c0000
-    m_LastClickedID: 19710
-    m_ExpandedIDs: 00000000ec3c0000983e00000e4100009a44000084460000ae46000006480000224900001e4c000000ca9a3b
+    scrollPos: {x: 0, y: 269.49942}
+    m_SelectedIDs: d8460000
+    m_LastClickedID: 18136
+    m_ExpandedIDs: 00000000d63b0000a23d0000464000000c440000084600003a460000b6470000f0480000224c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -758,7 +758,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ec3c0000983e00000e4100009a44000084460000ae46000006480000224900001e4c0000
+    m_ExpandedIDs: 00000000d63b0000a23d0000464000000c440000084600003a460000b6470000f0480000224c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -785,7 +785,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000000000000acf5000078d20000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -877,7 +877,7 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 100
 --- !u!114 &23
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -961,7 +961,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   Collection:
     filter: 0
-    lastUpdateTime: nov. 14, 15:30
+    lastUpdateTime: nov. 17, 17:13
     listPackagesOffline:
     - Name: com.unity.collab-proxy
       DisplayName: Unity Collaborate
@@ -2481,7 +2481,7 @@ MonoBehaviour:
       Description: A new input system which can be used as a more extensible and customizable
         alternative to Unity's classic input system in UnityEngine.Input.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -2525,6 +2525,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -2542,6 +2543,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -2576,7 +2578,7 @@ MonoBehaviour:
       Description: A new input system which can be used as a more extensible and customizable
         alternative to Unity's classic input system in UnityEngine.Input.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -2620,6 +2622,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -2637,6 +2640,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -2671,7 +2675,7 @@ MonoBehaviour:
       Description: A new input system which can be used as a more extensible and customizable
         alternative to Unity's classic input system in UnityEngine.Input.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -2715,6 +2719,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -2732,6 +2737,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -2766,7 +2772,7 @@ MonoBehaviour:
       Description: A new input system which can be used as a more extensible and customizable
         alternative to Unity's classic input system in UnityEngine.Input.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -2810,6 +2816,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -2827,6 +2834,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -2861,7 +2869,7 @@ MonoBehaviour:
       Description: A new input system which can be used as a more extensible and customizable
         alternative to Unity's classic input system in UnityEngine.Input.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -2905,6 +2913,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -2922,6 +2931,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -2956,7 +2966,7 @@ MonoBehaviour:
       Description: A new input system which can be used as a more extensible and customizable
         alternative to Unity's classic input system in UnityEngine.Input.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -3000,6 +3010,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -3017,6 +3028,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -3051,7 +3063,7 @@ MonoBehaviour:
       Description: A new input system which can be used as a more extensible and customizable
         alternative to Unity's classic input system in UnityEngine.Input.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -3095,6 +3107,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -3112,6 +3125,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -3146,7 +3160,7 @@ MonoBehaviour:
       Description: A new input system which can be used as a more extensible and customizable
         alternative to Unity's classic input system in UnityEngine.Input.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -3190,6 +3204,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -3207,6 +3222,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -3241,7 +3257,7 @@ MonoBehaviour:
       Description: A new input system which can be used as a more extensible and customizable
         alternative to Unity's classic input system in UnityEngine.Input.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -3285,6 +3301,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -3302,6 +3319,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -3336,7 +3354,7 @@ MonoBehaviour:
       Description: A new input system which can be used as a more extensible and customizable
         alternative to Unity's classic input system in UnityEngine.Input.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -3380,6 +3398,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -3397,6 +3416,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -3431,7 +3451,7 @@ MonoBehaviour:
       Description: A new input system which can be used as a more extensible and customizable
         alternative to Unity's classic input system in UnityEngine.Input.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -3475,6 +3495,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -3492,6 +3513,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -3526,7 +3548,7 @@ MonoBehaviour:
       Description: A new input system which can be used as a more extensible and customizable
         alternative to Unity's classic input system in UnityEngine.Input.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -3570,6 +3592,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -3587,6 +3610,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -3621,7 +3645,7 @@ MonoBehaviour:
       Description: A new input system which can be used as a more extensible and customizable
         alternative to Unity's classic input system in UnityEngine.Input.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -3665,6 +3689,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -3682,6 +3707,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -3716,7 +3742,7 @@ MonoBehaviour:
       Description: A new input system which can be used as a more extensible and customizable
         alternative to Unity's classic input system in UnityEngine.Input.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -3760,6 +3786,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -3777,6 +3804,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -3811,7 +3839,7 @@ MonoBehaviour:
       Description: A new input system which can be used as a more extensible and customizable
         alternative to Unity's classic input system in UnityEngine.Input.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -3855,6 +3883,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -3872,6 +3901,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -3906,8 +3936,8 @@ MonoBehaviour:
       Description: A new input system which can be used as a more extensible and customizable
         alternative to Unity's classic input system in UnityEngine.Input.
       Category: 
-      State: 0
-      IsLatest: 1
+      State: 1
+      IsLatest: 0
       Group: Packages
       Type: 
       Origin: 1
@@ -3950,6 +3980,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -3967,6 +3998,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -3995,6 +4027,103 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_DatePublishedTicks: 637084765780000000
       IsInstalled: 1
+    - Name: com.unity.inputsystem
+      DisplayName: Input System
+      _Version: 1.0.0-preview.3
+      Description: A new input system which can be used as a more extensible and customizable
+        alternative to Unity's classic input system in UnityEngine.Input.
+      Category: 
+      State: 1
+      IsLatest: 1
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.inputsystem@1.0.0-preview.2
+        m_IsDirectDependency: 1
+        m_Version: 1.0.0-preview.2
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
+        m_AssetPath: Packages/com.unity.inputsystem
+        m_Name: com.unity.inputsystem
+        m_DisplayName: Input System
+        m_Category: 
+        m_Type: 
+        m_Description: A new input system which can be used as a more extensible and
+          customizable alternative to Unity's classic input system in UnityEngine.Input.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.2-preview
+          - 0.2.0-preview
+          - 0.2.1-preview
+          - 0.2.6-preview
+          - 0.2.8-preview
+          - 0.2.10-preview
+          - 0.9.0-preview
+          - 0.9.1-preview
+          - 0.9.2-preview
+          - 0.9.3-preview
+          - 0.9.4-preview
+          - 0.9.5-preview
+          - 0.9.6-preview
+          - 1.0.0-preview
+          - 1.0.0-preview.1
+          - 1.0.0-preview.2
+          - 1.0.0-preview.3
+          m_Compatible:
+          - 0.1.2-preview
+          - 0.2.0-preview
+          - 0.2.1-preview
+          - 0.2.6-preview
+          - 0.2.8-preview
+          - 0.2.10-preview
+          - 0.9.0-preview
+          - 0.9.1-preview
+          - 0.9.2-preview
+          - 0.9.3-preview
+          - 0.9.4-preview
+          - 0.9.5-preview
+          - 0.9.6-preview
+          - 1.0.0-preview
+          - 1.0.0-preview.1
+          - 1.0.0-preview.2
+          - 1.0.0-preview.3
+          m_Recommended: 
+        m_Dependencies:
+        - m_Name: com.unity.ugui
+          m_Version: 1.0.0
+        m_ResolvedDependencies:
+        - m_Name: com.unity.ugui
+          m_Version: 1.0.0
+        m_Keywords:
+        - input
+        - events
+        - keyboard
+        - mouse
+        - gamepad
+        - touch
+        - vr
+        - xr
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637084765780000000
+      IsInstalled: 0
     - Name: com.unity.package-manager-ui
       DisplayName: Package Manager UI
       _Version: 2.2.0
@@ -4152,6 +4281,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0-preview
           - 6.9.1-preview
@@ -4291,6 +4421,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0-preview
           - 6.9.1-preview
@@ -4430,6 +4561,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0-preview
           - 6.9.1-preview
@@ -12171,6 +12303,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0
           - 6.9.1
@@ -12285,6 +12418,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0
           - 6.9.1
@@ -12399,6 +12533,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0
           - 6.9.1
@@ -12516,6 +12651,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0
           - 6.9.1
@@ -12637,6 +12773,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0
           - 6.9.1
@@ -12758,6 +12895,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0
           - 6.9.1
@@ -12843,6 +12981,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0-preview
           - 6.9.1-preview
@@ -12929,6 +13068,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0-preview
           - 6.9.1-preview
@@ -13015,6 +13155,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0-preview
           - 6.9.1-preview
@@ -14559,7 +14700,7 @@ MonoBehaviour:
       Description: A new input system which can be used as a more extensible and customizable
         alternative to Unity's classic input system in UnityEngine.Input.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -14603,6 +14744,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -14620,6 +14762,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -14654,7 +14797,7 @@ MonoBehaviour:
       Description: A new input system which can be used as a more extensible and customizable
         alternative to Unity's classic input system in UnityEngine.Input.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -14698,6 +14841,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -14715,6 +14859,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -14749,7 +14894,7 @@ MonoBehaviour:
       Description: A new input system which can be used as a more extensible and customizable
         alternative to Unity's classic input system in UnityEngine.Input.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -14793,6 +14938,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -14810,6 +14956,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -14844,7 +14991,7 @@ MonoBehaviour:
       Description: A new input system which can be used as a more extensible and customizable
         alternative to Unity's classic input system in UnityEngine.Input.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -14888,6 +15035,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -14905,6 +15053,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -14939,7 +15088,7 @@ MonoBehaviour:
       Description: A new input system which can be used as a more extensible and customizable
         alternative to Unity's classic input system in UnityEngine.Input.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -14983,6 +15132,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -15000,6 +15150,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -15034,7 +15185,7 @@ MonoBehaviour:
       Description: A new input system which can be used as a more extensible and customizable
         alternative to Unity's classic input system in UnityEngine.Input.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -15078,6 +15229,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -15095,6 +15247,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -15129,7 +15282,7 @@ MonoBehaviour:
       Description: A new input system which can be used as a more extensible and customizable
         alternative to Unity's classic input system in UnityEngine.Input.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -15173,6 +15326,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -15190,6 +15344,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -15224,7 +15379,7 @@ MonoBehaviour:
       Description: A new input system which can be used as a more extensible and customizable
         alternative to Unity's classic input system in UnityEngine.Input.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -15268,6 +15423,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -15285,6 +15441,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -15319,7 +15476,7 @@ MonoBehaviour:
       Description: A new input system which can be used as a more extensible and customizable
         alternative to Unity's classic input system in UnityEngine.Input.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -15363,6 +15520,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -15380,6 +15538,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -15414,7 +15573,7 @@ MonoBehaviour:
       Description: A new input system which can be used as a more extensible and customizable
         alternative to Unity's classic input system in UnityEngine.Input.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -15458,6 +15617,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -15475,6 +15635,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -15509,7 +15670,7 @@ MonoBehaviour:
       Description: A new input system which can be used as a more extensible and customizable
         alternative to Unity's classic input system in UnityEngine.Input.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -15553,6 +15714,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -15570,6 +15732,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -15604,7 +15767,7 @@ MonoBehaviour:
       Description: A new input system which can be used as a more extensible and customizable
         alternative to Unity's classic input system in UnityEngine.Input.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -15648,6 +15811,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -15665,6 +15829,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -15699,7 +15864,7 @@ MonoBehaviour:
       Description: A new input system which can be used as a more extensible and customizable
         alternative to Unity's classic input system in UnityEngine.Input.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -15743,6 +15908,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -15760,6 +15926,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -15794,7 +15961,7 @@ MonoBehaviour:
       Description: A new input system which can be used as a more extensible and customizable
         alternative to Unity's classic input system in UnityEngine.Input.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -15838,6 +16005,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -15855,6 +16023,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -15889,7 +16058,7 @@ MonoBehaviour:
       Description: A new input system which can be used as a more extensible and customizable
         alternative to Unity's classic input system in UnityEngine.Input.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -15933,6 +16102,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -15950,6 +16120,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -15984,8 +16155,8 @@ MonoBehaviour:
       Description: A new input system which can be used as a more extensible and customizable
         alternative to Unity's classic input system in UnityEngine.Input.
       Category: 
-      State: 0
-      IsLatest: 1
+      State: 1
+      IsLatest: 0
       Group: Packages
       Type: 
       Origin: 1
@@ -16028,6 +16199,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -16045,6 +16217,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -16073,6 +16246,103 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_DatePublishedTicks: 637084765780000000
       IsInstalled: 1
+    - Name: com.unity.inputsystem
+      DisplayName: Input System
+      _Version: 1.0.0-preview.3
+      Description: A new input system which can be used as a more extensible and customizable
+        alternative to Unity's classic input system in UnityEngine.Input.
+      Category: 
+      State: 1
+      IsLatest: 1
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.inputsystem@1.0.0-preview.2
+        m_IsDirectDependency: 1
+        m_Version: 1.0.0-preview.2
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
+        m_AssetPath: Packages/com.unity.inputsystem
+        m_Name: com.unity.inputsystem
+        m_DisplayName: Input System
+        m_Category: 
+        m_Type: 
+        m_Description: A new input system which can be used as a more extensible and
+          customizable alternative to Unity's classic input system in UnityEngine.Input.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.2-preview
+          - 0.2.0-preview
+          - 0.2.1-preview
+          - 0.2.6-preview
+          - 0.2.8-preview
+          - 0.2.10-preview
+          - 0.9.0-preview
+          - 0.9.1-preview
+          - 0.9.2-preview
+          - 0.9.3-preview
+          - 0.9.4-preview
+          - 0.9.5-preview
+          - 0.9.6-preview
+          - 1.0.0-preview
+          - 1.0.0-preview.1
+          - 1.0.0-preview.2
+          - 1.0.0-preview.3
+          m_Compatible:
+          - 0.1.2-preview
+          - 0.2.0-preview
+          - 0.2.1-preview
+          - 0.2.6-preview
+          - 0.2.8-preview
+          - 0.2.10-preview
+          - 0.9.0-preview
+          - 0.9.1-preview
+          - 0.9.2-preview
+          - 0.9.3-preview
+          - 0.9.4-preview
+          - 0.9.5-preview
+          - 0.9.6-preview
+          - 1.0.0-preview
+          - 1.0.0-preview.1
+          - 1.0.0-preview.2
+          - 1.0.0-preview.3
+          m_Recommended: 
+        m_Dependencies:
+        - m_Name: com.unity.ugui
+          m_Version: 1.0.0
+        m_ResolvedDependencies:
+        - m_Name: com.unity.ugui
+          m_Version: 1.0.0
+        m_Keywords:
+        - input
+        - events
+        - keyboard
+        - mouse
+        - gamepad
+        - touch
+        - vr
+        - xr
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637084765780000000
+      IsInstalled: 0
     - Name: com.unity.package-manager-ui
       DisplayName: Package Manager UI
       _Version: 2.2.0
@@ -16230,6 +16500,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0-preview
           - 6.9.1-preview
@@ -16369,6 +16640,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0-preview
           - 6.9.1-preview
@@ -16508,6 +16780,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0-preview
           - 6.9.1-preview
@@ -24249,6 +24522,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0
           - 6.9.1
@@ -24363,6 +24637,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0
           - 6.9.1
@@ -24477,6 +24752,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0
           - 6.9.1
@@ -24594,6 +24870,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0
           - 6.9.1
@@ -24715,6 +24992,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0
           - 6.9.1
@@ -24836,6 +25114,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0
           - 6.9.1
@@ -24921,6 +25200,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0-preview
           - 6.9.1-preview
@@ -25007,6 +25287,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0-preview
           - 6.9.1-preview
@@ -25093,6 +25374,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0-preview
           - 6.9.1-preview
@@ -25572,6 +25854,7 @@ MonoBehaviour:
           - 3.0.4
           - 3.0.5
           - 3.0.6
+          - 4.0.0
           m_Compatible:
           - 2.2.0-preview.1
           - 2.2.0-preview.4
@@ -25662,6 +25945,7 @@ MonoBehaviour:
           - 3.0.4
           - 3.0.5
           - 3.0.6
+          - 4.0.0
           m_Compatible:
           - 2.2.0-preview.1
           - 2.2.0-preview.4
@@ -25752,6 +26036,7 @@ MonoBehaviour:
           - 3.0.4
           - 3.0.5
           - 3.0.6
+          - 4.0.0
           m_Compatible:
           - 2.2.0-preview.1
           - 2.2.0-preview.4
@@ -25842,6 +26127,7 @@ MonoBehaviour:
           - 3.0.4
           - 3.0.5
           - 3.0.6
+          - 4.0.0
           m_Compatible:
           - 2.2.0-preview.1
           - 2.2.0-preview.4
@@ -25932,6 +26218,7 @@ MonoBehaviour:
           - 3.0.4
           - 3.0.5
           - 3.0.6
+          - 4.0.0
           m_Compatible:
           - 2.2.0-preview.1
           - 2.2.0-preview.4
@@ -26690,6 +26977,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.1-preview
           - 2.0.2
+          - 3.0.0
           m_Compatible:
           - 1.0.0-preview
           - 1.0.1-preview
@@ -26766,6 +27054,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.1-preview
           - 2.0.2
+          - 3.0.0
           m_Compatible:
           - 1.0.0-preview
           - 1.0.1-preview
@@ -26838,6 +27127,7 @@ MonoBehaviour:
           - 2.0.3
           - 2.0.4
           - 2.0.5
+          - 3.0.0
           m_Compatible:
           - 1.2.0-preview.1
           - 1.2.0-preview.3
@@ -26918,6 +27208,7 @@ MonoBehaviour:
           - 2.0.3
           - 2.0.4
           - 2.0.5
+          - 3.0.0
           m_Compatible:
           - 1.2.0-preview.1
           - 1.2.0-preview.3
@@ -26998,6 +27289,7 @@ MonoBehaviour:
           - 2.0.3
           - 2.0.4
           - 2.0.5
+          - 3.0.0
           m_Compatible:
           - 1.2.0-preview.1
           - 1.2.0-preview.3
@@ -27142,6 +27434,7 @@ MonoBehaviour:
           - 3.0.4
           - 3.0.5
           - 3.0.6
+          - 4.0.0
           m_Compatible:
           - 2.1.0-preview.2
           - 2.1.0-preview.6
@@ -27235,6 +27528,7 @@ MonoBehaviour:
           - 3.0.4
           - 3.0.5
           - 3.0.6
+          - 4.0.0
           m_Compatible:
           - 2.1.0-preview.2
           - 2.1.0-preview.6
@@ -27328,6 +27622,7 @@ MonoBehaviour:
           - 3.0.4
           - 3.0.5
           - 3.0.6
+          - 4.0.0
           m_Compatible:
           - 2.1.0-preview.2
           - 2.1.0-preview.6
@@ -27421,6 +27716,7 @@ MonoBehaviour:
           - 3.0.4
           - 3.0.5
           - 3.0.6
+          - 4.0.0
           m_Compatible:
           - 2.1.0-preview.2
           - 2.1.0-preview.6
@@ -27514,6 +27810,7 @@ MonoBehaviour:
           - 3.0.4
           - 3.0.5
           - 3.0.6
+          - 4.0.0
           m_Compatible:
           - 2.1.0-preview.2
           - 2.1.0-preview.6
@@ -53717,11 +54014,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.inputsystem@1.0.0-preview.2
+        m_PackageId: com.unity.inputsystem@1.0.0-preview.3
         m_IsDirectDependency: 0
-        m_Version: 1.0.0-preview.2
+        m_Version: 1.0.0-preview.3
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
+        m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.inputsystem
         m_Name: com.unity.inputsystem
         m_DisplayName: Input System
@@ -53749,6 +54046,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -53766,6 +54064,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -53790,7 +54089,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637084765780000000
+        m_DatePublishedTicks: 637093442340000000
       IsInstalled: 0
     - Name: com.unity.inputsystem
       DisplayName: Input System
@@ -53810,11 +54109,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.inputsystem@1.0.0-preview.2
+        m_PackageId: com.unity.inputsystem@1.0.0-preview.3
         m_IsDirectDependency: 0
-        m_Version: 1.0.0-preview.2
+        m_Version: 1.0.0-preview.3
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
+        m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.inputsystem
         m_Name: com.unity.inputsystem
         m_DisplayName: Input System
@@ -53842,6 +54141,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -53859,6 +54159,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -53883,7 +54184,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637084765780000000
+        m_DatePublishedTicks: 637093442340000000
       IsInstalled: 0
     - Name: com.unity.inputsystem
       DisplayName: Input System
@@ -53903,11 +54204,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.inputsystem@1.0.0-preview.2
+        m_PackageId: com.unity.inputsystem@1.0.0-preview.3
         m_IsDirectDependency: 0
-        m_Version: 1.0.0-preview.2
+        m_Version: 1.0.0-preview.3
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
+        m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.inputsystem
         m_Name: com.unity.inputsystem
         m_DisplayName: Input System
@@ -53935,6 +54236,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -53952,6 +54254,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -53976,7 +54279,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637084765780000000
+        m_DatePublishedTicks: 637093442340000000
       IsInstalled: 0
     - Name: com.unity.inputsystem
       DisplayName: Input System
@@ -53996,11 +54299,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.inputsystem@1.0.0-preview.2
+        m_PackageId: com.unity.inputsystem@1.0.0-preview.3
         m_IsDirectDependency: 0
-        m_Version: 1.0.0-preview.2
+        m_Version: 1.0.0-preview.3
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
+        m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.inputsystem
         m_Name: com.unity.inputsystem
         m_DisplayName: Input System
@@ -54028,6 +54331,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -54045,6 +54349,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -54069,7 +54374,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637084765780000000
+        m_DatePublishedTicks: 637093442340000000
       IsInstalled: 0
     - Name: com.unity.inputsystem
       DisplayName: Input System
@@ -54089,11 +54394,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.inputsystem@1.0.0-preview.2
+        m_PackageId: com.unity.inputsystem@1.0.0-preview.3
         m_IsDirectDependency: 0
-        m_Version: 1.0.0-preview.2
+        m_Version: 1.0.0-preview.3
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
+        m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.inputsystem
         m_Name: com.unity.inputsystem
         m_DisplayName: Input System
@@ -54121,6 +54426,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -54138,6 +54444,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -54162,7 +54469,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637084765780000000
+        m_DatePublishedTicks: 637093442340000000
       IsInstalled: 0
     - Name: com.unity.inputsystem
       DisplayName: Input System
@@ -54182,11 +54489,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.inputsystem@1.0.0-preview.2
+        m_PackageId: com.unity.inputsystem@1.0.0-preview.3
         m_IsDirectDependency: 0
-        m_Version: 1.0.0-preview.2
+        m_Version: 1.0.0-preview.3
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
+        m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.inputsystem
         m_Name: com.unity.inputsystem
         m_DisplayName: Input System
@@ -54214,6 +54521,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -54231,6 +54539,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -54255,7 +54564,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637084765780000000
+        m_DatePublishedTicks: 637093442340000000
       IsInstalled: 0
     - Name: com.unity.inputsystem
       DisplayName: Input System
@@ -54275,11 +54584,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.inputsystem@1.0.0-preview.2
+        m_PackageId: com.unity.inputsystem@1.0.0-preview.3
         m_IsDirectDependency: 0
-        m_Version: 1.0.0-preview.2
+        m_Version: 1.0.0-preview.3
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
+        m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.inputsystem
         m_Name: com.unity.inputsystem
         m_DisplayName: Input System
@@ -54307,6 +54616,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -54324,6 +54634,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -54348,7 +54659,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637084765780000000
+        m_DatePublishedTicks: 637093442340000000
       IsInstalled: 0
     - Name: com.unity.inputsystem
       DisplayName: Input System
@@ -54368,11 +54679,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.inputsystem@1.0.0-preview.2
+        m_PackageId: com.unity.inputsystem@1.0.0-preview.3
         m_IsDirectDependency: 0
-        m_Version: 1.0.0-preview.2
+        m_Version: 1.0.0-preview.3
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
+        m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.inputsystem
         m_Name: com.unity.inputsystem
         m_DisplayName: Input System
@@ -54400,6 +54711,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -54417,6 +54729,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -54441,7 +54754,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637084765780000000
+        m_DatePublishedTicks: 637093442340000000
       IsInstalled: 0
     - Name: com.unity.inputsystem
       DisplayName: Input System
@@ -54461,11 +54774,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.inputsystem@1.0.0-preview.2
+        m_PackageId: com.unity.inputsystem@1.0.0-preview.3
         m_IsDirectDependency: 0
-        m_Version: 1.0.0-preview.2
+        m_Version: 1.0.0-preview.3
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
+        m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.inputsystem
         m_Name: com.unity.inputsystem
         m_DisplayName: Input System
@@ -54493,6 +54806,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -54510,6 +54824,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -54534,7 +54849,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637084765780000000
+        m_DatePublishedTicks: 637093442340000000
       IsInstalled: 0
     - Name: com.unity.inputsystem
       DisplayName: Input System
@@ -54554,11 +54869,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.inputsystem@1.0.0-preview.2
+        m_PackageId: com.unity.inputsystem@1.0.0-preview.3
         m_IsDirectDependency: 0
-        m_Version: 1.0.0-preview.2
+        m_Version: 1.0.0-preview.3
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
+        m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.inputsystem
         m_Name: com.unity.inputsystem
         m_DisplayName: Input System
@@ -54586,6 +54901,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -54603,6 +54919,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -54627,7 +54944,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637084765780000000
+        m_DatePublishedTicks: 637093442340000000
       IsInstalled: 0
     - Name: com.unity.inputsystem
       DisplayName: Input System
@@ -54647,11 +54964,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.inputsystem@1.0.0-preview.2
+        m_PackageId: com.unity.inputsystem@1.0.0-preview.3
         m_IsDirectDependency: 0
-        m_Version: 1.0.0-preview.2
+        m_Version: 1.0.0-preview.3
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
+        m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.inputsystem
         m_Name: com.unity.inputsystem
         m_DisplayName: Input System
@@ -54679,6 +54996,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -54696,6 +55014,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -54720,7 +55039,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637084765780000000
+        m_DatePublishedTicks: 637093442340000000
       IsInstalled: 0
     - Name: com.unity.inputsystem
       DisplayName: Input System
@@ -54740,11 +55059,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.inputsystem@1.0.0-preview.2
+        m_PackageId: com.unity.inputsystem@1.0.0-preview.3
         m_IsDirectDependency: 0
-        m_Version: 1.0.0-preview.2
+        m_Version: 1.0.0-preview.3
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
+        m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.inputsystem
         m_Name: com.unity.inputsystem
         m_DisplayName: Input System
@@ -54772,6 +55091,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -54789,6 +55109,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -54813,7 +55134,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637084765780000000
+        m_DatePublishedTicks: 637093442340000000
       IsInstalled: 0
     - Name: com.unity.inputsystem
       DisplayName: Input System
@@ -54833,11 +55154,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.inputsystem@1.0.0-preview.2
+        m_PackageId: com.unity.inputsystem@1.0.0-preview.3
         m_IsDirectDependency: 0
-        m_Version: 1.0.0-preview.2
+        m_Version: 1.0.0-preview.3
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
+        m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.inputsystem
         m_Name: com.unity.inputsystem
         m_DisplayName: Input System
@@ -54865,6 +55186,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -54882,6 +55204,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -54906,7 +55229,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637084765780000000
+        m_DatePublishedTicks: 637093442340000000
       IsInstalled: 0
     - Name: com.unity.inputsystem
       DisplayName: Input System
@@ -54926,11 +55249,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.inputsystem@1.0.0-preview.2
+        m_PackageId: com.unity.inputsystem@1.0.0-preview.3
         m_IsDirectDependency: 0
-        m_Version: 1.0.0-preview.2
+        m_Version: 1.0.0-preview.3
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
+        m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.inputsystem
         m_Name: com.unity.inputsystem
         m_DisplayName: Input System
@@ -54958,6 +55281,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -54975,6 +55299,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -54999,7 +55324,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637084765780000000
+        m_DatePublishedTicks: 637093442340000000
       IsInstalled: 0
     - Name: com.unity.inputsystem
       DisplayName: Input System
@@ -55019,11 +55344,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.inputsystem@1.0.0-preview.2
+        m_PackageId: com.unity.inputsystem@1.0.0-preview.3
         m_IsDirectDependency: 0
-        m_Version: 1.0.0-preview.2
+        m_Version: 1.0.0-preview.3
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
+        m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.inputsystem
         m_Name: com.unity.inputsystem
         m_DisplayName: Input System
@@ -55051,6 +55376,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -55068,6 +55394,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -55092,11 +55419,106 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637084765780000000
+        m_DatePublishedTicks: 637093442340000000
       IsInstalled: 0
     - Name: com.unity.inputsystem
       DisplayName: Input System
       _Version: 1.0.0-preview.2
+      Description: A new input system which can be used as a more extensible and customizable
+        alternative to Unity's classic input system in UnityEngine.Input.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.inputsystem@1.0.0-preview.3
+        m_IsDirectDependency: 0
+        m_Version: 1.0.0-preview.3
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.inputsystem
+        m_Name: com.unity.inputsystem
+        m_DisplayName: Input System
+        m_Category: 
+        m_Type: 
+        m_Description: A new input system which can be used as a more extensible and
+          customizable alternative to Unity's classic input system in UnityEngine.Input.
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.2-preview
+          - 0.2.0-preview
+          - 0.2.1-preview
+          - 0.2.6-preview
+          - 0.2.8-preview
+          - 0.2.10-preview
+          - 0.9.0-preview
+          - 0.9.1-preview
+          - 0.9.2-preview
+          - 0.9.3-preview
+          - 0.9.4-preview
+          - 0.9.5-preview
+          - 0.9.6-preview
+          - 1.0.0-preview
+          - 1.0.0-preview.1
+          - 1.0.0-preview.2
+          - 1.0.0-preview.3
+          m_Compatible:
+          - 0.1.2-preview
+          - 0.2.0-preview
+          - 0.2.1-preview
+          - 0.2.6-preview
+          - 0.2.8-preview
+          - 0.2.10-preview
+          - 0.9.0-preview
+          - 0.9.1-preview
+          - 0.9.2-preview
+          - 0.9.3-preview
+          - 0.9.4-preview
+          - 0.9.5-preview
+          - 0.9.6-preview
+          - 1.0.0-preview
+          - 1.0.0-preview.1
+          - 1.0.0-preview.2
+          - 1.0.0-preview.3
+          m_Recommended: 
+        m_Dependencies:
+        - m_Name: com.unity.ugui
+          m_Version: 1.0.0
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - input
+        - events
+        - keyboard
+        - mouse
+        - gamepad
+        - touch
+        - vr
+        - xr
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637093442340000000
+      IsInstalled: 0
+    - Name: com.unity.inputsystem
+      DisplayName: Input System
+      _Version: 1.0.0-preview.3
       Description: A new input system which can be used as a more extensible and customizable
         alternative to Unity's classic input system in UnityEngine.Input.
       Category: 
@@ -55112,11 +55534,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 1
       Info:
-        m_PackageId: com.unity.inputsystem@1.0.0-preview.2
+        m_PackageId: com.unity.inputsystem@1.0.0-preview.3
         m_IsDirectDependency: 0
-        m_Version: 1.0.0-preview.2
+        m_Version: 1.0.0-preview.3
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
+        m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.inputsystem
         m_Name: com.unity.inputsystem
         m_DisplayName: Input System
@@ -55144,6 +55566,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -55161,6 +55584,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.0-preview.1
           - 1.0.0-preview.2
+          - 1.0.0-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -55185,7 +55609,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637084765780000000
+        m_DatePublishedTicks: 637093442340000000
       IsInstalled: 0
     - Name: com.unity.jobs
       DisplayName: Jobs
@@ -58502,6 +58926,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Compatible:
           - 1.0.0-preview.4
           - 1.0.0-preview.5
@@ -58524,6 +58949,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -58605,6 +59031,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Compatible:
           - 1.0.0-preview.4
           - 1.0.0-preview.5
@@ -58627,6 +59054,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -58708,6 +59136,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Compatible:
           - 1.0.0-preview.4
           - 1.0.0-preview.5
@@ -58730,6 +59159,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -58811,6 +59241,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Compatible:
           - 1.0.0-preview.4
           - 1.0.0-preview.5
@@ -58833,6 +59264,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -58914,6 +59346,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Compatible:
           - 1.0.0-preview.4
           - 1.0.0-preview.5
@@ -58936,6 +59369,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -59017,6 +59451,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Compatible:
           - 1.0.0-preview.4
           - 1.0.0-preview.5
@@ -59039,6 +59474,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -59120,6 +59556,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Compatible:
           - 1.0.0-preview.4
           - 1.0.0-preview.5
@@ -59142,6 +59579,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -59223,6 +59661,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Compatible:
           - 1.0.0-preview.4
           - 1.0.0-preview.5
@@ -59245,6 +59684,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -59326,6 +59766,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Compatible:
           - 1.0.0-preview.4
           - 1.0.0-preview.5
@@ -59348,6 +59789,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -59429,6 +59871,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Compatible:
           - 1.0.0-preview.4
           - 1.0.0-preview.5
@@ -59451,6 +59894,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -59532,6 +59976,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Compatible:
           - 1.0.0-preview.4
           - 1.0.0-preview.5
@@ -59554,6 +59999,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -59635,6 +60081,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Compatible:
           - 1.0.0-preview.4
           - 1.0.0-preview.5
@@ -59657,6 +60104,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -59738,6 +60186,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Compatible:
           - 1.0.0-preview.4
           - 1.0.0-preview.5
@@ -59760,6 +60209,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -59841,6 +60291,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Compatible:
           - 1.0.0-preview.4
           - 1.0.0-preview.5
@@ -59863,6 +60314,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -59944,6 +60396,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Compatible:
           - 1.0.0-preview.4
           - 1.0.0-preview.5
@@ -59966,6 +60419,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -60047,6 +60501,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Compatible:
           - 1.0.0-preview.4
           - 1.0.0-preview.5
@@ -60069,6 +60524,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -60150,6 +60606,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Compatible:
           - 1.0.0-preview.4
           - 1.0.0-preview.5
@@ -60172,6 +60629,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -60253,6 +60711,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Compatible:
           - 1.0.0-preview.4
           - 1.0.0-preview.5
@@ -60275,6 +60734,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -60356,6 +60816,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Compatible:
           - 1.0.0-preview.4
           - 1.0.0-preview.5
@@ -60378,6 +60839,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -60459,6 +60921,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Compatible:
           - 1.0.0-preview.4
           - 1.0.0-preview.5
@@ -60481,6 +60944,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -60504,6 +60968,111 @@ MonoBehaviour:
     - Name: com.unity.mobile.notifications
       DisplayName: Mobile Notifications
       _Version: 1.0.4-preview.4
+      Description: 'Mobile Notifications package adds support for scheduling local
+        repeatable or one-time notifications on iOS and Android.
+
+
+        Requires iOS 10 and Android 4.4 or above.'
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.mobile.notifications@1.0.3
+        m_IsDirectDependency: 0
+        m_Version: 1.0.3
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.mobile.notifications
+        m_Name: com.unity.mobile.notifications
+        m_DisplayName: Mobile Notifications
+        m_Category: 
+        m_Type: 
+        m_Description: 'Mobile Notifications package adds support for scheduling local
+          repeatable or one-time notifications on iOS and Android.
+
+
+          Requires iOS 10 and Android 4.4 or above.'
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 1.0.0-preview.4
+          - 1.0.0-preview.5
+          - 1.0.0-preview.7
+          - 1.0.0-preview.8
+          - 1.0.0-preview.9
+          - 1.0.0-preview.10
+          - 1.0.0-preview.13
+          - 1.0.0-preview.17
+          - 1.0.0-preview.21
+          - 1.0.0-preview.23
+          - 1.0.2
+          - 1.0.3-preview
+          - 1.0.3-preview.3
+          - 1.0.3-preview.4
+          - 1.0.3-preview.5
+          - 1.0.3-preview.6
+          - 1.0.3
+          - 1.0.4-preview.1
+          - 1.0.4-preview.2
+          - 1.0.4-preview.3
+          - 1.0.4-preview.4
+          - 1.0.4-preview.5
+          m_Compatible:
+          - 1.0.0-preview.4
+          - 1.0.0-preview.5
+          - 1.0.0-preview.7
+          - 1.0.0-preview.8
+          - 1.0.0-preview.9
+          - 1.0.0-preview.10
+          - 1.0.0-preview.13
+          - 1.0.0-preview.17
+          - 1.0.0-preview.21
+          - 1.0.0-preview.23
+          - 1.0.2
+          - 1.0.3-preview
+          - 1.0.3-preview.3
+          - 1.0.3-preview.4
+          - 1.0.3-preview.5
+          - 1.0.3-preview.6
+          - 1.0.3
+          - 1.0.4-preview.1
+          - 1.0.4-preview.2
+          - 1.0.4-preview.3
+          - 1.0.4-preview.4
+          - 1.0.4-preview.5
+          m_Recommended: 
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - Android
+        - iOS
+        - Notifications
+        - Mobile
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637020793450000000
+      IsInstalled: 0
+    - Name: com.unity.mobile.notifications
+      DisplayName: Mobile Notifications
+      _Version: 1.0.4-preview.5
       Description: 'Mobile Notifications package adds support for scheduling local
         repeatable or one-time notifications on iOS and Android.
 
@@ -60562,6 +61131,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Compatible:
           - 1.0.0-preview.4
           - 1.0.0-preview.5
@@ -60584,6 +61154,7 @@ MonoBehaviour:
           - 1.0.4-preview.2
           - 1.0.4-preview.3
           - 1.0.4-preview.4
+          - 1.0.4-preview.5
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -80382,6 +80953,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0
           - 6.9.1
@@ -80496,6 +81068,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0
           - 6.9.1
@@ -80610,6 +81183,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0
           - 6.9.1
@@ -80728,6 +81302,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0-preview
           - 6.9.1-preview
@@ -80859,6 +81434,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0-preview
           - 6.9.1-preview
@@ -80990,6 +81566,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0-preview
           - 6.9.1-preview
@@ -81122,6 +81699,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0
           - 6.9.1
@@ -81247,6 +81825,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0
           - 6.9.1
@@ -81372,6 +81951,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0
           - 6.9.1
@@ -84456,6 +85036,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0
           - 6.9.1
@@ -84575,6 +85156,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0
           - 6.9.1
@@ -84694,6 +85276,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0
           - 6.9.1
@@ -91912,9 +92495,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.7
+        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.9
         m_IsDirectDependency: 0
-        m_Version: 2.0.0-preview.7
+        m_Version: 2.0.0-preview.9
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.vectorgraphics
@@ -91941,12 +92524,15 @@ MonoBehaviour:
           - 1.0.0-preview.28
           - 1.0.0-preview.29
           - 1.0.0-preview.30
+          - 1.0.0-preview.31
           - 2.0.0-preview.2
           - 2.0.0-preview.3
           - 2.0.0-preview.4
           - 2.0.0-preview.5
           - 2.0.0-preview.6
           - 2.0.0-preview.7
+          - 2.0.0-preview.8
+          - 2.0.0-preview.9
           m_Compatible:
           - 2.0.0-preview.2
           - 2.0.0-preview.3
@@ -91954,9 +92540,13 @@ MonoBehaviour:
           - 2.0.0-preview.5
           - 2.0.0-preview.6
           - 2.0.0-preview.7
+          - 2.0.0-preview.8
+          - 2.0.0-preview.9
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.2d.sprite
+          m_Version: 1.0.0
+        - m_Name: com.unity.ugui
           m_Version: 1.0.0
         m_ResolvedDependencies: []
         m_Keywords:
@@ -91974,7 +92564,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637075299540000000
+        m_DatePublishedTicks: 637094308610000000
       IsInstalled: 0
     - Name: com.unity.vectorgraphics
       DisplayName: Vector Graphics
@@ -91994,9 +92584,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.7
+        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.9
         m_IsDirectDependency: 0
-        m_Version: 2.0.0-preview.7
+        m_Version: 2.0.0-preview.9
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.vectorgraphics
@@ -92023,12 +92613,15 @@ MonoBehaviour:
           - 1.0.0-preview.28
           - 1.0.0-preview.29
           - 1.0.0-preview.30
+          - 1.0.0-preview.31
           - 2.0.0-preview.2
           - 2.0.0-preview.3
           - 2.0.0-preview.4
           - 2.0.0-preview.5
           - 2.0.0-preview.6
           - 2.0.0-preview.7
+          - 2.0.0-preview.8
+          - 2.0.0-preview.9
           m_Compatible:
           - 2.0.0-preview.2
           - 2.0.0-preview.3
@@ -92036,9 +92629,13 @@ MonoBehaviour:
           - 2.0.0-preview.5
           - 2.0.0-preview.6
           - 2.0.0-preview.7
+          - 2.0.0-preview.8
+          - 2.0.0-preview.9
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.2d.sprite
+          m_Version: 1.0.0
+        - m_Name: com.unity.ugui
           m_Version: 1.0.0
         m_ResolvedDependencies: []
         m_Keywords:
@@ -92056,7 +92653,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637075299540000000
+        m_DatePublishedTicks: 637094308610000000
       IsInstalled: 0
     - Name: com.unity.vectorgraphics
       DisplayName: Vector Graphics
@@ -92076,9 +92673,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.7
+        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.9
         m_IsDirectDependency: 0
-        m_Version: 2.0.0-preview.7
+        m_Version: 2.0.0-preview.9
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.vectorgraphics
@@ -92105,12 +92702,15 @@ MonoBehaviour:
           - 1.0.0-preview.28
           - 1.0.0-preview.29
           - 1.0.0-preview.30
+          - 1.0.0-preview.31
           - 2.0.0-preview.2
           - 2.0.0-preview.3
           - 2.0.0-preview.4
           - 2.0.0-preview.5
           - 2.0.0-preview.6
           - 2.0.0-preview.7
+          - 2.0.0-preview.8
+          - 2.0.0-preview.9
           m_Compatible:
           - 2.0.0-preview.2
           - 2.0.0-preview.3
@@ -92118,9 +92718,13 @@ MonoBehaviour:
           - 2.0.0-preview.5
           - 2.0.0-preview.6
           - 2.0.0-preview.7
+          - 2.0.0-preview.8
+          - 2.0.0-preview.9
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.2d.sprite
+          m_Version: 1.0.0
+        - m_Name: com.unity.ugui
           m_Version: 1.0.0
         m_ResolvedDependencies: []
         m_Keywords:
@@ -92138,7 +92742,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637075299540000000
+        m_DatePublishedTicks: 637094308610000000
       IsInstalled: 0
     - Name: com.unity.vectorgraphics
       DisplayName: Vector Graphics
@@ -92158,9 +92762,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.7
+        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.9
         m_IsDirectDependency: 0
-        m_Version: 2.0.0-preview.7
+        m_Version: 2.0.0-preview.9
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.vectorgraphics
@@ -92187,12 +92791,15 @@ MonoBehaviour:
           - 1.0.0-preview.28
           - 1.0.0-preview.29
           - 1.0.0-preview.30
+          - 1.0.0-preview.31
           - 2.0.0-preview.2
           - 2.0.0-preview.3
           - 2.0.0-preview.4
           - 2.0.0-preview.5
           - 2.0.0-preview.6
           - 2.0.0-preview.7
+          - 2.0.0-preview.8
+          - 2.0.0-preview.9
           m_Compatible:
           - 2.0.0-preview.2
           - 2.0.0-preview.3
@@ -92200,9 +92807,13 @@ MonoBehaviour:
           - 2.0.0-preview.5
           - 2.0.0-preview.6
           - 2.0.0-preview.7
+          - 2.0.0-preview.8
+          - 2.0.0-preview.9
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.2d.sprite
+          m_Version: 1.0.0
+        - m_Name: com.unity.ugui
           m_Version: 1.0.0
         m_ResolvedDependencies: []
         m_Keywords:
@@ -92220,7 +92831,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637075299540000000
+        m_DatePublishedTicks: 637094308610000000
       IsInstalled: 0
     - Name: com.unity.vectorgraphics
       DisplayName: Vector Graphics
@@ -92240,9 +92851,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.7
+        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.9
         m_IsDirectDependency: 0
-        m_Version: 2.0.0-preview.7
+        m_Version: 2.0.0-preview.9
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.vectorgraphics
@@ -92269,12 +92880,15 @@ MonoBehaviour:
           - 1.0.0-preview.28
           - 1.0.0-preview.29
           - 1.0.0-preview.30
+          - 1.0.0-preview.31
           - 2.0.0-preview.2
           - 2.0.0-preview.3
           - 2.0.0-preview.4
           - 2.0.0-preview.5
           - 2.0.0-preview.6
           - 2.0.0-preview.7
+          - 2.0.0-preview.8
+          - 2.0.0-preview.9
           m_Compatible:
           - 2.0.0-preview.2
           - 2.0.0-preview.3
@@ -92282,9 +92896,13 @@ MonoBehaviour:
           - 2.0.0-preview.5
           - 2.0.0-preview.6
           - 2.0.0-preview.7
+          - 2.0.0-preview.8
+          - 2.0.0-preview.9
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.2d.sprite
+          m_Version: 1.0.0
+        - m_Name: com.unity.ugui
           m_Version: 1.0.0
         m_ResolvedDependencies: []
         m_Keywords:
@@ -92302,11 +92920,189 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637075299540000000
+        m_DatePublishedTicks: 637094308610000000
       IsInstalled: 0
     - Name: com.unity.vectorgraphics
       DisplayName: Vector Graphics
       _Version: 2.0.0-preview.7
+      Description: The vector graphics package provides an SVG importer and runtime
+        vector graphics APIs.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.9
+        m_IsDirectDependency: 0
+        m_Version: 2.0.0-preview.9
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.vectorgraphics
+        m_Name: com.unity.vectorgraphics
+        m_DisplayName: Vector Graphics
+        m_Category: 
+        m_Type: 
+        m_Description: The vector graphics package provides an SVG importer and runtime
+          vector graphics APIs.
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 1.0.0-preview.13
+          - 1.0.0-preview.15
+          - 1.0.0-preview.19
+          - 1.0.0-preview.20
+          - 1.0.0-preview.21
+          - 1.0.0-preview.22
+          - 1.0.0-preview.23
+          - 1.0.0-preview.24
+          - 1.0.0-preview.26
+          - 1.0.0-preview.27
+          - 1.0.0-preview.28
+          - 1.0.0-preview.29
+          - 1.0.0-preview.30
+          - 1.0.0-preview.31
+          - 2.0.0-preview.2
+          - 2.0.0-preview.3
+          - 2.0.0-preview.4
+          - 2.0.0-preview.5
+          - 2.0.0-preview.6
+          - 2.0.0-preview.7
+          - 2.0.0-preview.8
+          - 2.0.0-preview.9
+          m_Compatible:
+          - 2.0.0-preview.2
+          - 2.0.0-preview.3
+          - 2.0.0-preview.4
+          - 2.0.0-preview.5
+          - 2.0.0-preview.6
+          - 2.0.0-preview.7
+          - 2.0.0-preview.8
+          - 2.0.0-preview.9
+          m_Recommended: 
+        m_Dependencies:
+        - m_Name: com.unity.2d.sprite
+          m_Version: 1.0.0
+        - m_Name: com.unity.ugui
+          m_Version: 1.0.0
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - vector
+        - graphics
+        - svg
+        - importer
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637094308610000000
+      IsInstalled: 0
+    - Name: com.unity.vectorgraphics
+      DisplayName: Vector Graphics
+      _Version: 2.0.0-preview.8
+      Description: The vector graphics package provides an SVG importer and runtime
+        vector graphics APIs.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.9
+        m_IsDirectDependency: 0
+        m_Version: 2.0.0-preview.9
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.vectorgraphics
+        m_Name: com.unity.vectorgraphics
+        m_DisplayName: Vector Graphics
+        m_Category: 
+        m_Type: 
+        m_Description: The vector graphics package provides an SVG importer and runtime
+          vector graphics APIs.
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 1.0.0-preview.13
+          - 1.0.0-preview.15
+          - 1.0.0-preview.19
+          - 1.0.0-preview.20
+          - 1.0.0-preview.21
+          - 1.0.0-preview.22
+          - 1.0.0-preview.23
+          - 1.0.0-preview.24
+          - 1.0.0-preview.26
+          - 1.0.0-preview.27
+          - 1.0.0-preview.28
+          - 1.0.0-preview.29
+          - 1.0.0-preview.30
+          - 1.0.0-preview.31
+          - 2.0.0-preview.2
+          - 2.0.0-preview.3
+          - 2.0.0-preview.4
+          - 2.0.0-preview.5
+          - 2.0.0-preview.6
+          - 2.0.0-preview.7
+          - 2.0.0-preview.8
+          - 2.0.0-preview.9
+          m_Compatible:
+          - 2.0.0-preview.2
+          - 2.0.0-preview.3
+          - 2.0.0-preview.4
+          - 2.0.0-preview.5
+          - 2.0.0-preview.6
+          - 2.0.0-preview.7
+          - 2.0.0-preview.8
+          - 2.0.0-preview.9
+          m_Recommended: 
+        m_Dependencies:
+        - m_Name: com.unity.2d.sprite
+          m_Version: 1.0.0
+        - m_Name: com.unity.ugui
+          m_Version: 1.0.0
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - vector
+        - graphics
+        - svg
+        - importer
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637094308610000000
+      IsInstalled: 0
+    - Name: com.unity.vectorgraphics
+      DisplayName: Vector Graphics
+      _Version: 2.0.0-preview.9
       Description: The vector graphics package provides an SVG importer and runtime
         vector graphics APIs.
       Category: 
@@ -92322,9 +93118,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 1
       Info:
-        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.7
+        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.9
         m_IsDirectDependency: 0
-        m_Version: 2.0.0-preview.7
+        m_Version: 2.0.0-preview.9
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.vectorgraphics
@@ -92351,12 +93147,15 @@ MonoBehaviour:
           - 1.0.0-preview.28
           - 1.0.0-preview.29
           - 1.0.0-preview.30
+          - 1.0.0-preview.31
           - 2.0.0-preview.2
           - 2.0.0-preview.3
           - 2.0.0-preview.4
           - 2.0.0-preview.5
           - 2.0.0-preview.6
           - 2.0.0-preview.7
+          - 2.0.0-preview.8
+          - 2.0.0-preview.9
           m_Compatible:
           - 2.0.0-preview.2
           - 2.0.0-preview.3
@@ -92364,9 +93163,13 @@ MonoBehaviour:
           - 2.0.0-preview.5
           - 2.0.0-preview.6
           - 2.0.0-preview.7
+          - 2.0.0-preview.8
+          - 2.0.0-preview.9
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.2d.sprite
+          m_Version: 1.0.0
+        - m_Name: com.unity.ugui
           m_Version: 1.0.0
         m_ResolvedDependencies: []
         m_Keywords:
@@ -92384,7 +93187,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637075299540000000
+        m_DatePublishedTicks: 637094308610000000
       IsInstalled: 0
     - Name: com.unity.visualeffectgraph
       DisplayName: Visual Effect Graph
@@ -92447,6 +93250,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0-preview
           - 6.9.1-preview
@@ -92533,6 +93337,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0-preview
           - 6.9.1-preview
@@ -92619,6 +93424,7 @@ MonoBehaviour:
           - 7.0.1
           - 7.1.1
           - 7.1.2
+          - 7.1.5
           m_Compatible:
           - 6.9.0-preview
           - 6.9.1-preview
@@ -96046,6 +96852,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -96073,6 +96880,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -96166,6 +96974,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -96193,6 +97002,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -96286,6 +97096,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -96313,6 +97124,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -96406,6 +97218,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -96433,6 +97246,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -96526,6 +97340,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -96553,6 +97368,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -96646,6 +97462,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -96673,6 +97490,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -96766,6 +97584,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -96793,6 +97612,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -96886,6 +97706,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -96913,6 +97734,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -97006,6 +97828,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -97033,6 +97856,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -97126,6 +97950,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -97153,6 +97978,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -97246,6 +98072,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -97273,6 +98100,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -97366,6 +98194,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -97393,6 +98222,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -97486,6 +98316,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -97513,6 +98344,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -97726,6 +98558,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -97753,6 +98586,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -97846,6 +98680,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -97873,6 +98708,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -97966,6 +98802,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -97993,6 +98830,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -98086,6 +98924,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -98113,6 +98952,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -98206,6 +99046,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -98233,6 +99074,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -98326,6 +99168,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -98353,6 +99196,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -98446,6 +99290,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -98473,6 +99318,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -98566,6 +99412,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -98593,6 +99440,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -98686,6 +99534,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -98713,6 +99562,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -98806,6 +99656,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -98833,6 +99684,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -98926,6 +99778,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -98953,6 +99806,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -98984,6 +99838,128 @@ MonoBehaviour:
     - Name: com.unity.xr.arfoundation
       DisplayName: AR Foundation
       _Version: 3.0.0-preview.4
+      Description: "A collection of MonoBehaviours and C# utilities for working with
+        AR Subsystems. \n\nIncludes: \n GameObject menu items for creating an AR setup
+        \n MonoBehaviours that control AR session lifecycle and create GameObjects
+        from detected, real-world trackable features \n Scale handling \n Face tracking"
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.xr.arfoundation@2.1.4
+        m_IsDirectDependency: 0
+        m_Version: 2.1.4
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.xr.arfoundation
+        m_Name: com.unity.xr.arfoundation
+        m_DisplayName: AR Foundation
+        m_Category: 
+        m_Type: 
+        m_Description: "A collection of MonoBehaviours and C# utilities for working
+          with AR Subsystems. \n\nIncludes: \n GameObject menu items for creating
+          an AR setup \n MonoBehaviours that control AR session lifecycle and create
+          GameObjects from detected, real-world trackable features \n Scale handling
+          \n Face tracking"
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 1.0.0-preview.12
+          - 1.0.0-preview.13
+          - 1.0.0-preview.14
+          - 1.0.0-preview.17
+          - 1.0.0-preview.18
+          - 1.0.0-preview.19
+          - 1.0.0-preview.20
+          - 1.0.0-preview.22
+          - 1.1.0-preview.6
+          - 1.5.0-preview.2
+          - 1.5.0-preview.5
+          - 1.5.0-preview.6
+          - 1.5.0-preview.7
+          - 2.0.2
+          - 2.1.0-preview.2
+          - 2.1.0-preview.3
+          - 2.1.1
+          - 2.1.3
+          - 2.1.4
+          - 2.2.0-preview.2
+          - 2.2.0-preview.3
+          - 2.2.0-preview.6
+          - 3.0.0-preview.1
+          - 3.0.0-preview.2
+          - 3.0.0-preview.3
+          - 3.0.0-preview.4
+          - 3.0.0-preview.6
+          m_Compatible:
+          - 1.0.0-preview.12
+          - 1.0.0-preview.13
+          - 1.0.0-preview.14
+          - 1.0.0-preview.17
+          - 1.0.0-preview.18
+          - 1.0.0-preview.19
+          - 1.0.0-preview.20
+          - 1.0.0-preview.22
+          - 1.1.0-preview.6
+          - 1.5.0-preview.2
+          - 1.5.0-preview.5
+          - 1.5.0-preview.6
+          - 1.5.0-preview.7
+          - 2.0.2
+          - 2.1.0-preview.2
+          - 2.1.0-preview.3
+          - 2.1.1
+          - 2.1.3
+          - 2.1.4
+          - 2.2.0-preview.2
+          - 2.2.0-preview.3
+          - 2.2.0-preview.6
+          - 3.0.0-preview.1
+          - 3.0.0-preview.2
+          - 3.0.0-preview.3
+          - 3.0.0-preview.4
+          - 3.0.0-preview.6
+          m_Recommended: 2.0.2
+        m_Dependencies:
+        - m_Name: com.unity.xr.legacyinputhelpers
+          m_Version: 1.3.7
+        - m_Name: com.unity.xr.arsubsystems
+          m_Version: 2.1.1
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - xr
+        - ar
+        - augmented
+        - reality
+        - utility
+        - utilities
+        - foundation
+        - core
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637056471290000000
+      IsInstalled: 0
+    - Name: com.unity.xr.arfoundation
+      DisplayName: AR Foundation
+      _Version: 3.0.0-preview.6
       Description: "A collection of MonoBehaviours and C# utilities for working with
         AR Subsystems. \n\nIncludes: \n GameObject menu items for creating an AR setup
         \n MonoBehaviours that control AR session lifecycle and create GameObjects
@@ -99046,6 +100022,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -99073,6 +100050,7 @@ MonoBehaviour:
           - 3.0.0-preview.2
           - 3.0.0-preview.3
           - 3.0.0-preview.4
+          - 3.0.0-preview.6
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -106383,6 +107361,7 @@ MonoBehaviour:
           - 3.0.3
           - 3.0.4-preview.1
           - 3.0.4-preview.3
+          - 3.0.5-preview.1
           m_Compatible:
           - 0.1.0-preview.8
           - 0.1.0-preview.12
@@ -106479,6 +107458,7 @@ MonoBehaviour:
           - 3.0.3
           - 3.0.4-preview.1
           - 3.0.4-preview.3
+          - 3.0.5-preview.1
           m_Compatible:
           - 0.1.0-preview.8
           - 0.1.0-preview.12
@@ -106575,6 +107555,7 @@ MonoBehaviour:
           - 3.0.3
           - 3.0.4-preview.1
           - 3.0.4-preview.3
+          - 3.0.5-preview.1
           m_Compatible:
           - 0.1.0-preview.8
           - 0.1.0-preview.12
@@ -106671,6 +107652,7 @@ MonoBehaviour:
           - 3.0.3
           - 3.0.4-preview.1
           - 3.0.4-preview.3
+          - 3.0.5-preview.1
           m_Compatible:
           - 0.1.0-preview.8
           - 0.1.0-preview.12
@@ -106767,6 +107749,7 @@ MonoBehaviour:
           - 3.0.3
           - 3.0.4-preview.1
           - 3.0.4-preview.3
+          - 3.0.5-preview.1
           m_Compatible:
           - 0.1.0-preview.8
           - 0.1.0-preview.12
@@ -106863,6 +107846,7 @@ MonoBehaviour:
           - 3.0.3
           - 3.0.4-preview.1
           - 3.0.4-preview.3
+          - 3.0.5-preview.1
           m_Compatible:
           - 0.1.0-preview.8
           - 0.1.0-preview.12
@@ -106959,6 +107943,7 @@ MonoBehaviour:
           - 3.0.3
           - 3.0.4-preview.1
           - 3.0.4-preview.3
+          - 3.0.5-preview.1
           m_Compatible:
           - 0.1.0-preview.8
           - 0.1.0-preview.12
@@ -107055,6 +108040,7 @@ MonoBehaviour:
           - 3.0.3
           - 3.0.4-preview.1
           - 3.0.4-preview.3
+          - 3.0.5-preview.1
           m_Compatible:
           - 0.1.0-preview.8
           - 0.1.0-preview.12
@@ -107151,6 +108137,7 @@ MonoBehaviour:
           - 3.0.3
           - 3.0.4-preview.1
           - 3.0.4-preview.3
+          - 3.0.5-preview.1
           m_Compatible:
           - 0.1.0-preview.8
           - 0.1.0-preview.12
@@ -107247,6 +108234,7 @@ MonoBehaviour:
           - 3.0.3
           - 3.0.4-preview.1
           - 3.0.4-preview.3
+          - 3.0.5-preview.1
           m_Compatible:
           - 0.1.0-preview.8
           - 0.1.0-preview.12
@@ -107343,6 +108331,7 @@ MonoBehaviour:
           - 3.0.3
           - 3.0.4-preview.1
           - 3.0.4-preview.3
+          - 3.0.5-preview.1
           m_Compatible:
           - 0.1.0-preview.8
           - 0.1.0-preview.12
@@ -107439,6 +108428,7 @@ MonoBehaviour:
           - 3.0.3
           - 3.0.4-preview.1
           - 3.0.4-preview.3
+          - 3.0.5-preview.1
           m_Compatible:
           - 0.1.0-preview.8
           - 0.1.0-preview.12
@@ -107535,6 +108525,7 @@ MonoBehaviour:
           - 3.0.3
           - 3.0.4-preview.1
           - 3.0.4-preview.3
+          - 3.0.5-preview.1
           m_Compatible:
           - 0.1.0-preview.8
           - 0.1.0-preview.12
@@ -107631,6 +108622,7 @@ MonoBehaviour:
           - 3.0.3
           - 3.0.4-preview.1
           - 3.0.4-preview.3
+          - 3.0.5-preview.1
           m_Compatible:
           - 0.1.0-preview.8
           - 0.1.0-preview.12
@@ -107727,6 +108719,7 @@ MonoBehaviour:
           - 3.0.3
           - 3.0.4-preview.1
           - 3.0.4-preview.3
+          - 3.0.5-preview.1
           m_Compatible:
           - 0.1.0-preview.8
           - 0.1.0-preview.12
@@ -107823,6 +108816,7 @@ MonoBehaviour:
           - 3.0.3
           - 3.0.4-preview.1
           - 3.0.4-preview.3
+          - 3.0.5-preview.1
           m_Compatible:
           - 0.1.0-preview.8
           - 0.1.0-preview.12
@@ -108967,9 +109961,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.xr.windowsmr.metro@3.0.5
+        m_PackageId: com.unity.xr.windowsmr.metro@3.0.6
         m_IsDirectDependency: 0
-        m_Version: 3.0.5
+        m_Version: 3.0.6
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.xr.windowsmr.metro
@@ -108993,6 +109987,7 @@ MonoBehaviour:
           - 1.0.11
           - 1.0.12
           - 1.0.14
+          - 1.0.15
           - 2.0.2
           - 2.0.3
           - 3.0.0
@@ -109000,11 +109995,13 @@ MonoBehaviour:
           - 3.0.2
           - 3.0.3
           - 3.0.5
+          - 3.0.6
           m_Compatible:
           - 3.0.1
           - 3.0.2
           - 3.0.3
           - 3.0.5
+          - 3.0.6
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -109031,7 +110028,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637025402880000000
+        m_DatePublishedTicks: 637093696290000000
       IsInstalled: 0
     - Name: com.unity.xr.windowsmr.metro
       DisplayName: Windows Mixed Reality
@@ -109051,9 +110048,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.xr.windowsmr.metro@3.0.5
+        m_PackageId: com.unity.xr.windowsmr.metro@3.0.6
         m_IsDirectDependency: 0
-        m_Version: 3.0.5
+        m_Version: 3.0.6
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.xr.windowsmr.metro
@@ -109077,6 +110074,7 @@ MonoBehaviour:
           - 1.0.11
           - 1.0.12
           - 1.0.14
+          - 1.0.15
           - 2.0.2
           - 2.0.3
           - 3.0.0
@@ -109084,11 +110082,13 @@ MonoBehaviour:
           - 3.0.2
           - 3.0.3
           - 3.0.5
+          - 3.0.6
           m_Compatible:
           - 3.0.1
           - 3.0.2
           - 3.0.3
           - 3.0.5
+          - 3.0.6
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -109115,7 +110115,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637025402880000000
+        m_DatePublishedTicks: 637093696290000000
       IsInstalled: 0
     - Name: com.unity.xr.windowsmr.metro
       DisplayName: Windows Mixed Reality
@@ -109135,9 +110135,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.xr.windowsmr.metro@3.0.5
+        m_PackageId: com.unity.xr.windowsmr.metro@3.0.6
         m_IsDirectDependency: 0
-        m_Version: 3.0.5
+        m_Version: 3.0.6
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.xr.windowsmr.metro
@@ -109161,6 +110161,7 @@ MonoBehaviour:
           - 1.0.11
           - 1.0.12
           - 1.0.14
+          - 1.0.15
           - 2.0.2
           - 2.0.3
           - 3.0.0
@@ -109168,11 +110169,13 @@ MonoBehaviour:
           - 3.0.2
           - 3.0.3
           - 3.0.5
+          - 3.0.6
           m_Compatible:
           - 3.0.1
           - 3.0.2
           - 3.0.3
           - 3.0.5
+          - 3.0.6
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -109199,11 +110202,98 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637025402880000000
+        m_DatePublishedTicks: 637093696290000000
       IsInstalled: 0
     - Name: com.unity.xr.windowsmr.metro
       DisplayName: Windows Mixed Reality
       _Version: 3.0.5
+      Description: Windows Mixed Reality XR SDK for use with native XR integration
+        in Unity.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.xr.windowsmr.metro@3.0.6
+        m_IsDirectDependency: 0
+        m_Version: 3.0.6
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.xr.windowsmr.metro
+        m_Name: com.unity.xr.windowsmr.metro
+        m_DisplayName: Windows Mixed Reality
+        m_Category: 
+        m_Type: 
+        m_Description: Windows Mixed Reality XR SDK for use with native XR integration
+          in Unity.
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 1.0.1
+          - 1.0.3
+          - 1.0.4
+          - 1.0.6
+          - 1.0.7
+          - 1.0.8
+          - 1.0.9
+          - 1.0.11
+          - 1.0.12
+          - 1.0.14
+          - 1.0.15
+          - 2.0.2
+          - 2.0.3
+          - 3.0.0
+          - 3.0.1
+          - 3.0.2
+          - 3.0.3
+          - 3.0.5
+          - 3.0.6
+          m_Compatible:
+          - 3.0.1
+          - 3.0.2
+          - 3.0.3
+          - 3.0.5
+          - 3.0.6
+          m_Recommended: 
+        m_Dependencies:
+        - m_Name: com.unity.ugui
+          m_Version: 1.0.0
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - windowsmr
+        - xr
+        - ar
+        - vr
+        - mr
+        - windows
+        - mixed
+        - reality
+        - hololens
+        - holo
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637093696290000000
+      IsInstalled: 0
+    - Name: com.unity.xr.windowsmr.metro
+      DisplayName: Windows Mixed Reality
+      _Version: 3.0.6
       Description: Windows Mixed Reality XR SDK for use with native XR integration
         in Unity.
       Category: 
@@ -109219,9 +110309,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 1
       Info:
-        m_PackageId: com.unity.xr.windowsmr.metro@3.0.5
+        m_PackageId: com.unity.xr.windowsmr.metro@3.0.6
         m_IsDirectDependency: 0
-        m_Version: 3.0.5
+        m_Version: 3.0.6
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.xr.windowsmr.metro
@@ -109245,6 +110335,7 @@ MonoBehaviour:
           - 1.0.11
           - 1.0.12
           - 1.0.14
+          - 1.0.15
           - 2.0.2
           - 2.0.3
           - 3.0.0
@@ -109252,11 +110343,13 @@ MonoBehaviour:
           - 3.0.2
           - 3.0.3
           - 3.0.5
+          - 3.0.6
           m_Compatible:
           - 3.0.1
           - 3.0.2
           - 3.0.3
           - 3.0.5
+          - 3.0.6
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -109283,7 +110376,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637025402880000000
+        m_DatePublishedTicks: 637093696290000000
       IsInstalled: 0
     - Name: nuget.mono-cecil
       DisplayName: Mono Cecil
@@ -110289,8 +111382,8 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_DatePublishedTicks: 636930181110000000
       IsInstalled: 0
-    listPackagesVersion: 20
-    listPackagesOfflineVersion: 19
+    listPackagesVersion: 31
+    listPackagesOfflineVersion: 30
     searchOperationOngoing: 0
     listOperationOngoing: 0
     listOperationOfflineOngoing: 0
@@ -110706,6 +111799,14 @@ MonoBehaviour:
         SeeAllVersions: 0
         Selected: 0
       - PackageId: com.unity.barracuda@0.3.1-preview
+        Expanded: 0
+        SeeAllVersions: 0
+        Selected: 0
+      - PackageId: com.unity.vectorgraphics@2.0.0-preview.9
+        Expanded: 0
+        SeeAllVersions: 0
+        Selected: 0
+      - PackageId: com.unity.xr.windowsmr.metro@3.0.6
         Expanded: 0
         SeeAllVersions: 0
         Selected: 0
