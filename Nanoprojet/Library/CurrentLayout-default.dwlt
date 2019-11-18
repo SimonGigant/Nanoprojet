@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 766}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -110,10 +110,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 681, y: 716}
-  m_MaxSize: {x: 14002, y: 18066}
+  m_MinSize: {x: 683, y: 616}
+  m_MaxSize: {x: 14004, y: 18066}
   vertical: 1
-  controlID: 153
+  controlID: 169
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -135,10 +135,10 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 731
-  m_MinSize: {x: 681, y: 716}
-  m_MaxSize: {x: 14002, y: 18066}
+  m_MinSize: {x: 683, y: 616}
+  m_MaxSize: {x: 14004, y: 18066}
   vertical: 0
-  controlID: 154
+  controlID: 170
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -160,10 +160,10 @@ MonoBehaviour:
     y: 0
     width: 1054
     height: 731
-  m_MinSize: {x: 406, y: 716}
+  m_MinSize: {x: 406, y: 616}
   m_MaxSize: {x: 10002, y: 18066}
   vertical: 1
-  controlID: 85
+  controlID: 58
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -185,10 +185,10 @@ MonoBehaviour:
     y: 0
     width: 1054
     height: 459
-  m_MinSize: {x: 406, y: 444}
+  m_MinSize: {x: 406, y: 344}
   m_MaxSize: {x: 8006, y: 8044}
   vertical: 0
-  controlID: 86
+  controlID: 59
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -208,8 +208,8 @@ MonoBehaviour:
     y: 0
     width: 274
     height: 459
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 222}
+  m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -236,10 +236,10 @@ MonoBehaviour:
     y: 0
     width: 780
     height: 459
-  m_MinSize: {x: 204, y: 444}
+  m_MinSize: {x: 204, y: 344}
   m_MaxSize: {x: 4004, y: 8044}
   vertical: 1
-  controlID: 87
+  controlID: 60
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -258,9 +258,9 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 780
-    height: 231
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+    height: 337
+  m_MinSize: {x: 204, y: 222}
+  m_MaxSize: {x: 4004, y: 4022}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -283,17 +283,17 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 231
+    y: 337
     width: 780
-    height: 228
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 15}
+    height: 122
+  m_MinSize: {x: 104, y: 122}
+  m_MaxSize: {x: 4004, y: 4022}
+  m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 15}
   - {fileID: 19}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -340,8 +340,8 @@ MonoBehaviour:
     y: 0
     width: 482
     height: 731
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 72}
+  m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
@@ -372,9 +372,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 274.4
-    y: 304
+    y: 310.4
     width: 778
-    height: 209
+    height: 203
   m_ViewDataDictionary: {fileID: 0}
   m_VSyncEnabled: 0
   m_MaximizeOnPlay: 0
@@ -387,10 +387,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -311.2
-    m_HBaseRangeMax: 311.2
-    m_VBaseRangeMin: -76.8
-    m_VBaseRangeMax: 76.8
+    m_HBaseRangeMin: -389
+    m_HBaseRangeMax: 389
+    m_VBaseRangeMin: -93
+    m_VBaseRangeMax: 93
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -409,9 +409,9 @@ MonoBehaviour:
       x: 0
       y: 17
       width: 778
-      height: 192
+      height: 186
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 389, y: 96}
+    m_Translation: {x: 389, y: 93}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -419,14 +419,14 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -389
-      y: -96
+      y: -93
       width: 778
-      height: 192
+      height: 186
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 1
-  m_LastWindowPixelSize: {x: 972.5, y: 261.25}
+  m_LastWindowPixelSize: {x: 778, y: 203}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -460,9 +460,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 583e0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: a085ffff58fbffff66fbffff
+      m_ExpandedIDs: 6afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -510,7 +510,7 @@ MonoBehaviour:
     x: 274.4
     y: 73.6
     width: 778
-    height: 212
+    height: 318
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 436c9db5fabeb8b4b8c032562fd3a459
@@ -522,9 +522,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.3802735, y: 0.5, z: -0.4080397}
+    m_Target: {x: -0.811882, y: 0.23985673, z: -16.302217}
     speed: 2
-    m_Value: {x: 1.3802735, y: 0.5, z: -0.4080397}
+    m_Value: {x: -0.811882, y: 0.23985673, z: -16.302217}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -545,25 +545,25 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 1
+      m_Target: 0
       speed: 2
-      m_Value: 1
+      m_Value: 0
     zGrid:
       m_Target: 0
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.24274215, y: -0.5374048, z: 0.16500142, w: 0.79060125}
+    m_Target: {x: -0.010610284, y: 0.9857417, z: -0.06812453, w: -0.15352046}
     speed: 2
-    m_Value: {x: 0.24274175, y: -0.5374039, z: 0.16500115, w: 0.79059994}
+    m_Value: {x: -0.010610237, y: 0.98573744, z: -0.06812424, w: -0.15351981}
   m_Size:
-    m_Target: 2.8578837
+    m_Target: 5.723541
     speed: 2
-    m_Value: 2.8578837
+    m_Value: 5.723541
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_CameraSettings:
     m_Speed: 1.1
     m_SpeedNormalized: 0.53
@@ -670,14 +670,14 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 204
-    y: 295.2
-    width: 825
-    height: 203
+    x: 274.4
+    y: 410.4
+    width: 778
+    height: 103
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -1192
+  m_LastSelectedObjectID: -5158
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -717,20 +717,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs/Characters
+    - Assets/GraphicAssets/Background/Texture/Materials
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs/Characters
+  - Assets/GraphicAssets/Background/Texture/Materials
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet
+  m_LastProjectPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 269.49942}
-    m_SelectedIDs: d8460000
-    m_LastClickedID: 18136
-    m_ExpandedIDs: 00000000d63b0000a23d0000464000000c440000084600003a460000b6470000f0480000224c000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 78430000
+    m_LastClickedID: 17272
+    m_ExpandedIDs: 00000000ce3b0000a63d0000603f000066400000fe4100002e4400002c4600005c460000d64700002e490000e64c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -758,7 +758,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d63b0000a23d0000464000000c440000084600003a460000b6470000f0480000224c0000
+    m_ExpandedIDs: 00000000ce3b0000a63d0000664000002e4400002c4600005c460000d64700002e490000e64c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -907,7 +907,7 @@ MonoBehaviour:
   m_PosLeft: {x: 0, y: 0}
   m_PosRight: {x: 0, y: 0}
   m_Scope: 1
-  m_SplitterFlex: 0
+  m_SplitterFlex: 0.2
 --- !u!114 &24
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -985,7 +985,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -1059,7 +1059,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -1133,7 +1133,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -1207,7 +1207,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -1281,7 +1281,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -1355,7 +1355,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -1417,7 +1417,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -1479,7 +1479,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -1541,7 +1541,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -1604,7 +1604,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -1676,7 +1676,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -1748,7 +1748,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -1820,7 +1820,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -1892,7 +1892,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -1964,7 +1964,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -2036,7 +2036,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -2108,7 +2108,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.2
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.ide.vscode@1.1.2
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.ide.vscode@1.1.2
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -2173,7 +2173,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.2
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.ide.vscode@1.1.2
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.ide.vscode@1.1.2
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -2238,7 +2238,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.2
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.ide.vscode@1.1.2
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.ide.vscode@1.1.2
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -2303,7 +2303,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.2
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.ide.vscode@1.1.2
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.ide.vscode@1.1.2
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -2368,7 +2368,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.2
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.ide.vscode@1.1.2
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.ide.vscode@1.1.2
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -2433,7 +2433,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.2
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.ide.vscode@1.1.2
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.ide.vscode@1.1.2
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -2497,7 +2497,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0-preview.2
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
         m_AssetPath: Packages/com.unity.inputsystem
         m_Name: com.unity.inputsystem
         m_DisplayName: Input System
@@ -2594,7 +2594,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0-preview.2
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
         m_AssetPath: Packages/com.unity.inputsystem
         m_Name: com.unity.inputsystem
         m_DisplayName: Input System
@@ -2691,7 +2691,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0-preview.2
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
         m_AssetPath: Packages/com.unity.inputsystem
         m_Name: com.unity.inputsystem
         m_DisplayName: Input System
@@ -2788,7 +2788,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0-preview.2
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
         m_AssetPath: Packages/com.unity.inputsystem
         m_Name: com.unity.inputsystem
         m_DisplayName: Input System
@@ -2885,7 +2885,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0-preview.2
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
         m_AssetPath: Packages/com.unity.inputsystem
         m_Name: com.unity.inputsystem
         m_DisplayName: Input System
@@ -2982,7 +2982,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0-preview.2
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
         m_AssetPath: Packages/com.unity.inputsystem
         m_Name: com.unity.inputsystem
         m_DisplayName: Input System
@@ -3079,7 +3079,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0-preview.2
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
         m_AssetPath: Packages/com.unity.inputsystem
         m_Name: com.unity.inputsystem
         m_DisplayName: Input System
@@ -3176,7 +3176,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0-preview.2
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
         m_AssetPath: Packages/com.unity.inputsystem
         m_Name: com.unity.inputsystem
         m_DisplayName: Input System
@@ -3273,7 +3273,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0-preview.2
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
         m_AssetPath: Packages/com.unity.inputsystem
         m_Name: com.unity.inputsystem
         m_DisplayName: Input System
@@ -3370,7 +3370,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0-preview.2
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
         m_AssetPath: Packages/com.unity.inputsystem
         m_Name: com.unity.inputsystem
         m_DisplayName: Input System
@@ -3467,7 +3467,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0-preview.2
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
         m_AssetPath: Packages/com.unity.inputsystem
         m_Name: com.unity.inputsystem
         m_DisplayName: Input System
@@ -3564,7 +3564,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0-preview.2
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
         m_AssetPath: Packages/com.unity.inputsystem
         m_Name: com.unity.inputsystem
         m_DisplayName: Input System
@@ -3661,7 +3661,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0-preview.2
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
         m_AssetPath: Packages/com.unity.inputsystem
         m_Name: com.unity.inputsystem
         m_DisplayName: Input System
@@ -3758,7 +3758,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0-preview.2
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
         m_AssetPath: Packages/com.unity.inputsystem
         m_Name: com.unity.inputsystem
         m_DisplayName: Input System
@@ -3855,7 +3855,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0-preview.2
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
         m_AssetPath: Packages/com.unity.inputsystem
         m_Name: com.unity.inputsystem
         m_DisplayName: Input System
@@ -3952,7 +3952,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0-preview.2
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
         m_AssetPath: Packages/com.unity.inputsystem
         m_Name: com.unity.inputsystem
         m_DisplayName: Input System
@@ -4049,7 +4049,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0-preview.2
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.inputsystem@1.0.0-preview.2
         m_AssetPath: Packages/com.unity.inputsystem
         m_Name: com.unity.inputsystem
         m_DisplayName: Input System
@@ -4149,7 +4149,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.2.0
         m_Source: 2
-        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.package-manager-ui
+        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.package-manager-ui
         m_AssetPath: Packages/com.unity.package-manager-ui
         m_Name: com.unity.package-manager-ui
         m_DisplayName: Package Manager UI
@@ -4209,7 +4209,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 6.9.0-preview
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.render-pipelines.high-definition@6.9.0-preview
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.render-pipelines.high-definition@6.9.0-preview
         m_AssetPath: Packages/com.unity.render-pipelines.high-definition
         m_Name: com.unity.render-pipelines.high-definition
         m_DisplayName: High Definition RP
@@ -4349,7 +4349,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 6.9.0-preview
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.render-pipelines.high-definition@6.9.0-preview
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.render-pipelines.high-definition@6.9.0-preview
         m_AssetPath: Packages/com.unity.render-pipelines.high-definition
         m_Name: com.unity.render-pipelines.high-definition
         m_DisplayName: High Definition RP
@@ -4489,7 +4489,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 6.9.0-preview
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.render-pipelines.high-definition@6.9.0-preview
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.render-pipelines.high-definition@6.9.0-preview
         m_AssetPath: Packages/com.unity.render-pipelines.high-definition
         m_Name: com.unity.render-pipelines.high-definition
         m_DisplayName: High Definition RP
@@ -4624,7 +4624,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -4714,7 +4714,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -4804,7 +4804,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -4894,7 +4894,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -4984,7 +4984,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -5074,7 +5074,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -5164,7 +5164,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -5254,7 +5254,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -5344,7 +5344,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -5434,7 +5434,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -5524,7 +5524,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -5614,7 +5614,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -5704,7 +5704,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -5794,7 +5794,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -5884,7 +5884,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -5974,7 +5974,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -6064,7 +6064,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -6180,7 +6180,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -6341,7 +6341,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -6502,7 +6502,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -6663,7 +6663,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -6824,7 +6824,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -6985,7 +6985,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -7146,7 +7146,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -7307,7 +7307,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -7468,7 +7468,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -7629,7 +7629,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -7790,7 +7790,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -7951,7 +7951,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -8112,7 +8112,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -8273,7 +8273,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -8434,7 +8434,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -8595,7 +8595,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -8756,7 +8756,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -8917,7 +8917,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -9078,7 +9078,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -9239,7 +9239,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -9400,7 +9400,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -9561,7 +9561,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -9722,7 +9722,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -9883,7 +9883,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -10044,7 +10044,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -10205,7 +10205,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -10341,7 +10341,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 2
-        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.timeline
+        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.timeline
         m_AssetPath: Packages/com.unity.timeline
         m_Name: com.unity.timeline
         m_DisplayName: Unity Timeline
@@ -10400,7 +10400,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 2
-        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui
+        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui
         m_AssetPath: Packages/com.unity.ugui
         m_Name: com.unity.ugui
         m_DisplayName: Unity UI
@@ -10458,7 +10458,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 2
-        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
+        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
         m_AssetPath: Packages/com.unity.modules.ai
         m_Name: com.unity.modules.ai
         m_DisplayName: AI
@@ -10511,7 +10511,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 2
-        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
+        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
         m_AssetPath: Packages/com.unity.modules.androidjni
         m_Name: com.unity.modules.androidjni
         m_DisplayName: Android JNI
@@ -10564,7 +10564,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 2
-        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
+        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
         m_AssetPath: Packages/com.unity.modules.animation
         m_Name: com.unity.modules.animation
         m_DisplayName: Animation
@@ -10617,7 +10617,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 2
-        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
+        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
         m_AssetPath: Packages/com.unity.modules.assetbundle
         m_Name: com.unity.modules.assetbundle
         m_DisplayName: Asset Bundle
@@ -10670,7 +10670,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 2
-        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
+        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
         m_AssetPath: Packages/com.unity.modules.audio
         m_Name: com.unity.modules.audio
         m_DisplayName: Audio
@@ -10723,7 +10723,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 2
-        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
+        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
         m_AssetPath: Packages/com.unity.modules.cloth
         m_Name: com.unity.modules.cloth
         m_DisplayName: Cloth
@@ -10780,7 +10780,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 2
-        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
+        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
         m_AssetPath: Packages/com.unity.modules.director
         m_Name: com.unity.modules.director
         m_DisplayName: Director
@@ -10842,7 +10842,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 2
-        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
+        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
         m_AssetPath: Packages/com.unity.modules.imageconversion
         m_Name: com.unity.modules.imageconversion
         m_DisplayName: Image Conversion
@@ -10896,7 +10896,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 2
-        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
+        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
         m_AssetPath: Packages/com.unity.modules.imgui
         m_Name: com.unity.modules.imgui
         m_DisplayName: IMGUI
@@ -10949,7 +10949,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 2
-        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
+        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
         m_AssetPath: Packages/com.unity.modules.jsonserialize
         m_Name: com.unity.modules.jsonserialize
         m_DisplayName: JSONSerialize
@@ -11002,7 +11002,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 2
-        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
+        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
         m_AssetPath: Packages/com.unity.modules.particlesystem
         m_Name: com.unity.modules.particlesystem
         m_DisplayName: Particle System
@@ -11055,7 +11055,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 2
-        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
+        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
         m_AssetPath: Packages/com.unity.modules.physics
         m_Name: com.unity.modules.physics
         m_DisplayName: Physics
@@ -11108,7 +11108,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 2
-        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
+        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
         m_AssetPath: Packages/com.unity.modules.physics2d
         m_Name: com.unity.modules.physics2d
         m_DisplayName: Physics 2D
@@ -11161,7 +11161,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 2
-        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
+        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
         m_AssetPath: Packages/com.unity.modules.screencapture
         m_Name: com.unity.modules.screencapture
         m_DisplayName: Screen Capture
@@ -11218,7 +11218,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 2
-        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
+        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
         m_AssetPath: Packages/com.unity.modules.terrain
         m_Name: com.unity.modules.terrain
         m_DisplayName: Terrain
@@ -11271,7 +11271,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 2
-        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
+        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
         m_AssetPath: Packages/com.unity.modules.terrainphysics
         m_Name: com.unity.modules.terrainphysics
         m_DisplayName: Terrain Physics
@@ -11332,7 +11332,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 2
-        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
+        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
         m_AssetPath: Packages/com.unity.modules.tilemap
         m_Name: com.unity.modules.tilemap
         m_DisplayName: Tilemap
@@ -11389,7 +11389,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 2
-        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
+        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
         m_AssetPath: Packages/com.unity.modules.ui
         m_Name: com.unity.modules.ui
         m_DisplayName: UI
@@ -11442,7 +11442,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 2
-        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
+        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
         m_AssetPath: Packages/com.unity.modules.uielements
         m_Name: com.unity.modules.uielements
         m_DisplayName: UIElements
@@ -11503,7 +11503,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 2
-        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
+        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
         m_AssetPath: Packages/com.unity.modules.umbra
         m_Name: com.unity.modules.umbra
         m_DisplayName: Umbra
@@ -11556,7 +11556,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 2
-        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
+        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
         m_AssetPath: Packages/com.unity.modules.unityanalytics
         m_Name: com.unity.modules.unityanalytics
         m_DisplayName: Unity Analytics
@@ -11617,7 +11617,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 2
-        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
+        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
         m_AssetPath: Packages/com.unity.modules.unitywebrequest
         m_Name: com.unity.modules.unitywebrequest
         m_DisplayName: Unity Web Request
@@ -11670,7 +11670,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 2
-        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
+        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
         m_AssetPath: Packages/com.unity.modules.unitywebrequestassetbundle
         m_Name: com.unity.modules.unitywebrequestassetbundle
         m_DisplayName: Unity Web Request Asset Bundle
@@ -11731,7 +11731,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 2
-        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
+        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
         m_AssetPath: Packages/com.unity.modules.unitywebrequestaudio
         m_Name: com.unity.modules.unitywebrequestaudio
         m_DisplayName: Unity Web Request Audio
@@ -11792,7 +11792,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 2
-        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
+        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
         m_AssetPath: Packages/com.unity.modules.unitywebrequesttexture
         m_Name: com.unity.modules.unitywebrequesttexture
         m_DisplayName: Unity Web Request Texture
@@ -11853,7 +11853,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 2
-        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
+        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
         m_AssetPath: Packages/com.unity.modules.unitywebrequestwww
         m_Name: com.unity.modules.unitywebrequestwww
         m_DisplayName: Unity Web Request WWW
@@ -11930,7 +11930,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 2
-        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
+        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
         m_AssetPath: Packages/com.unity.modules.vehicles
         m_Name: com.unity.modules.vehicles
         m_DisplayName: Vehicles
@@ -11987,7 +11987,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 2
-        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
+        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
         m_AssetPath: Packages/com.unity.modules.video
         m_Name: com.unity.modules.video
         m_DisplayName: Video
@@ -12052,7 +12052,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 2
-        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
+        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
         m_AssetPath: Packages/com.unity.modules.vr
         m_Name: com.unity.modules.vr
         m_DisplayName: VR
@@ -12117,7 +12117,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 2
-        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
+        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
         m_AssetPath: Packages/com.unity.modules.wind
         m_Name: com.unity.modules.wind
         m_DisplayName: Wind
@@ -12170,7 +12170,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 2
-        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
+        m_ResolvedPath: C:\Program Files\Unity\Hub\Editor\2019.2.6f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
         m_AssetPath: Packages/com.unity.modules.xr
         m_Name: com.unity.modules.xr
         m_DisplayName: XR
@@ -12233,7 +12233,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 6.9.0
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.render-pipelines.core@6.9.0
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.render-pipelines.core@6.9.0
         m_AssetPath: Packages/com.unity.render-pipelines.core
         m_Name: com.unity.render-pipelines.core
         m_DisplayName: Core RP Library
@@ -12348,7 +12348,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 6.9.0
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.render-pipelines.core@6.9.0
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.render-pipelines.core@6.9.0
         m_AssetPath: Packages/com.unity.render-pipelines.core
         m_Name: com.unity.render-pipelines.core
         m_DisplayName: Core RP Library
@@ -12463,7 +12463,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 6.9.0
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.render-pipelines.core@6.9.0
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.render-pipelines.core@6.9.0
         m_AssetPath: Packages/com.unity.render-pipelines.core
         m_Name: com.unity.render-pipelines.core
         m_DisplayName: Core RP Library
@@ -12579,7 +12579,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 6.9.0
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.shadergraph@6.9.0
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.shadergraph@6.9.0
         m_AssetPath: Packages/com.unity.shadergraph
         m_Name: com.unity.shadergraph
         m_DisplayName: Shader Graph
@@ -12701,7 +12701,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 6.9.0
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.shadergraph@6.9.0
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.shadergraph@6.9.0
         m_AssetPath: Packages/com.unity.shadergraph
         m_Name: com.unity.shadergraph
         m_DisplayName: Shader Graph
@@ -12823,7 +12823,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 6.9.0
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.shadergraph@6.9.0
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.shadergraph@6.9.0
         m_AssetPath: Packages/com.unity.shadergraph
         m_Name: com.unity.shadergraph
         m_DisplayName: Shader Graph
@@ -12943,7 +12943,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 6.9.0-preview
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.visualeffectgraph@6.9.0-preview
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.visualeffectgraph@6.9.0-preview
         m_AssetPath: Packages/com.unity.visualeffectgraph
         m_Name: com.unity.visualeffectgraph
         m_DisplayName: Visual Effect Graph
@@ -13030,7 +13030,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 6.9.0-preview
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.visualeffectgraph@6.9.0-preview
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.visualeffectgraph@6.9.0-preview
         m_AssetPath: Packages/com.unity.visualeffectgraph
         m_Name: com.unity.visualeffectgraph
         m_DisplayName: Visual Effect Graph
@@ -13117,7 +13117,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 6.9.0-preview
         m_Source: 1
-        m_ResolvedPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.visualeffectgraph@6.9.0-preview
+        m_ResolvedPath: C:\Users\Charline\Documents\GitHub\Nanoprojet\Nanoprojet\Library\PackageCache\com.unity.visualeffectgraph@6.9.0-preview
         m_AssetPath: Packages/com.unity.visualeffectgraph
         m_Name: com.unity.visualeffectgraph
         m_DisplayName: Visual Effect Graph
@@ -111383,9 +111383,9 @@ MonoBehaviour:
         m_DatePublishedTicks: 636930181110000000
       IsInstalled: 0
     listPackagesVersion: 31
-    listPackagesOfflineVersion: 30
-    searchOperationOngoing: 0
-    listOperationOngoing: 0
+    listPackagesOfflineVersion: 31
+    searchOperationOngoing: 1
+    listOperationOngoing: 1
     listOperationOfflineOngoing: 0
   SearchFilter:
     SearchText: 
