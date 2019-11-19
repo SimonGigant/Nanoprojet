@@ -23,6 +23,19 @@ public class Human : Control
             {
                 fighter.Move(new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")));
             }
+        }else if(controller == 1){
+            if (Input.GetButtonDown("2Fire1"))
+            {
+                fighter.DashButton();
+            }
+            if (Input.GetButtonDown("2Fire3"))
+            {
+                fighter.AttackButton();
+            }
+            if (Input.GetAxis("2Horizontal") != 0f || Input.GetAxis("2Vertical") != 0f)
+            {
+                fighter.Move(new Vector2(Input.GetAxis("2Horizontal"), Input.GetAxis("2Vertical")));
+            }
         }
     }
 }

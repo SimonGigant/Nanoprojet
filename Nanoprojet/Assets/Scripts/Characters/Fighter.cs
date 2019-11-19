@@ -7,13 +7,13 @@ public enum FighterState {Idle, SetUpAttack, Block, Parry, Attack, AttackLag, Da
 public class Fighter : MonoBehaviour
 {
     //Stats
-    private float speed = 0.2f;
+    private float speed = 0.1f;
     private int maxHP = 3;
     
-    private float dashSpeed = 0.8f;
+    private float dashSpeed = 0.2f;
     private float dashDuration = 0.2f;
     private float setUpAttackDuration = 0.1f;
-    private float blockDuration = 0.1f;
+    private float blockDuration = 0.5f;
     private float attackDuration = 0.5f;
     private float attackLagDuration = 0.1f;
 
@@ -245,6 +245,7 @@ public class Fighter : MonoBehaviour
     {
         if(state == FighterState.Block)
         {
+            Debug.Log("Parade !");
             ChangeState(FighterState.Idle);
             return;
         }

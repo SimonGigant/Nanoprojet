@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/WIP/SceneCharline.unity
+- path: Assets/Scenes/WIP/SampleScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
