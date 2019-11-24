@@ -12,24 +12,24 @@ public class Fighter : MonoBehaviour
     
     private float dashSpeed = 0.2f;
     private float dashDuration = 0.2f;
-    private float setUpAttackDuration = 0.1f;
+    private float setUpAttackDuration = 0.2f;
     private float blockDuration = 0.5f;
-    private float attackDuration = 0.5f;
-    private float attackLagDuration = 0.1f;
+    private float attackDuration = 0.2f;
+    private float attackLagDuration = 0.05f;
 
     //Values
     private int hp;
     private FighterState state;
     private Vector2 currentDirection;
 
-    private GameObject currentHitbox;
+    private Hitbox currentHitbox;
 
     //Counters
     private float counterInState;
 
     //Serialized fields
     [SerializeField] private Fighter opponent;
-    [SerializeField] private GameObject hitboxPrefab;
+    //[SerializeField] private GameObject hitboxPrefab;
 
     private void Initialize()
     {
@@ -44,8 +44,14 @@ public class Fighter : MonoBehaviour
     {
         transform.LookAt(opponent.transform);
     }
-    
-    void Start()
+
+	private void Awake()
+	{
+		currentHitbox = GetComponentInChildren<Hitbox>();
+		currentHitbox.opponent = opponent;
+	}
+
+	void Start()
     {
         Initialize();
     }
@@ -105,14 +111,16 @@ public class Fighter : MonoBehaviour
                 }
             case FighterState.Attack:
                 {
-                    currentHitbox = GameObject.Instantiate(hitboxPrefab, transform.position, transform.rotation, transform);
-                    currentHitbox.GetComponentInChildren<Hitbox>().opponent = opponent;
-                    break;
+					currentHitbox.SetAttacking(true);
+					//currentHitbox = GameObject.Instantiate(hitboxPrefab, transform.position, transform.rotation, transform);
+					//currentHitbox.GetComponentInChildren<Hitbox>().opponent = opponent;
+					break;
                 }
             case FighterState.AttackLag:
                 {
-                    Destroy(currentHitbox);
-                    break;
+					//Destroy(currentHitbox);
+					currentHitbox.SetAttacking(false);
+					break;
                 }
             case FighterState.Death:
                 {
@@ -260,8 +268,9 @@ public class Fighter : MonoBehaviour
     {
         if(state == FighterState.Attack)
         {
-            Destroy(currentHitbox.gameObject);
-            currentHitbox = null;
+			//Destroy(currentHitbox.gameObject);
+			//currentHitbox = null;
+			currentHitbox.SetAttacking(false);
         }
     }
 }
