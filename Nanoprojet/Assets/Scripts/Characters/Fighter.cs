@@ -7,10 +7,10 @@ public enum FighterState {Idle, SetUpAttack, Block, Parry, Attack, AttackLag, Da
 public class Fighter : MonoBehaviour
 {
     //Stats
-    private float speed = 0.1f;
+    private float speed = 6f;
     private int maxHP = 3;
     
-    private float dashSpeed = 0.2f;
+    private float dashSpeed = 12f;
     private float dashDuration = 0.2f;
     private float setUpAttackDuration = 0.2f;
     private float blockDuration = 0.5f;
@@ -194,7 +194,7 @@ public class Fighter : MonoBehaviour
 
     private void Movement(Vector2 movement)
     {
-        transform.position += new Vector3(movement.x, 0f, movement.y);
+        transform.position += new Vector3(movement.x, 0f, movement.y) * Time.deltaTime;
     }
 
     //************************************************************************
