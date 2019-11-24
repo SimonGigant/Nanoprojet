@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 766}
+  m_MinSize: {x: 950, y: 744}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -45,7 +45,7 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 781
-  m_MinSize: {x: 950, y: 766}
+  m_MinSize: {x: 950, y: 744}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -111,10 +111,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 683, y: 716}
-  m_MaxSize: {x: 14004, y: 18066}
+  m_MinSize: {x: 679, y: 694}
+  m_MaxSize: {x: 14002, y: 18044}
   vertical: 0
-  controlID: 203
+  controlID: 29188
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,12 +134,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 943
+    width: 1099
     height: 731
-  m_MinSize: {x: 406, y: 716}
-  m_MaxSize: {x: 10002, y: 18066}
+  m_MinSize: {x: 404, y: 694}
+  m_MaxSize: {x: 10002, y: 18044}
   vertical: 1
-  controlID: 204
+  controlID: 29117
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -159,12 +159,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 943
-    height: 444
-  m_MinSize: {x: 406, y: 444}
-  m_MaxSize: {x: 8006, y: 8044}
+    width: 1099
+    height: 459
+  m_MinSize: {x: 404, y: 422}
+  m_MaxSize: {x: 8004, y: 8022}
   vertical: 0
-  controlID: 205
+  controlID: 29118
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -182,8 +182,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 231
-    height: 444
+    width: 270
+    height: 459
   m_MinSize: {x: 202, y: 222}
   m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 15}
@@ -208,14 +208,14 @@ MonoBehaviour:
   - {fileID: 11}
   m_Position:
     serializedVersion: 2
-    x: 231
+    x: 270
     y: 0
-    width: 712
-    height: 444
-  m_MinSize: {x: 204, y: 444}
-  m_MaxSize: {x: 4004, y: 8044}
+    width: 829
+    height: 459
+  m_MinSize: {x: 204, y: 422}
+  m_MaxSize: {x: 4004, y: 8022}
   vertical: 1
-  controlID: 206
+  controlID: 29119
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -233,10 +233,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 712
+    width: 829
     height: 222
-  m_MinSize: {x: 204, y: 222}
-  m_MaxSize: {x: 4004, y: 4022}
+  m_MinSize: {x: 202, y: 222}
+  m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -259,10 +259,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 222
-    width: 712
-    height: 222
-  m_MinSize: {x: 204, y: 222}
-  m_MaxSize: {x: 4004, y: 4022}
+    width: 829
+    height: 237
+  m_MinSize: {x: 202, y: 222}
+  m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -284,15 +284,15 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 444
-    width: 943
-    height: 287
+    y: 459
+    width: 1099
+    height: 272
   m_MinSize: {x: 232, y: 272}
   m_MaxSize: {x: 10002, y: 10022}
-  m_ActualView: {fileID: 18}
+  m_ActualView: {fileID: 17}
   m_Panes:
+  - {fileID: 17}
   - {fileID: 18}
-  - {fileID: 19}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &13
@@ -310,18 +310,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 943
+    x: 1099
     y: 0
-    width: 593
+    width: 437
     height: 731
   m_MinSize: {x: 277, y: 72}
   m_MaxSize: {x: 4002, y: 4022}
-  m_ActualView: {fileID: 20}
+  m_ActualView: {fileID: 19}
   m_Panes:
+  - {fileID: 19}
   - {fileID: 20}
   - {fileID: 21}
   - {fileID: 22}
-  - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &14
@@ -345,13 +345,13 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 231.2
+    x: 270.4
     y: 295.2
-    width: 710
-    height: 203
+    width: 827
+    height: 218
   m_ViewDataDictionary: {fileID: 0}
   m_VSyncEnabled: 0
-  m_MaximizeOnPlay: 0
+  m_MaximizeOnPlay: 1
   m_Gizmos: 0
   m_Stats: 0
   m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
@@ -361,10 +361,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -284
-    m_HBaseRangeMax: 284
-    m_VBaseRangeMin: -74.4
-    m_VBaseRangeMax: 74.4
+    m_HBaseRangeMin: -330.80002
+    m_HBaseRangeMax: 330.80002
+    m_VBaseRangeMin: -80.4
+    m_VBaseRangeMax: 80.4
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -382,25 +382,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 710
-      height: 186
+      width: 827
+      height: 201
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 355, y: 93}
+    m_Translation: {x: 413.5, y: 100.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -355
-      y: -93
-      width: 710
-      height: 186
+      x: -413.5
+      y: -100.5
+      width: 827
+      height: 201
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 1
-  m_LastWindowPixelSize: {x: 887.5, y: 253.75}
+  m_LastWindowPixelSize: {x: 1033.75, y: 272.5}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -428,29 +428,29 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73.6
-    width: 231
-    height: 425
+    width: 270
+    height: 440
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 924f0000
-      m_LastClickedID: 20370
-      m_ExpandedIDs: 3aedffff8aeeffff66fbffff884f0000
+      m_SelectedIDs: 0efbffff
+      m_LastClickedID: -1266
+      m_ExpandedIDs: 2e39ffff903affff647fffff5aa0ffff8cadfffff8afffff90d8ffff0efbffffa24f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: OutsideLight
-        m_OriginalName: OutsideLight
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 20410
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -481,9 +481,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 231.2
+    x: 270.4
     y: 73.6
-    width: 710
+    width: 827
     height: 203
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
@@ -496,9 +496,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.34000015, y: 2.4099998, z: 9.55}
+    m_Target: {x: 4.63688, y: -15.78654, z: 37.75719}
     speed: 2
-    m_Value: {x: -0.34000015, y: 2.4099998, z: 9.55}
+    m_Value: {x: 4.63688, y: -15.78654, z: 37.75719}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -527,20 +527,20 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.33130398, y: -0.19284344, z: 0.069369785, w: -0.9209998}
+    m_Target: {x: 0.20961608, y: 0.053065438, z: -0.011392723, w: 0.97627944}
     speed: 2
-    m_Value: {x: -0.33130336, y: -0.19284306, z: 0.06936965, w: -0.9209981}
+    m_Value: {x: -0.2096161, y: -0.053065438, z: 0.011392723, w: -0.9762795}
   m_Size:
-    m_Target: 41.79878
+    m_Target: 60.712112
     speed: 2
-    m_Value: 41.79878
+    m_Value: 63.57289
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
     m_Speed: 1
-    m_SpeedNormalized: 0.5
+    m_SpeedNormalized: 0.49999997
     m_SpeedMin: 0.01
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -568,32 +568,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 400, y: 100}
-  m_MaxSize: {x: 2048, y: 2048}
-  m_TitleContent:
-    m_Text: Asset Store
-    m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 943.2
-    y: 73.6
-    width: 591
-    height: 712
-  m_ViewDataDictionary: {fileID: 0}
---- !u!114 &18
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
   m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -607,9 +581,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 517.60004
-    width: 943
-    height: 268
+    y: 532
+    width: 1099
+    height: 253
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -624,20 +598,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Volumetric Lights/Textures
+    - Assets/resources/Prefabs/Environment
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Volumetric Lights/Textures
+  - Assets/resources/Prefabs/Environment
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Simon\Documents\Gamedev\enjmin\Nanoprojet\Nanoprojet
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 532}
-    m_SelectedIDs: e04e0000
-    m_LastClickedID: 20192
-    m_ExpandedIDs: 00000000d43b0000b23d00006e3f000078400000124200004244000042460000724600004a490000104d0000da4e0000ea4e0000fe4e0000024f0000064f000000ca9a3b
+    scrollPos: {x: 0, y: 247}
+    m_SelectedIDs: 1a490000
+    m_LastClickedID: 18714
+    m_ExpandedIDs: 000000002c3e0000723f000016400000f04100002442000000430000a6440000f04600002e4800001e4900004a490000ba4b00002e4c0000e04c0000964d00002450000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -662,10 +636,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d43b0000b23d00006e3f000078400000124200004244000042460000724600004a490000104d0000
+    scrollPos: {x: 0, y: 328}
+    m_SelectedIDs: be370000
+    m_LastClickedID: 14270
+    m_ExpandedIDs: 000000002c3e0000723f000016400000f041000000430000a6440000f04600002e4800001e4900004a490000ba4b00002e4c0000e04c0000964d00002450000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -693,7 +667,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000
+    m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -721,7 +695,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 180
---- !u!114 &19
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -743,11 +717,11 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 517.60004
-    width: 943
-    height: 268
+    y: 532
+    width: 1099
+    height: 253
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &20
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -768,9 +742,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 943.2
+    x: 1099.2001
     y: 73.6
-    width: 591
+    width: 435
     height: 712
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
@@ -785,7 +759,7 @@ MonoBehaviour:
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
---- !u!114 &21
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -812,7 +786,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   Collection:
     filter: 0
-    lastUpdateTime: nov. 19, 19:05
+    lastUpdateTime: nov. 20, 17:35
     listPackagesOffline:
     - Name: com.unity.collab-proxy
       DisplayName: Unity Collaborate
@@ -31055,6 +31029,7 @@ MonoBehaviour:
           - 3.0.4
           - 3.0.5
           - 3.0.6
+          - 3.0.8
           - 4.0.0
           m_Compatible:
           - 2.2.0-preview.1
@@ -31146,6 +31121,7 @@ MonoBehaviour:
           - 3.0.4
           - 3.0.5
           - 3.0.6
+          - 3.0.8
           - 4.0.0
           m_Compatible:
           - 2.2.0-preview.1
@@ -31237,6 +31213,7 @@ MonoBehaviour:
           - 3.0.4
           - 3.0.5
           - 3.0.6
+          - 3.0.8
           - 4.0.0
           m_Compatible:
           - 2.2.0-preview.1
@@ -31328,6 +31305,7 @@ MonoBehaviour:
           - 3.0.4
           - 3.0.5
           - 3.0.6
+          - 3.0.8
           - 4.0.0
           m_Compatible:
           - 2.2.0-preview.1
@@ -31419,6 +31397,7 @@ MonoBehaviour:
           - 3.0.4
           - 3.0.5
           - 3.0.6
+          - 3.0.8
           - 4.0.0
           m_Compatible:
           - 2.2.0-preview.1
@@ -32178,6 +32157,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.1-preview
           - 2.0.2
+          - 2.0.3
           - 3.0.0
           m_Compatible:
           - 1.0.0-preview
@@ -32255,6 +32235,7 @@ MonoBehaviour:
           - 1.0.0-preview
           - 1.0.1-preview
           - 2.0.2
+          - 2.0.3
           - 3.0.0
           m_Compatible:
           - 1.0.0-preview
@@ -32328,6 +32309,7 @@ MonoBehaviour:
           - 2.0.3
           - 2.0.4
           - 2.0.5
+          - 2.0.7
           - 3.0.0
           m_Compatible:
           - 1.2.0-preview.1
@@ -32409,6 +32391,7 @@ MonoBehaviour:
           - 2.0.3
           - 2.0.4
           - 2.0.5
+          - 2.0.7
           - 3.0.0
           m_Compatible:
           - 1.2.0-preview.1
@@ -32490,6 +32473,7 @@ MonoBehaviour:
           - 2.0.3
           - 2.0.4
           - 2.0.5
+          - 2.0.7
           - 3.0.0
           m_Compatible:
           - 1.2.0-preview.1
@@ -32635,6 +32619,7 @@ MonoBehaviour:
           - 3.0.4
           - 3.0.5
           - 3.0.6
+          - 3.0.7
           - 4.0.0
           m_Compatible:
           - 2.1.0-preview.2
@@ -32729,6 +32714,7 @@ MonoBehaviour:
           - 3.0.4
           - 3.0.5
           - 3.0.6
+          - 3.0.7
           - 4.0.0
           m_Compatible:
           - 2.1.0-preview.2
@@ -32823,6 +32809,7 @@ MonoBehaviour:
           - 3.0.4
           - 3.0.5
           - 3.0.6
+          - 3.0.7
           - 4.0.0
           m_Compatible:
           - 2.1.0-preview.2
@@ -32917,6 +32904,7 @@ MonoBehaviour:
           - 3.0.4
           - 3.0.5
           - 3.0.6
+          - 3.0.7
           - 4.0.0
           m_Compatible:
           - 2.1.0-preview.2
@@ -33011,6 +32999,7 @@ MonoBehaviour:
           - 3.0.4
           - 3.0.5
           - 3.0.6
+          - 3.0.7
           - 4.0.0
           m_Compatible:
           - 2.1.0-preview.2
@@ -80235,9 +80224,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.purchasing.udp@1.2.0-preview.5
+        m_PackageId: com.unity.purchasing.udp@1.2.0-preview.6
         m_IsDirectDependency: 0
-        m_Version: 1.2.0-preview.5
+        m_Version: 1.2.0-preview.6
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.purchasing.udp
@@ -80267,6 +80256,7 @@ MonoBehaviour:
           - 1.2.0-preview.3
           - 1.2.0-preview.4
           - 1.2.0-preview.5
+          - 1.2.0-preview.6
           m_Compatible:
           - 0.2.6-preview.3
           - 1.0.0-preview.1
@@ -80282,6 +80272,7 @@ MonoBehaviour:
           - 1.2.0-preview.3
           - 1.2.0-preview.4
           - 1.2.0-preview.5
+          - 1.2.0-preview.6
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -80299,7 +80290,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637097547910000000
+        m_DatePublishedTicks: 637098158950000000
       IsInstalled: 0
     - Name: com.unity.purchasing.udp
       DisplayName: Unity Distribution Portal
@@ -80321,9 +80312,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.purchasing.udp@1.2.0-preview.5
+        m_PackageId: com.unity.purchasing.udp@1.2.0-preview.6
         m_IsDirectDependency: 0
-        m_Version: 1.2.0-preview.5
+        m_Version: 1.2.0-preview.6
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.purchasing.udp
@@ -80353,6 +80344,7 @@ MonoBehaviour:
           - 1.2.0-preview.3
           - 1.2.0-preview.4
           - 1.2.0-preview.5
+          - 1.2.0-preview.6
           m_Compatible:
           - 0.2.6-preview.3
           - 1.0.0-preview.1
@@ -80368,6 +80360,7 @@ MonoBehaviour:
           - 1.2.0-preview.3
           - 1.2.0-preview.4
           - 1.2.0-preview.5
+          - 1.2.0-preview.6
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -80385,7 +80378,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637097547910000000
+        m_DatePublishedTicks: 637098158950000000
       IsInstalled: 0
     - Name: com.unity.purchasing.udp
       DisplayName: Unity Distribution Portal
@@ -80407,9 +80400,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.purchasing.udp@1.2.0-preview.5
+        m_PackageId: com.unity.purchasing.udp@1.2.0-preview.6
         m_IsDirectDependency: 0
-        m_Version: 1.2.0-preview.5
+        m_Version: 1.2.0-preview.6
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.purchasing.udp
@@ -80439,6 +80432,7 @@ MonoBehaviour:
           - 1.2.0-preview.3
           - 1.2.0-preview.4
           - 1.2.0-preview.5
+          - 1.2.0-preview.6
           m_Compatible:
           - 0.2.6-preview.3
           - 1.0.0-preview.1
@@ -80454,6 +80448,7 @@ MonoBehaviour:
           - 1.2.0-preview.3
           - 1.2.0-preview.4
           - 1.2.0-preview.5
+          - 1.2.0-preview.6
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -80471,7 +80466,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637097547910000000
+        m_DatePublishedTicks: 637098158950000000
       IsInstalled: 0
     - Name: com.unity.purchasing.udp
       DisplayName: Unity Distribution Portal
@@ -80493,9 +80488,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.purchasing.udp@1.2.0-preview.5
+        m_PackageId: com.unity.purchasing.udp@1.2.0-preview.6
         m_IsDirectDependency: 0
-        m_Version: 1.2.0-preview.5
+        m_Version: 1.2.0-preview.6
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.purchasing.udp
@@ -80525,6 +80520,7 @@ MonoBehaviour:
           - 1.2.0-preview.3
           - 1.2.0-preview.4
           - 1.2.0-preview.5
+          - 1.2.0-preview.6
           m_Compatible:
           - 0.2.6-preview.3
           - 1.0.0-preview.1
@@ -80540,6 +80536,7 @@ MonoBehaviour:
           - 1.2.0-preview.3
           - 1.2.0-preview.4
           - 1.2.0-preview.5
+          - 1.2.0-preview.6
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -80557,7 +80554,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637097547910000000
+        m_DatePublishedTicks: 637098158950000000
       IsInstalled: 0
     - Name: com.unity.purchasing.udp
       DisplayName: Unity Distribution Portal
@@ -80579,9 +80576,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.purchasing.udp@1.2.0-preview.5
+        m_PackageId: com.unity.purchasing.udp@1.2.0-preview.6
         m_IsDirectDependency: 0
-        m_Version: 1.2.0-preview.5
+        m_Version: 1.2.0-preview.6
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.purchasing.udp
@@ -80611,6 +80608,7 @@ MonoBehaviour:
           - 1.2.0-preview.3
           - 1.2.0-preview.4
           - 1.2.0-preview.5
+          - 1.2.0-preview.6
           m_Compatible:
           - 0.2.6-preview.3
           - 1.0.0-preview.1
@@ -80626,6 +80624,7 @@ MonoBehaviour:
           - 1.2.0-preview.3
           - 1.2.0-preview.4
           - 1.2.0-preview.5
+          - 1.2.0-preview.6
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -80643,7 +80642,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637097547910000000
+        m_DatePublishedTicks: 637098158950000000
       IsInstalled: 0
     - Name: com.unity.purchasing.udp
       DisplayName: Unity Distribution Portal
@@ -80665,9 +80664,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.purchasing.udp@1.2.0-preview.5
+        m_PackageId: com.unity.purchasing.udp@1.2.0-preview.6
         m_IsDirectDependency: 0
-        m_Version: 1.2.0-preview.5
+        m_Version: 1.2.0-preview.6
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.purchasing.udp
@@ -80697,6 +80696,7 @@ MonoBehaviour:
           - 1.2.0-preview.3
           - 1.2.0-preview.4
           - 1.2.0-preview.5
+          - 1.2.0-preview.6
           m_Compatible:
           - 0.2.6-preview.3
           - 1.0.0-preview.1
@@ -80712,6 +80712,7 @@ MonoBehaviour:
           - 1.2.0-preview.3
           - 1.2.0-preview.4
           - 1.2.0-preview.5
+          - 1.2.0-preview.6
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -80729,7 +80730,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637097547910000000
+        m_DatePublishedTicks: 637098158950000000
       IsInstalled: 0
     - Name: com.unity.purchasing.udp
       DisplayName: Unity Distribution Portal
@@ -80751,9 +80752,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.purchasing.udp@1.2.0-preview.5
+        m_PackageId: com.unity.purchasing.udp@1.2.0-preview.6
         m_IsDirectDependency: 0
-        m_Version: 1.2.0-preview.5
+        m_Version: 1.2.0-preview.6
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.purchasing.udp
@@ -80783,6 +80784,7 @@ MonoBehaviour:
           - 1.2.0-preview.3
           - 1.2.0-preview.4
           - 1.2.0-preview.5
+          - 1.2.0-preview.6
           m_Compatible:
           - 0.2.6-preview.3
           - 1.0.0-preview.1
@@ -80798,6 +80800,7 @@ MonoBehaviour:
           - 1.2.0-preview.3
           - 1.2.0-preview.4
           - 1.2.0-preview.5
+          - 1.2.0-preview.6
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -80815,7 +80818,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637097547910000000
+        m_DatePublishedTicks: 637098158950000000
       IsInstalled: 0
     - Name: com.unity.purchasing.udp
       DisplayName: Unity Distribution Portal
@@ -80837,9 +80840,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.purchasing.udp@1.2.0-preview.5
+        m_PackageId: com.unity.purchasing.udp@1.2.0-preview.6
         m_IsDirectDependency: 0
-        m_Version: 1.2.0-preview.5
+        m_Version: 1.2.0-preview.6
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.purchasing.udp
@@ -80869,6 +80872,7 @@ MonoBehaviour:
           - 1.2.0-preview.3
           - 1.2.0-preview.4
           - 1.2.0-preview.5
+          - 1.2.0-preview.6
           m_Compatible:
           - 0.2.6-preview.3
           - 1.0.0-preview.1
@@ -80884,6 +80888,7 @@ MonoBehaviour:
           - 1.2.0-preview.3
           - 1.2.0-preview.4
           - 1.2.0-preview.5
+          - 1.2.0-preview.6
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -80901,7 +80906,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637097547910000000
+        m_DatePublishedTicks: 637098158950000000
       IsInstalled: 0
     - Name: com.unity.purchasing.udp
       DisplayName: Unity Distribution Portal
@@ -80923,9 +80928,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.purchasing.udp@1.2.0-preview.5
+        m_PackageId: com.unity.purchasing.udp@1.2.0-preview.6
         m_IsDirectDependency: 0
-        m_Version: 1.2.0-preview.5
+        m_Version: 1.2.0-preview.6
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.purchasing.udp
@@ -80955,6 +80960,7 @@ MonoBehaviour:
           - 1.2.0-preview.3
           - 1.2.0-preview.4
           - 1.2.0-preview.5
+          - 1.2.0-preview.6
           m_Compatible:
           - 0.2.6-preview.3
           - 1.0.0-preview.1
@@ -80970,6 +80976,7 @@ MonoBehaviour:
           - 1.2.0-preview.3
           - 1.2.0-preview.4
           - 1.2.0-preview.5
+          - 1.2.0-preview.6
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -80987,7 +80994,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637097547910000000
+        m_DatePublishedTicks: 637098158950000000
       IsInstalled: 0
     - Name: com.unity.purchasing.udp
       DisplayName: Unity Distribution Portal
@@ -81009,9 +81016,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.purchasing.udp@1.2.0-preview.5
+        m_PackageId: com.unity.purchasing.udp@1.2.0-preview.6
         m_IsDirectDependency: 0
-        m_Version: 1.2.0-preview.5
+        m_Version: 1.2.0-preview.6
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.purchasing.udp
@@ -81041,6 +81048,7 @@ MonoBehaviour:
           - 1.2.0-preview.3
           - 1.2.0-preview.4
           - 1.2.0-preview.5
+          - 1.2.0-preview.6
           m_Compatible:
           - 0.2.6-preview.3
           - 1.0.0-preview.1
@@ -81056,6 +81064,7 @@ MonoBehaviour:
           - 1.2.0-preview.3
           - 1.2.0-preview.4
           - 1.2.0-preview.5
+          - 1.2.0-preview.6
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -81073,7 +81082,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637097547910000000
+        m_DatePublishedTicks: 637098158950000000
       IsInstalled: 0
     - Name: com.unity.purchasing.udp
       DisplayName: Unity Distribution Portal
@@ -81095,9 +81104,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.purchasing.udp@1.2.0-preview.5
+        m_PackageId: com.unity.purchasing.udp@1.2.0-preview.6
         m_IsDirectDependency: 0
-        m_Version: 1.2.0-preview.5
+        m_Version: 1.2.0-preview.6
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.purchasing.udp
@@ -81127,6 +81136,7 @@ MonoBehaviour:
           - 1.2.0-preview.3
           - 1.2.0-preview.4
           - 1.2.0-preview.5
+          - 1.2.0-preview.6
           m_Compatible:
           - 0.2.6-preview.3
           - 1.0.0-preview.1
@@ -81142,6 +81152,7 @@ MonoBehaviour:
           - 1.2.0-preview.3
           - 1.2.0-preview.4
           - 1.2.0-preview.5
+          - 1.2.0-preview.6
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -81159,7 +81170,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637097547910000000
+        m_DatePublishedTicks: 637098158950000000
       IsInstalled: 0
     - Name: com.unity.purchasing.udp
       DisplayName: Unity Distribution Portal
@@ -81181,9 +81192,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.purchasing.udp@1.2.0-preview.5
+        m_PackageId: com.unity.purchasing.udp@1.2.0-preview.6
         m_IsDirectDependency: 0
-        m_Version: 1.2.0-preview.5
+        m_Version: 1.2.0-preview.6
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.purchasing.udp
@@ -81213,6 +81224,7 @@ MonoBehaviour:
           - 1.2.0-preview.3
           - 1.2.0-preview.4
           - 1.2.0-preview.5
+          - 1.2.0-preview.6
           m_Compatible:
           - 0.2.6-preview.3
           - 1.0.0-preview.1
@@ -81228,6 +81240,7 @@ MonoBehaviour:
           - 1.2.0-preview.3
           - 1.2.0-preview.4
           - 1.2.0-preview.5
+          - 1.2.0-preview.6
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -81245,7 +81258,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637097547910000000
+        m_DatePublishedTicks: 637098158950000000
       IsInstalled: 0
     - Name: com.unity.purchasing.udp
       DisplayName: Unity Distribution Portal
@@ -81267,9 +81280,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.purchasing.udp@1.2.0-preview.5
+        m_PackageId: com.unity.purchasing.udp@1.2.0-preview.6
         m_IsDirectDependency: 0
-        m_Version: 1.2.0-preview.5
+        m_Version: 1.2.0-preview.6
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.purchasing.udp
@@ -81299,6 +81312,7 @@ MonoBehaviour:
           - 1.2.0-preview.3
           - 1.2.0-preview.4
           - 1.2.0-preview.5
+          - 1.2.0-preview.6
           m_Compatible:
           - 0.2.6-preview.3
           - 1.0.0-preview.1
@@ -81314,6 +81328,7 @@ MonoBehaviour:
           - 1.2.0-preview.3
           - 1.2.0-preview.4
           - 1.2.0-preview.5
+          - 1.2.0-preview.6
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -81331,11 +81346,99 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637097547910000000
+        m_DatePublishedTicks: 637098158950000000
       IsInstalled: 0
     - Name: com.unity.purchasing.udp
       DisplayName: Unity Distribution Portal
       _Version: 1.2.0-preview.5
+      Description: Unity Distribution Portal (UDP) streamlines your distribution process.
+        UDP allows you to only build one version of your game, centralize the management
+        of your marketing assets and metadata, and submit your content to multiple
+        app stores, all in the same workflow.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.purchasing.udp@1.2.0-preview.6
+        m_IsDirectDependency: 0
+        m_Version: 1.2.0-preview.6
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.purchasing.udp
+        m_Name: com.unity.purchasing.udp
+        m_DisplayName: Unity Distribution Portal
+        m_Category: 
+        m_Type: 
+        m_Description: Unity Distribution Portal (UDP) streamlines your distribution
+          process. UDP allows you to only build one version of your game, centralize
+          the management of your marketing assets and metadata, and submit your content
+          to multiple app stores, all in the same workflow.
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.2.6-preview.3
+          - 1.0.0-preview.1
+          - 1.0.3-preview.2
+          - 1.0.3-preview.3
+          - 1.1.0-preview.1
+          - 1.1.3-preview.1
+          - 1.1.3-preview.2
+          - 1.1.3-preview.4
+          - 1.1.3-preview.5
+          - 1.1.3-preview.7
+          - 1.2.0-preview.2
+          - 1.2.0-preview.3
+          - 1.2.0-preview.4
+          - 1.2.0-preview.5
+          - 1.2.0-preview.6
+          m_Compatible:
+          - 0.2.6-preview.3
+          - 1.0.0-preview.1
+          - 1.0.3-preview.2
+          - 1.0.3-preview.3
+          - 1.1.0-preview.1
+          - 1.1.3-preview.1
+          - 1.1.3-preview.2
+          - 1.1.3-preview.4
+          - 1.1.3-preview.5
+          - 1.1.3-preview.7
+          - 1.2.0-preview.2
+          - 1.2.0-preview.3
+          - 1.2.0-preview.4
+          - 1.2.0-preview.5
+          - 1.2.0-preview.6
+          m_Recommended: 
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - android
+        - purchasing
+        - iap
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637098158950000000
+      IsInstalled: 0
+    - Name: com.unity.purchasing.udp
+      DisplayName: Unity Distribution Portal
+      _Version: 1.2.0-preview.6
       Description: Unity Distribution Portal (UDP) streamlines your distribution process.
         UDP allows you to only build one version of your game, centralize the management
         of your marketing assets and metadata, and submit your content to multiple
@@ -81353,9 +81456,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 1
       Info:
-        m_PackageId: com.unity.purchasing.udp@1.2.0-preview.5
+        m_PackageId: com.unity.purchasing.udp@1.2.0-preview.6
         m_IsDirectDependency: 0
-        m_Version: 1.2.0-preview.5
+        m_Version: 1.2.0-preview.6
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.purchasing.udp
@@ -81385,6 +81488,7 @@ MonoBehaviour:
           - 1.2.0-preview.3
           - 1.2.0-preview.4
           - 1.2.0-preview.5
+          - 1.2.0-preview.6
           m_Compatible:
           - 0.2.6-preview.3
           - 1.0.0-preview.1
@@ -81400,6 +81504,7 @@ MonoBehaviour:
           - 1.2.0-preview.3
           - 1.2.0-preview.4
           - 1.2.0-preview.5
+          - 1.2.0-preview.6
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -81417,7 +81522,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637097547910000000
+        m_DatePublishedTicks: 637098158950000000
       IsInstalled: 0
     - Name: com.unity.quicksearch
       DisplayName: Quick Search
@@ -85209,9 +85314,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.remote-config@1.0.6
+        m_PackageId: com.unity.remote-config@1.0.8
         m_IsDirectDependency: 0
-        m_Version: 1.0.6
+        m_Version: 1.0.8
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.remote-config
@@ -85247,6 +85352,7 @@ MonoBehaviour:
           - 1.0.7-preview
           - 1.0.8-preview
           - 1.0.8-preview.1
+          - 1.0.8
           m_Compatible:
           - 0.3.0-preview.4
           - 0.3.1-preview.2
@@ -85259,6 +85365,7 @@ MonoBehaviour:
           - 1.0.7-preview
           - 1.0.8-preview
           - 1.0.8-preview.1
+          - 1.0.8
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -85304,7 +85411,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637045022040000000
+        m_DatePublishedTicks: 637098627280000000
       IsInstalled: 0
     - Name: com.unity.remote-config
       DisplayName: Remote Config
@@ -85335,9 +85442,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.remote-config@1.0.6
+        m_PackageId: com.unity.remote-config@1.0.8
         m_IsDirectDependency: 0
-        m_Version: 1.0.6
+        m_Version: 1.0.8
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.remote-config
@@ -85373,6 +85480,7 @@ MonoBehaviour:
           - 1.0.7-preview
           - 1.0.8-preview
           - 1.0.8-preview.1
+          - 1.0.8
           m_Compatible:
           - 0.3.0-preview.4
           - 0.3.1-preview.2
@@ -85385,6 +85493,7 @@ MonoBehaviour:
           - 1.0.7-preview
           - 1.0.8-preview
           - 1.0.8-preview.1
+          - 1.0.8
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -85430,7 +85539,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637045022040000000
+        m_DatePublishedTicks: 637098627280000000
       IsInstalled: 0
     - Name: com.unity.remote-config
       DisplayName: Remote Config
@@ -85461,9 +85570,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.remote-config@1.0.6
+        m_PackageId: com.unity.remote-config@1.0.8
         m_IsDirectDependency: 0
-        m_Version: 1.0.6
+        m_Version: 1.0.8
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.remote-config
@@ -85499,6 +85608,7 @@ MonoBehaviour:
           - 1.0.7-preview
           - 1.0.8-preview
           - 1.0.8-preview.1
+          - 1.0.8
           m_Compatible:
           - 0.3.0-preview.4
           - 0.3.1-preview.2
@@ -85511,6 +85621,7 @@ MonoBehaviour:
           - 1.0.7-preview
           - 1.0.8-preview
           - 1.0.8-preview.1
+          - 1.0.8
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -85556,7 +85667,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637045022040000000
+        m_DatePublishedTicks: 637098627280000000
       IsInstalled: 0
     - Name: com.unity.remote-config
       DisplayName: Remote Config
@@ -85587,9 +85698,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.remote-config@1.0.6
+        m_PackageId: com.unity.remote-config@1.0.8
         m_IsDirectDependency: 0
-        m_Version: 1.0.6
+        m_Version: 1.0.8
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.remote-config
@@ -85625,6 +85736,7 @@ MonoBehaviour:
           - 1.0.7-preview
           - 1.0.8-preview
           - 1.0.8-preview.1
+          - 1.0.8
           m_Compatible:
           - 0.3.0-preview.4
           - 0.3.1-preview.2
@@ -85637,6 +85749,7 @@ MonoBehaviour:
           - 1.0.7-preview
           - 1.0.8-preview
           - 1.0.8-preview.1
+          - 1.0.8
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -85682,7 +85795,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637045022040000000
+        m_DatePublishedTicks: 637098627280000000
       IsInstalled: 0
     - Name: com.unity.remote-config
       DisplayName: Remote Config
@@ -85713,9 +85826,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.remote-config@1.0.6
+        m_PackageId: com.unity.remote-config@1.0.8
         m_IsDirectDependency: 0
-        m_Version: 1.0.6
+        m_Version: 1.0.8
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.remote-config
@@ -85751,6 +85864,7 @@ MonoBehaviour:
           - 1.0.7-preview
           - 1.0.8-preview
           - 1.0.8-preview.1
+          - 1.0.8
           m_Compatible:
           - 0.3.0-preview.4
           - 0.3.1-preview.2
@@ -85763,6 +85877,7 @@ MonoBehaviour:
           - 1.0.7-preview
           - 1.0.8-preview
           - 1.0.8-preview.1
+          - 1.0.8
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -85808,7 +85923,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637045022040000000
+        m_DatePublishedTicks: 637098627280000000
       IsInstalled: 0
     - Name: com.unity.remote-config
       DisplayName: Remote Config
@@ -85839,9 +85954,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.remote-config@1.0.6
+        m_PackageId: com.unity.remote-config@1.0.8
         m_IsDirectDependency: 0
-        m_Version: 1.0.6
+        m_Version: 1.0.8
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.remote-config
@@ -85877,6 +85992,7 @@ MonoBehaviour:
           - 1.0.7-preview
           - 1.0.8-preview
           - 1.0.8-preview.1
+          - 1.0.8
           m_Compatible:
           - 0.3.0-preview.4
           - 0.3.1-preview.2
@@ -85889,6 +86005,7 @@ MonoBehaviour:
           - 1.0.7-preview
           - 1.0.8-preview
           - 1.0.8-preview.1
+          - 1.0.8
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -85934,7 +86051,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637045022040000000
+        m_DatePublishedTicks: 637098627280000000
       IsInstalled: 0
     - Name: com.unity.remote-config
       DisplayName: Remote Config
@@ -85965,9 +86082,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.remote-config@1.0.6
+        m_PackageId: com.unity.remote-config@1.0.8
         m_IsDirectDependency: 0
-        m_Version: 1.0.6
+        m_Version: 1.0.8
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.remote-config
@@ -86003,6 +86120,7 @@ MonoBehaviour:
           - 1.0.7-preview
           - 1.0.8-preview
           - 1.0.8-preview.1
+          - 1.0.8
           m_Compatible:
           - 0.3.0-preview.4
           - 0.3.1-preview.2
@@ -86015,6 +86133,7 @@ MonoBehaviour:
           - 1.0.7-preview
           - 1.0.8-preview
           - 1.0.8-preview.1
+          - 1.0.8
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -86060,7 +86179,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637045022040000000
+        m_DatePublishedTicks: 637098627280000000
       IsInstalled: 0
     - Name: com.unity.remote-config
       DisplayName: Remote Config
@@ -86089,11 +86208,11 @@ MonoBehaviour:
       Author: Unity Technologies Inc.
       IsDiscoverable: 1
       Samples: []
-      HasFullFetch: 1
+      HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.remote-config@1.0.6
+        m_PackageId: com.unity.remote-config@1.0.8
         m_IsDirectDependency: 0
-        m_Version: 1.0.6
+        m_Version: 1.0.8
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.remote-config
@@ -86129,6 +86248,7 @@ MonoBehaviour:
           - 1.0.7-preview
           - 1.0.8-preview
           - 1.0.8-preview.1
+          - 1.0.8
           m_Compatible:
           - 0.3.0-preview.4
           - 0.3.1-preview.2
@@ -86141,6 +86261,7 @@ MonoBehaviour:
           - 1.0.7-preview
           - 1.0.8-preview
           - 1.0.8-preview.1
+          - 1.0.8
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -86186,7 +86307,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637045022040000000
+        m_DatePublishedTicks: 637098627280000000
       IsInstalled: 0
     - Name: com.unity.remote-config
       DisplayName: Remote Config
@@ -86217,9 +86338,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.remote-config@1.0.6
+        m_PackageId: com.unity.remote-config@1.0.8
         m_IsDirectDependency: 0
-        m_Version: 1.0.6
+        m_Version: 1.0.8
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.remote-config
@@ -86255,6 +86376,7 @@ MonoBehaviour:
           - 1.0.7-preview
           - 1.0.8-preview
           - 1.0.8-preview.1
+          - 1.0.8
           m_Compatible:
           - 0.3.0-preview.4
           - 0.3.1-preview.2
@@ -86267,6 +86389,7 @@ MonoBehaviour:
           - 1.0.7-preview
           - 1.0.8-preview
           - 1.0.8-preview.1
+          - 1.0.8
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -86312,7 +86435,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637045022040000000
+        m_DatePublishedTicks: 637098627280000000
       IsInstalled: 0
     - Name: com.unity.remote-config
       DisplayName: Remote Config
@@ -86343,9 +86466,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.remote-config@1.0.6
+        m_PackageId: com.unity.remote-config@1.0.8
         m_IsDirectDependency: 0
-        m_Version: 1.0.6
+        m_Version: 1.0.8
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.remote-config
@@ -86381,6 +86504,7 @@ MonoBehaviour:
           - 1.0.7-preview
           - 1.0.8-preview
           - 1.0.8-preview.1
+          - 1.0.8
           m_Compatible:
           - 0.3.0-preview.4
           - 0.3.1-preview.2
@@ -86393,6 +86517,7 @@ MonoBehaviour:
           - 1.0.7-preview
           - 1.0.8-preview
           - 1.0.8-preview.1
+          - 1.0.8
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -86438,11 +86563,139 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637045022040000000
+        m_DatePublishedTicks: 637098627280000000
       IsInstalled: 0
     - Name: com.unity.remote-config
       DisplayName: Remote Config
       _Version: 1.0.8-preview.1
+      Description: "Remote Config is a cloud service that lets you tune and customize
+        your app over the air without requiring an update to your game.  You can use
+        rules to enable or disable features, change the difficulty of your game or
+        run special events to target specific audiences.  Rules control when updates
+        are applied and to whom, while Unity manages delivery of your game content
+        with minimal performance impact. \n\nRemote Config can be configured via the
+        editor or through our public APIs.  Functionality includes: \n- Release new
+        features without deploying code:\n   - Feature flagging\n   - Staged Rollouts\n
+        \  - Kill switch functionality\n   - Start & End Date\n   - Enable & disable
+        rules\n- Personalized real-time segmentation with custom attributes\n   -
+        Custom conditions for applying setting variants\n   - Device, user, game and
+        other arbitrary attributes supporting\n- Reporting\n   - Tracing ID for decorating
+        analytics events"
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.remote-config@1.0.8
+        m_IsDirectDependency: 0
+        m_Version: 1.0.8
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.remote-config
+        m_Name: com.unity.remote-config
+        m_DisplayName: Remote Config
+        m_Category: 
+        m_Type: 
+        m_Description: "Remote Config is a cloud service that lets you tune and customize
+          your app over the air without requiring an update to your game.  You can
+          use rules to enable or disable features, change the difficulty of your game
+          or run special events to target specific audiences.  Rules control when
+          updates are applied and to whom, while Unity manages delivery of your game
+          content with minimal performance impact. \n\nRemote Config can be configured
+          via the editor or through our public APIs.  Functionality includes: \n-
+          Release new features without deploying code:\n   - Feature flagging\n   -
+          Staged Rollouts\n   - Kill switch functionality\n   - Start & End Date\n
+          \  - Enable & disable rules\n- Personalized real-time segmentation with
+          custom attributes\n   - Custom conditions for applying setting variants\n
+          \  - Device, user, game and other arbitrary attributes supporting\n- Reporting\n
+          \  - Tracing ID for decorating analytics events"
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.3.0-preview.4
+          - 0.3.1-preview.2
+          - 0.3.2-preview
+          - 1.0.0-preview
+          - 1.0.4-preview.2
+          - 1.0.5-preview
+          - 1.0.6-preview
+          - 1.0.6
+          - 1.0.7-preview
+          - 1.0.8-preview
+          - 1.0.8-preview.1
+          - 1.0.8
+          m_Compatible:
+          - 0.3.0-preview.4
+          - 0.3.1-preview.2
+          - 0.3.2-preview
+          - 1.0.0-preview
+          - 1.0.4-preview.2
+          - 1.0.5-preview
+          - 1.0.6-preview
+          - 1.0.6
+          - 1.0.7-preview
+          - 1.0.8-preview
+          - 1.0.8-preview.1
+          - 1.0.8
+          m_Recommended: 
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - remote
+        - config
+        - configuration
+        - settings
+        - remote settings
+        - remote config
+        - firebase
+        - staged rollouts
+        - feature flagging
+        - roll-out
+        - adapt
+        - tune
+        - tailor
+        - test
+        - experiment
+        - experimentation
+        - app update
+        - taget
+        - targeting
+        - segment
+        - segmentation
+        - segmenting
+        - override
+        - rules
+        - variants
+        - variation
+        - parameter
+        - condtions
+        - conditional
+        - continuous delivery
+        - deploy
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637098627280000000
+      IsInstalled: 0
+    - Name: com.unity.remote-config
+      DisplayName: Remote Config
+      _Version: 1.0.8
       Description: "Remote Config is a cloud service that lets you tune and customize
         your app over the air without requiring an update to your game.  You can use
         rules to enable or disable features, change the difficulty of your game or
@@ -86467,11 +86720,11 @@ MonoBehaviour:
       Author: Unity Technologies Inc.
       IsDiscoverable: 1
       Samples: []
-      HasFullFetch: 0
+      HasFullFetch: 1
       Info:
-        m_PackageId: com.unity.remote-config@1.0.6
+        m_PackageId: com.unity.remote-config@1.0.8
         m_IsDirectDependency: 0
-        m_Version: 1.0.6
+        m_Version: 1.0.8
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.remote-config
@@ -86507,6 +86760,7 @@ MonoBehaviour:
           - 1.0.7-preview
           - 1.0.8-preview
           - 1.0.8-preview.1
+          - 1.0.8
           m_Compatible:
           - 0.3.0-preview.4
           - 0.3.1-preview.2
@@ -86519,6 +86773,7 @@ MonoBehaviour:
           - 1.0.7-preview
           - 1.0.8-preview
           - 1.0.8-preview.1
+          - 1.0.8
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -86564,7 +86819,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637045022040000000
+        m_DatePublishedTicks: 637098627280000000
       IsInstalled: 0
     - Name: com.unity.render-pipelines.core
       DisplayName: Core RP Library
@@ -98202,9 +98457,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.9
+        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.10
         m_IsDirectDependency: 0
-        m_Version: 2.0.0-preview.9
+        m_Version: 2.0.0-preview.10
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.vectorgraphics
@@ -98240,6 +98495,7 @@ MonoBehaviour:
           - 2.0.0-preview.7
           - 2.0.0-preview.8
           - 2.0.0-preview.9
+          - 2.0.0-preview.10
           m_Compatible:
           - 2.0.0-preview.2
           - 2.0.0-preview.3
@@ -98249,6 +98505,7 @@ MonoBehaviour:
           - 2.0.0-preview.7
           - 2.0.0-preview.8
           - 2.0.0-preview.9
+          - 2.0.0-preview.10
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.2d.sprite
@@ -98271,7 +98528,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637094308610000000
+        m_DatePublishedTicks: 637097907850000000
       IsInstalled: 0
     - Name: com.unity.vectorgraphics
       DisplayName: Vector Graphics
@@ -98291,9 +98548,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.9
+        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.10
         m_IsDirectDependency: 0
-        m_Version: 2.0.0-preview.9
+        m_Version: 2.0.0-preview.10
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.vectorgraphics
@@ -98329,6 +98586,7 @@ MonoBehaviour:
           - 2.0.0-preview.7
           - 2.0.0-preview.8
           - 2.0.0-preview.9
+          - 2.0.0-preview.10
           m_Compatible:
           - 2.0.0-preview.2
           - 2.0.0-preview.3
@@ -98338,6 +98596,7 @@ MonoBehaviour:
           - 2.0.0-preview.7
           - 2.0.0-preview.8
           - 2.0.0-preview.9
+          - 2.0.0-preview.10
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.2d.sprite
@@ -98360,7 +98619,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637094308610000000
+        m_DatePublishedTicks: 637097907850000000
       IsInstalled: 0
     - Name: com.unity.vectorgraphics
       DisplayName: Vector Graphics
@@ -98380,9 +98639,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.9
+        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.10
         m_IsDirectDependency: 0
-        m_Version: 2.0.0-preview.9
+        m_Version: 2.0.0-preview.10
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.vectorgraphics
@@ -98418,6 +98677,7 @@ MonoBehaviour:
           - 2.0.0-preview.7
           - 2.0.0-preview.8
           - 2.0.0-preview.9
+          - 2.0.0-preview.10
           m_Compatible:
           - 2.0.0-preview.2
           - 2.0.0-preview.3
@@ -98427,6 +98687,7 @@ MonoBehaviour:
           - 2.0.0-preview.7
           - 2.0.0-preview.8
           - 2.0.0-preview.9
+          - 2.0.0-preview.10
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.2d.sprite
@@ -98449,7 +98710,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637094308610000000
+        m_DatePublishedTicks: 637097907850000000
       IsInstalled: 0
     - Name: com.unity.vectorgraphics
       DisplayName: Vector Graphics
@@ -98469,9 +98730,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.9
+        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.10
         m_IsDirectDependency: 0
-        m_Version: 2.0.0-preview.9
+        m_Version: 2.0.0-preview.10
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.vectorgraphics
@@ -98507,6 +98768,7 @@ MonoBehaviour:
           - 2.0.0-preview.7
           - 2.0.0-preview.8
           - 2.0.0-preview.9
+          - 2.0.0-preview.10
           m_Compatible:
           - 2.0.0-preview.2
           - 2.0.0-preview.3
@@ -98516,6 +98778,7 @@ MonoBehaviour:
           - 2.0.0-preview.7
           - 2.0.0-preview.8
           - 2.0.0-preview.9
+          - 2.0.0-preview.10
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.2d.sprite
@@ -98538,7 +98801,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637094308610000000
+        m_DatePublishedTicks: 637097907850000000
       IsInstalled: 0
     - Name: com.unity.vectorgraphics
       DisplayName: Vector Graphics
@@ -98558,9 +98821,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.9
+        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.10
         m_IsDirectDependency: 0
-        m_Version: 2.0.0-preview.9
+        m_Version: 2.0.0-preview.10
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.vectorgraphics
@@ -98596,6 +98859,7 @@ MonoBehaviour:
           - 2.0.0-preview.7
           - 2.0.0-preview.8
           - 2.0.0-preview.9
+          - 2.0.0-preview.10
           m_Compatible:
           - 2.0.0-preview.2
           - 2.0.0-preview.3
@@ -98605,6 +98869,7 @@ MonoBehaviour:
           - 2.0.0-preview.7
           - 2.0.0-preview.8
           - 2.0.0-preview.9
+          - 2.0.0-preview.10
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.2d.sprite
@@ -98627,7 +98892,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637094308610000000
+        m_DatePublishedTicks: 637097907850000000
       IsInstalled: 0
     - Name: com.unity.vectorgraphics
       DisplayName: Vector Graphics
@@ -98647,9 +98912,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.9
+        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.10
         m_IsDirectDependency: 0
-        m_Version: 2.0.0-preview.9
+        m_Version: 2.0.0-preview.10
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.vectorgraphics
@@ -98685,6 +98950,7 @@ MonoBehaviour:
           - 2.0.0-preview.7
           - 2.0.0-preview.8
           - 2.0.0-preview.9
+          - 2.0.0-preview.10
           m_Compatible:
           - 2.0.0-preview.2
           - 2.0.0-preview.3
@@ -98694,6 +98960,7 @@ MonoBehaviour:
           - 2.0.0-preview.7
           - 2.0.0-preview.8
           - 2.0.0-preview.9
+          - 2.0.0-preview.10
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.2d.sprite
@@ -98716,7 +98983,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637094308610000000
+        m_DatePublishedTicks: 637097907850000000
       IsInstalled: 0
     - Name: com.unity.vectorgraphics
       DisplayName: Vector Graphics
@@ -98736,9 +99003,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.9
+        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.10
         m_IsDirectDependency: 0
-        m_Version: 2.0.0-preview.9
+        m_Version: 2.0.0-preview.10
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.vectorgraphics
@@ -98774,6 +99041,7 @@ MonoBehaviour:
           - 2.0.0-preview.7
           - 2.0.0-preview.8
           - 2.0.0-preview.9
+          - 2.0.0-preview.10
           m_Compatible:
           - 2.0.0-preview.2
           - 2.0.0-preview.3
@@ -98783,6 +99051,7 @@ MonoBehaviour:
           - 2.0.0-preview.7
           - 2.0.0-preview.8
           - 2.0.0-preview.9
+          - 2.0.0-preview.10
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.2d.sprite
@@ -98805,11 +99074,102 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637094308610000000
+        m_DatePublishedTicks: 637097907850000000
       IsInstalled: 0
     - Name: com.unity.vectorgraphics
       DisplayName: Vector Graphics
       _Version: 2.0.0-preview.9
+      Description: The vector graphics package provides an SVG importer and runtime
+        vector graphics APIs.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.10
+        m_IsDirectDependency: 0
+        m_Version: 2.0.0-preview.10
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.vectorgraphics
+        m_Name: com.unity.vectorgraphics
+        m_DisplayName: Vector Graphics
+        m_Category: 
+        m_Type: 
+        m_Description: The vector graphics package provides an SVG importer and runtime
+          vector graphics APIs.
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 1.0.0-preview.13
+          - 1.0.0-preview.15
+          - 1.0.0-preview.19
+          - 1.0.0-preview.20
+          - 1.0.0-preview.21
+          - 1.0.0-preview.22
+          - 1.0.0-preview.23
+          - 1.0.0-preview.24
+          - 1.0.0-preview.26
+          - 1.0.0-preview.27
+          - 1.0.0-preview.28
+          - 1.0.0-preview.29
+          - 1.0.0-preview.30
+          - 1.0.0-preview.31
+          - 2.0.0-preview.2
+          - 2.0.0-preview.3
+          - 2.0.0-preview.4
+          - 2.0.0-preview.5
+          - 2.0.0-preview.6
+          - 2.0.0-preview.7
+          - 2.0.0-preview.8
+          - 2.0.0-preview.9
+          - 2.0.0-preview.10
+          m_Compatible:
+          - 2.0.0-preview.2
+          - 2.0.0-preview.3
+          - 2.0.0-preview.4
+          - 2.0.0-preview.5
+          - 2.0.0-preview.6
+          - 2.0.0-preview.7
+          - 2.0.0-preview.8
+          - 2.0.0-preview.9
+          - 2.0.0-preview.10
+          m_Recommended: 
+        m_Dependencies:
+        - m_Name: com.unity.2d.sprite
+          m_Version: 1.0.0
+        - m_Name: com.unity.ugui
+          m_Version: 1.0.0
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - vector
+        - graphics
+        - svg
+        - importer
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637097907850000000
+      IsInstalled: 0
+    - Name: com.unity.vectorgraphics
+      DisplayName: Vector Graphics
+      _Version: 2.0.0-preview.10
       Description: The vector graphics package provides an SVG importer and runtime
         vector graphics APIs.
       Category: 
@@ -98825,9 +99185,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 1
       Info:
-        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.9
+        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.10
         m_IsDirectDependency: 0
-        m_Version: 2.0.0-preview.9
+        m_Version: 2.0.0-preview.10
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.vectorgraphics
@@ -98863,6 +99223,7 @@ MonoBehaviour:
           - 2.0.0-preview.7
           - 2.0.0-preview.8
           - 2.0.0-preview.9
+          - 2.0.0-preview.10
           m_Compatible:
           - 2.0.0-preview.2
           - 2.0.0-preview.3
@@ -98872,6 +99233,7 @@ MonoBehaviour:
           - 2.0.0-preview.7
           - 2.0.0-preview.8
           - 2.0.0-preview.9
+          - 2.0.0-preview.10
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.2d.sprite
@@ -98894,7 +99256,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637094308610000000
+        m_DatePublishedTicks: 637097907850000000
       IsInstalled: 0
     - Name: com.unity.visualeffectgraph
       DisplayName: Visual Effect Graph
@@ -117109,11 +117471,11 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_DatePublishedTicks: 636930181110000000
       IsInstalled: 0
-    listPackagesVersion: 18
-    listPackagesOfflineVersion: 17
-    searchOperationOngoing: 0
-    listOperationOngoing: 0
-    listOperationOfflineOngoing: 0
+    listPackagesVersion: 21
+    listPackagesOfflineVersion: 20
+    searchOperationOngoing: 1
+    listOperationOngoing: 1
+    listOperationOfflineOngoing: 1
   SearchFilter:
     SearchText: post
   SelectionManager:
@@ -117521,9 +117883,21 @@ MonoBehaviour:
         Expanded: 0
         SeeAllVersions: 0
         Selected: 0
+      - PackageId: com.unity.purchasing.udp@1.2.0-preview.6
+        Expanded: 0
+        SeeAllVersions: 0
+        Selected: 0
+      - PackageId: com.unity.vectorgraphics@2.0.0-preview.10
+        Expanded: 0
+        SeeAllVersions: 0
+        Selected: 0
+      - PackageId: com.unity.remote-config@1.0.8
+        Expanded: 0
+        SeeAllVersions: 0
+        Selected: 0
     BuiltInSelection:
       States: []
---- !u!114 &22
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -117535,7 +117909,7 @@ MonoBehaviour:
   m_Script: {fileID: 13854, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 0, y: 0}
+  m_MinSize: {x: 300, y: 300}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Project Settings
@@ -117553,3 +117927,29 @@ MonoBehaviour:
   m_PosRight: {x: 0, y: 0}
   m_Scope: 1
   m_SplitterFlex: 0
+--- !u!114 &22
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 400, y: 100}
+  m_MaxSize: {x: 2048, y: 2048}
+  m_TitleContent:
+    m_Text: Asset Store
+    m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 943.2
+    y: 73.6
+    width: 591
+    height: 712
+  m_ViewDataDictionary: {fileID: 0}
