@@ -21,6 +21,7 @@ public class Fighter : MonoBehaviour
     private int hp;
     private FighterState state;
     private Vector2 currentDirection;
+    private Rigidbody rigidbody;
 
     private Hitbox currentHitbox;
 
@@ -29,7 +30,6 @@ public class Fighter : MonoBehaviour
 
     //Serialized fields
     [SerializeField] private Fighter opponent;
-    //[SerializeField] private GameObject hitboxPrefab;
 
     private void Initialize()
     {
@@ -42,7 +42,10 @@ public class Fighter : MonoBehaviour
      */
     private void FaceOpponent()
     {
-        transform.LookAt(opponent.transform);
+        //transform.LookAt(opponent.transform);
+        Vector3 dir = opponent.transform.position - transform.position;
+        Quaternion rot = Quaternion.LookRotation(dir, Vector3.up);
+        rigidbody.MoveRotation(rot);
     }
 
 	private void Awake()
@@ -53,6 +56,7 @@ public class Fighter : MonoBehaviour
 
 	void Start()
     {
+        rigidbody = GetComponent<Rigidbody>();
         Initialize();
     }
     
@@ -194,7 +198,8 @@ public class Fighter : MonoBehaviour
 
     private void Movement(Vector2 movement)
     {
-        transform.position += new Vector3(movement.x, 0f, movement.y) * Time.deltaTime;
+        Vector3 dir = new Vector3(movement.x, 0f, movement.y) * Time.deltaTime;
+        rigidbody.MovePosition(transform.position + dir);
     }
 
     //************************************************************************
@@ -255,6 +260,8 @@ public class Fighter : MonoBehaviour
         {
             Debug.Log("Parade !");
             ChangeState(FighterState.Idle);
+            ImpulseOppositToOpponent(7f);
+            opponent.ImpulseOppositToOpponent(7f);
             return;
         }
         hp -= amount;
@@ -262,15 +269,22 @@ public class Fighter : MonoBehaviour
         {
             ChangeState(FighterState.Death);
         }
+        ImpulseOppositToOpponent(15f);
+        Gamefeel.Instance.InitScreenshake(0.2f, 0.2f);
+    }
+
+    public void ImpulseOppositToOpponent(float force)
+    {
+        Vector3 impulseDir = (transform.position - opponent.transform.position).normalized;
+        rigidbody.AddForce(impulseDir * force, ForceMode.Impulse);
     }
 
     public void SucceedAttack()
     {
         if(state == FighterState.Attack)
         {
-			//Destroy(currentHitbox.gameObject);
-			//currentHitbox = null;
 			currentHitbox.SetAttacking(false);
+            ImpulseOppositToOpponent(4f);
         }
     }
 }
