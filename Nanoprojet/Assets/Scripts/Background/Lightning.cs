@@ -21,5 +21,6 @@ public class Lightning : MonoBehaviour
     {
         lightningPrefab = (GameObject)Resources.Load("Prefabs/Environment/Lightning", typeof(GameObject));
         Lightning l = Object.Instantiate(lightningPrefab, new Vector3(), new Quaternion()).GetComponent<Lightning>();
+        Gamefeel.Instance.InitScreenshake(0.2f,0.5f);
     }
 }
