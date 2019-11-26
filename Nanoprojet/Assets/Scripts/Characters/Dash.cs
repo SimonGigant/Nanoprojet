@@ -13,6 +13,12 @@ public class Dash : MonoBehaviour
 	private Vector3 startPosition;
 	private Vector3 direction;
 
+	//Light
+	[SerializeField]private Light dashLight;
+	[SerializeField]private float lightFlashDuration = 1;
+
+
+
 
 	//serialized field
 	[SerializeField]private float duration;
@@ -25,7 +31,7 @@ public class Dash : MonoBehaviour
 		fighter = GetComponent<Fighter>();
 		//rb = GetComponent<Rigidbody>();
 		controller = GetComponent<CharacterController>();
-
+		dashLight.enabled = false;
 	}
 
 	private void OnEnable()
@@ -46,10 +52,14 @@ public class Dash : MonoBehaviour
 			doDash = true;
 			startPosition = transform.position;
 			direction = new Vector3(fighter.direction.x, 0, fighter.direction.y);
+			dashLight.enabled = true;
+			dashLight.transform.parent = null;
+			dashLight.transform.position = transform.position;
 		}
 		else
 		{
 			doDash = false;
+			dashLight.enabled = false;
 		}
 	}
 
@@ -57,13 +67,17 @@ public class Dash : MonoBehaviour
 	{
 		if (doDash)
 		{
-			Vector3 prevPos = startPosition + direction * distance * curve.Evaluate(counter);
-			counter += Time.deltaTime / duration;		
-			Vector3 nextPos = startPosition + direction  * distance * curve.Evaluate(counter);
+			Vector3 prevPos = startPosition + direction * distance * curve.Evaluate(counter / duration);
+			counter += Time.deltaTime;		
+			Vector3 nextPos = startPosition + direction  * distance * curve.Evaluate(counter / duration);
 			//rb.MovePosition();
 			controller.Move(nextPos - prevPos);
 			//Debug.Log(counter);
-			if (counter >= 1)
+			if(counter > lightFlashDuration)
+			{
+				dashLight.enabled = false;
+			}
+			if (counter >= duration)
 			{
 				fighter.DashEnd();
 			}

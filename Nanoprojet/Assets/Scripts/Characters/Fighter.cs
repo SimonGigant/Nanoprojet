@@ -10,30 +10,32 @@ public class Fighter : MonoBehaviour
     private float speed = 6f;
     private int maxHP = 3;
     
-    private float dashSpeed = 12f;
-    private float dashDuration = 0.2f;
-    private float setUpAttackDuration = 0.2f;
-    private float blockDuration = 0.5f;
-    private float attackDuration = 0.2f;
-    private float attackLagDuration = 0.05f;
+    //private float dashSpeed = 12f;
+   // private float dashDuration = 0.2f;
+    
+	
 
     //Values
     private int hp;
 	[SerializeField][DisplayWithoutEdit]
     private FighterState state;
     private Vector2 currentDirection;
-	private Rigidbody rigidbody;
+	//private Rigidbody rigidbody;
 	private CharacterController charController;
 
     private Hitbox currentHitbox;
+	private float lastDash;
 
-    //Counters
-    private float counterInState;
+	//Counters
+	private float counterInState;
 
     //Serialized fields
     [SerializeField] private Fighter opponent;
-
-
+	[SerializeField] private float dashCooldown = 2;
+	[SerializeField]private float setUpAttackDuration = 0.2f;
+	[SerializeField]private float blockDuration = 0.5f;
+	[SerializeField]private float attackDuration = 0.2f;
+	[SerializeField]private float attackLagDuration = 0.05f;
 	//accessors
 	public FighterState currentState => state;
 	public Vector2 direction => currentDirection;
@@ -70,7 +72,7 @@ public class Fighter : MonoBehaviour
 
 	void Start()
     {
-        rigidbody = GetComponent<Rigidbody>();
+        //rigidbody = GetComponent<Rigidbody>();
         Initialize();
     }
     
@@ -142,7 +144,7 @@ public class Fighter : MonoBehaviour
                 }
             case FighterState.Death:
                 {
-                    Destroy(gameObject);
+                   // Destroy(gameObject);
                     break;
                 }
         }
@@ -218,7 +220,8 @@ public class Fighter : MonoBehaviour
     private void Movement(Vector2 movement)
     {
         Vector3 dir = new Vector3(movement.x, 0f, movement.y) * Time.deltaTime;
-		charController.Move(dir);
+		dir -= Vector3.up * 4 * Time.deltaTime; //add gravity to force the player to stay on the ground
+		charController.Move(dir );
         //rigidbody.MovePosition(transform.position + dir);
     }
 
@@ -249,7 +252,7 @@ public class Fighter : MonoBehaviour
 
     public bool DashButton()
     {
-        if (state == FighterState.Idle)
+        if (state == FighterState.Idle && Time.time > lastDash + dashCooldown)
         {
             ChangeState(FighterState.Dash);
             return true;
@@ -296,7 +299,7 @@ public class Fighter : MonoBehaviour
     public void ImpulseOppositToOpponent(float force)
     {
         Vector3 impulseDir = (transform.position - opponent.transform.position).normalized;
-        rigidbody.AddForce(impulseDir * force, ForceMode.Impulse);
+        //rigidbody.AddForce(impulseDir * force, ForceMode.Impulse);
     }
 
     public void SucceedAttack()
@@ -312,6 +315,7 @@ public class Fighter : MonoBehaviour
 	{
 		if(state == FighterState.Dash)
 		{
+			lastDash = Time.time;
 			ChangeState(FighterState.Idle);
 		}
 	}
