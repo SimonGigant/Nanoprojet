@@ -1,36 +1,14 @@
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-Base path: 'C:/Program Files/Unity/Hub/Editor/2019.2.12f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2019.2.12f1/Editor/Data/PlaybackEngines'
+Base path: 'D:/Work/UnityEditor/2019.2.13f1/Editor/Data', plugins path 'D:/Work/UnityEditor/2019.2.13f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
-=======
-Base path: 'C:/Program Files/Unity/Hub/Editor/2019.2.13f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2019.2.13f1/Editor/Data/PlaybackEngines'
-Cmd: initializeCompiler
-Cmd: preprocess
-  insize=8772 outsize=1869 ok=1
 Cmd: preprocess
   insize=1814 outsize=426 ok=1
 Cmd: compileSnippet
   error: 2 plat 4 at (22): failed to open source file: 'Packages/com.unity.render-pipelines.lightweight/ShaderLibrary/Core.hlsl'\nCompiling Vertex program
 Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
   api=4 type=0 insize=1720 outsize=0 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=0
-Cmd: preprocess
-  insize=2676 outsize=1947 ok=1
-Cmd: preprocess
-  insize=16669 outsize=3298 ok=1
-Cmd: preprocess
-  insize=20705 outsize=3084 ok=1
 Cmd: preprocessCompute
   insize=5888 outsize=5890 ok=1
 Cmd: preprocessCompute
   insize=3947 outsize=3949 ok=1
 Cmd: preprocess
   insize=12899 outsize=425 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=731 outsize=858 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=731 outsize=422 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
->>>>>>> fcac6fe0f083e9a9852681779f4696fe23bc8123
-=======
-Base path: 'D:/Work/UnityEditor/2019.2.13f1/Editor/Data', plugins path 'D:/Work/UnityEditor/2019.2.13f1/Editor/Data/PlaybackEngines'
-Cmd: initializeCompiler
->>>>>>> Stashed changes
