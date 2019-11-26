@@ -19,9 +19,11 @@ public class Fighter : MonoBehaviour
 
     //Values
     private int hp;
+	[SerializeField][DisplayWithoutEdit]
     private FighterState state;
     private Vector2 currentDirection;
-    private Rigidbody rigidbody;
+	private Rigidbody rigidbody;
+	private CharacterController charController;
 
     private Hitbox currentHitbox;
 
@@ -30,6 +32,15 @@ public class Fighter : MonoBehaviour
 
     //Serialized fields
     [SerializeField] private Fighter opponent;
+
+
+	//accessors
+	public FighterState currentState => state;
+	public Vector2 direction => currentDirection;
+
+	//local events
+	public delegate void StateChange(FighterState newState);
+	public event StateChange OnStateChange;
 
     private void Initialize()
     {
@@ -44,14 +55,17 @@ public class Fighter : MonoBehaviour
     {
         //transform.LookAt(opponent.transform);
         Vector3 dir = opponent.transform.position - transform.position;
+		dir = Vector3.ProjectOnPlane(dir, Vector3.up);
         Quaternion rot = Quaternion.LookRotation(dir, Vector3.up);
-        rigidbody.MoveRotation(rot);
+		transform.rotation = rot;
+        //rigidbody.MoveRotation(rot);
     }
 
 	private void Awake()
 	{
 		currentHitbox = GetComponentInChildren<Hitbox>();
 		currentHitbox.opponent = opponent;
+		charController = GetComponent<CharacterController>();
 	}
 
 	void Start()
@@ -132,7 +146,12 @@ public class Fighter : MonoBehaviour
                     break;
                 }
         }
-        state = nextState;
+		if(nextState != state)
+		{
+			state = nextState;
+			OnStateChange?.Invoke(state);
+		}
+       
     }
     
 
@@ -147,12 +166,12 @@ public class Fighter : MonoBehaviour
 
     private void Dash()
     {
-        counterInState += Time.deltaTime;
-        Movement(currentDirection * dashSpeed);
+       /*counterInState += Time.deltaTime;
+       Movement(currentDirection * dashSpeed);
         if (counterInState > dashDuration)
         {
             ChangeState(FighterState.Idle);
-        }
+        }*/
     }
 
     private void SetUpAttack()
@@ -199,7 +218,8 @@ public class Fighter : MonoBehaviour
     private void Movement(Vector2 movement)
     {
         Vector3 dir = new Vector3(movement.x, 0f, movement.y) * Time.deltaTime;
-        rigidbody.MovePosition(transform.position + dir);
+		charController.Move(dir);
+        //rigidbody.MovePosition(transform.position + dir);
     }
 
     //************************************************************************
@@ -287,4 +307,12 @@ public class Fighter : MonoBehaviour
             ImpulseOppositToOpponent(4f);
         }
     }
+
+	public void DashEnd()
+	{
+		if(state == FighterState.Dash)
+		{
+			ChangeState(FighterState.Idle);
+		}
+	}
 }

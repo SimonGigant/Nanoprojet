@@ -1,9 +1,13 @@
 sceneSetups:
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 - path: Assets/Scenes/WIP/SceneNaomi.unity
 =======
 - path: Assets/Scenes/WIP/SceneCharline.unity
 >>>>>>> fcac6fe0f083e9a9852681779f4696fe23bc8123
+=======
+- path: Assets/Scenes/WIP/SceneNicolas.unity
+>>>>>>> Stashed changes
   isLoaded: 1
   isActive: 1
   isSubScene: 0
