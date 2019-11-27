@@ -1,7 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
-<<<<<<< HEAD
-=======
 --- !u!1 &1628086258
 GameObject:
   m_ObjectHideFlags: 0
@@ -199,7 +197,6 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
->>>>>>> master
 --- !u!135 &1087089641
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -454,13 +451,10 @@ Transform:
   m_LocalScale: {x: 0.5, y: 1, z: 0.5}
   m_Children:
   - {fileID: 6800244585997673806}
-<<<<<<< HEAD
-=======
   - {fileID: 1991631215}
   - {fileID: 1628086261}
   - {fileID: 2217723120554330701}
   - {fileID: 2513011292492908669}
->>>>>>> master
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -672,10 +666,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1021219584845096922, guid: 578c6d1016e8df049ac4923d730034c1,
         type: 3}
-<<<<<<< HEAD
-      propertyPath: m_Color.r
-      value: 1
-=======
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
@@ -683,25 +673,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.r
       value: 0
->>>>>>> master
       objectReference: {fileID: 0}
     - target: {fileID: 1021219584845096922, guid: 578c6d1016e8df049ac4923d730034c1,
         type: 3}
       propertyPath: m_Color.g
-<<<<<<< HEAD
-      value: 0
-=======
       value: 0.44361186
->>>>>>> master
       objectReference: {fileID: 0}
     - target: {fileID: 1021219584845096922, guid: 578c6d1016e8df049ac4923d730034c1,
         type: 3}
       propertyPath: m_Color.b
-<<<<<<< HEAD
-      value: 0.1061573
-=======
       value: 1
->>>>>>> master
       objectReference: {fileID: 0}
     - target: {fileID: 1021219584845096922, guid: 578c6d1016e8df049ac4923d730034c1,
         type: 3}
