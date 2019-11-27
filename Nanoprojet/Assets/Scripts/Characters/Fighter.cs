@@ -42,7 +42,6 @@ public class Fighter : MonoBehaviour
      */
     private void FaceOpponent()
     {
-        //transform.LookAt(opponent.transform);
         Vector3 dir = opponent.transform.position - transform.position;
         Quaternion rot = Quaternion.LookRotation(dir, Vector3.up);
         rigidbody.MoveRotation(rot);
@@ -62,6 +61,7 @@ public class Fighter : MonoBehaviour
     
     void Update()
     {
+        counterInState += Time.deltaTime;
         switch (state)
         {
             case FighterState.Idle:
@@ -147,7 +147,6 @@ public class Fighter : MonoBehaviour
 
     private void Dash()
     {
-        counterInState += Time.deltaTime;
         Movement(currentDirection * dashSpeed);
         if (counterInState > dashDuration)
         {
@@ -157,7 +156,6 @@ public class Fighter : MonoBehaviour
 
     private void SetUpAttack()
     {
-        counterInState += Time.deltaTime;
         FaceOpponent();
         if(counterInState > setUpAttackDuration)
         {
@@ -167,7 +165,6 @@ public class Fighter : MonoBehaviour
 
     private void Block()
     {
-        counterInState += Time.deltaTime;
         if(counterInState > blockDuration)
         {
             ChangeState(FighterState.Attack);
@@ -176,7 +173,6 @@ public class Fighter : MonoBehaviour
 
     private void Attack()
     {
-        counterInState += Time.deltaTime;
         if(counterInState > attackDuration)
         {
             ChangeState(FighterState.AttackLag);
@@ -185,7 +181,6 @@ public class Fighter : MonoBehaviour
     
     private void AttackLag()
     {
-        counterInState += Time.deltaTime;
         if(counterInState > attackLagDuration)
         {
             ChangeState(FighterState.Idle);
