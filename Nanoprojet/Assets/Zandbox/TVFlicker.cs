@@ -24,7 +24,7 @@ public class TVFlicker : MonoBehaviour
 
     private void Update()
     {
-		if(Random.value > 0.95f)
+		if(Random.value > 0.99f)
 		{
 			Trigger();
 		}
