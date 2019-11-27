@@ -59,7 +59,6 @@ public class Fighter : MonoBehaviour
 		dir = Vector3.ProjectOnPlane(dir, Vector3.up);
         Quaternion rot = Quaternion.LookRotation(dir, Vector3.up);
 		transform.rotation = rot;
-        //rigidbody.MoveRotation(rot);
     }
 
 	private void Awake()
@@ -71,7 +70,6 @@ public class Fighter : MonoBehaviour
 
 	void Start()
     {
-        //rigidbody = GetComponent<Rigidbody>();
         Initialize();
     }
     
@@ -132,13 +130,10 @@ public class Fighter : MonoBehaviour
             case FighterState.Attack:
                 {
 					currentHitbox.SetAttacking(true);
-					//currentHitbox = GameObject.Instantiate(hitboxPrefab, transform.position, transform.rotation, transform);
-					//currentHitbox.GetComponentInChildren<Hitbox>().opponent = opponent;
 					break;
                 }
             case FighterState.AttackLag:
                 {
-					//Destroy(currentHitbox);
 					currentHitbox.SetAttacking(false);
 					break;
                 }
@@ -168,16 +163,6 @@ public class Fighter : MonoBehaviour
 
     private void Dash()
     {
-<<<<<<< HEAD
-        Movement(currentDirection * dashSpeed);
-=======
-       /*counterInState += Time.deltaTime;
-       Movement(currentDirection * dashSpeed);
->>>>>>> master
-        if (counterInState > dashDuration)
-        {
-            ChangeState(FighterState.Idle);
-        }*/
     }
 
     private void SetUpAttack()
@@ -222,7 +207,6 @@ public class Fighter : MonoBehaviour
         Vector3 dir = new Vector3(movement.x, 0f, movement.y) * Time.deltaTime;
 		dir -= Vector3.up * 4 * Time.deltaTime; //add gravity to force the player to stay on the ground
 		charController.Move(dir );
-        //rigidbody.MovePosition(transform.position + dir);
     }
 
     //************************************************************************
@@ -299,7 +283,6 @@ public class Fighter : MonoBehaviour
     public void ImpulseOppositToOpponent(float force)
     {
         Vector3 impulseDir = (transform.position - opponent.transform.position).normalized;
-        //rigidbody.AddForce(impulseDir * force, ForceMode.Impulse);
     }
 
     public void SucceedAttack()

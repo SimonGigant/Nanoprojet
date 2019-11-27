@@ -756,6 +756,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1628086259, guid: f0a9b8c24f1d4f844917a95c748b8b4a, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1628086259, guid: f0a9b8c24f1d4f844917a95c748b8b4a, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 0}
@@ -2019,7 +2023,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &799638674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3565,6 +3569,28 @@ PrefabInstance:
       propertyPath: dashCooldown
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1628086261, guid: f0a9b8c24f1d4f844917a95c748b8b4a, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1628086259, guid: f0a9b8c24f1d4f844917a95c748b8b4a, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1628086259, guid: f0a9b8c24f1d4f844917a95c748b8b4a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2217723120554330701, guid: f0a9b8c24f1d4f844917a95c748b8b4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2513011292492908669, guid: f0a9b8c24f1d4f844917a95c748b8b4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6610259109831697702, guid: f0a9b8c24f1d4f844917a95c748b8b4a,
         type: 3}
       propertyPath: m_Enabled
@@ -3622,24 +3648,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1290871304, guid: f0a9b8c24f1d4f844917a95c748b8b4a, type: 3}
       propertyPath: distance
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1628086261, guid: f0a9b8c24f1d4f844917a95c748b8b4a, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1628086259, guid: f0a9b8c24f1d4f844917a95c748b8b4a, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2217723120554330701, guid: f0a9b8c24f1d4f844917a95c748b8b4a,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 2513011292492908669, guid: f0a9b8c24f1d4f844917a95c748b8b4a,
-        type: 3}
-      propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3948,8 +3956,7 @@ VFXRenderer:
   m_ReflectionProbeUsage: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 0}
+  m_Materials: []
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5490,8 +5497,7 @@ VFXRenderer:
   m_ReflectionProbeUsage: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 0}
+  m_Materials: []
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5953,13 +5959,17 @@ PrefabInstance:
       propertyPath: dashCooldown
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 1290871304, guid: f0a9b8c24f1d4f844917a95c748b8b4a, type: 3}
-      propertyPath: distance
-      value: 5
+    - target: {fileID: 1628086259, guid: f0a9b8c24f1d4f844917a95c748b8b4a, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1628086259, guid: f0a9b8c24f1d4f844917a95c748b8b4a, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290871304, guid: f0a9b8c24f1d4f844917a95c748b8b4a, type: 3}
+      propertyPath: distance
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0a9b8c24f1d4f844917a95c748b8b4a, type: 3}
