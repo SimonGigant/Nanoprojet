@@ -2770,6 +2770,11 @@ PrefabInstance:
       propertyPath: m_AngularDrag
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 5750287871973843095, guid: f0a9b8c24f1d4f844917a95c748b8b4a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6800244585997673806, guid: f0a9b8c24f1d4f844917a95c748b8b4a,
         type: 3}
       propertyPath: m_RootOrder
@@ -2778,11 +2783,6 @@ PrefabInstance:
     - target: {fileID: 1991631215, guid: f0a9b8c24f1d4f844917a95c748b8b4a, type: 3}
       propertyPath: m_RootOrder
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5750287871973843095, guid: f0a9b8c24f1d4f844917a95c748b8b4a,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0a9b8c24f1d4f844917a95c748b8b4a, type: 3}
