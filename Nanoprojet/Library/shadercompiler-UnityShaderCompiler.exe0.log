@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Base path: 'C:/Program Files/Unity/Hub/Editor/2019.2.13f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2019.2.13f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
 Cmd: preprocess
@@ -12,3 +13,7 @@ Cmd: preprocessCompute
   insize=3947 outsize=3949 ok=1
 Cmd: preprocess
   insize=12899 outsize=425 ok=1
+=======
+Base path: 'C:/Program Files/Unity/Hub/Editor/2019.2.13f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2019.2.13f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+>>>>>>> master

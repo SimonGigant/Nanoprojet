@@ -29,7 +29,6 @@ public class Dash : MonoBehaviour
 	private void Awake()
 	{
 		fighter = GetComponent<Fighter>();
-		//rb = GetComponent<Rigidbody>();
 		controller = GetComponent<CharacterController>();
 		dashLight.enabled = false;
 	}
@@ -51,7 +50,7 @@ public class Dash : MonoBehaviour
 			counter = 0;
 			doDash = true;
 			startPosition = transform.position;
-			direction = new Vector3(fighter.direction.x, 0, fighter.direction.y);
+			direction = new Vector3(fighter.direction.x, 0, fighter.direction.y).normalized;
 			dashLight.enabled = true;
 			dashLight.transform.parent = null;
 			dashLight.transform.position = transform.position;
@@ -68,11 +67,9 @@ public class Dash : MonoBehaviour
 		if (doDash)
 		{
 			Vector3 prevPos = startPosition + direction * distance * curve.Evaluate(counter / duration);
-			counter += Time.deltaTime;		
+			counter += Time.deltaTime;
 			Vector3 nextPos = startPosition + direction  * distance * curve.Evaluate(counter / duration);
-			//rb.MovePosition();
 			controller.Move(nextPos - prevPos);
-			//Debug.Log(counter);
 			if(counter > lightFlashDuration)
 			{
 				dashLight.enabled = false;
