@@ -33,17 +33,7 @@ public class Dash : MonoBehaviour
 		dashLight.enabled = false;
 	}
 
-	private void OnEnable()
-	{
-		fighter.OnStateChange += OnStateChange;
-	}
-
-	private void OnDisable()
-	{
-		fighter.OnStateChange -= OnStateChange;
-	}
-
-	private void OnStateChange(FighterState newState)
+	public void OnStateChange(FighterState newState)
 	{
 		if (newState == FighterState.Dash)
 		{

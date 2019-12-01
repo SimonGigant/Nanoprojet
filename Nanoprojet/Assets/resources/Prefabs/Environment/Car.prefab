@@ -44,7 +44,7 @@ Light:
   serializedVersion: 9
   m_Type: 0
   m_Color: {r: 0, g: 0.7227972, b: 0.7924528, a: 1}
-  m_Intensity: 67108864
+  m_Intensity: 4194304
   m_Range: 30
   m_SpotAngle: 42.211704
   m_InnerSpotAngle: 1
@@ -132,7 +132,7 @@ MonoBehaviour:
   useVolumetric: 1
   featuresFoldout: 1
   showAdditionalSettings: 0
-  displayLightIntensity: 29
+  displayLightIntensity: 25
   displayAreaLightEmissiveMesh: 0
   areaLightCookie: {fileID: 0}
   areaLightShadowCone: 120

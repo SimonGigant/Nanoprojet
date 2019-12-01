@@ -10,9 +10,6 @@ public class Fighter : MonoBehaviour
     private float speed = 6f;
     private int maxHP = 3;
     
-    //private float dashSpeed = 12f;
-   // private float dashDuration = 0.2f;
-    
 	
 
     //Values
@@ -20,7 +17,6 @@ public class Fighter : MonoBehaviour
 	[SerializeField][DisplayWithoutEdit]
     private FighterState state;
     private Vector2 currentDirection;
-	//private Rigidbody rigidbody;
 	private CharacterController charController;
 
     private Hitbox currentHitbox;
@@ -39,10 +35,6 @@ public class Fighter : MonoBehaviour
 	//accessors
 	public FighterState currentState => state;
 	public Vector2 direction => currentDirection;
-
-	//local events
-	public delegate void StateChange(FighterState newState);
-	public event StateChange OnStateChange;
 
     private void Initialize()
     {
@@ -146,7 +138,7 @@ public class Fighter : MonoBehaviour
 		if(nextState != state)
 		{
 			state = nextState;
-			OnStateChange?.Invoke(state);
+            GetComponent<Dash>().OnStateChange(nextState);
 		}
        
     }

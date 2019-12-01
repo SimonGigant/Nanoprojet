@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/WIP/SceneCharline.unity
-=======
 - path: Assets/Scenes/WIP/SceneSimon.unity
->>>>>>> master
   isLoaded: 1
   isActive: 1
   isSubScene: 0
