@@ -19,8 +19,12 @@ public class Fighter : MonoBehaviour
     private Vector2 currentDirection;
 	private CharacterController charController;
 
+
+
+
     private Hitbox currentHitbox;
 	private float lastDash;
+    private Impact impact;
 
 	//Counters
 	private float counterInState;
@@ -36,10 +40,11 @@ public class Fighter : MonoBehaviour
 	public FighterState currentState => state;
 	public Vector2 direction => currentDirection;
 
-    private void Initialize()
+    public void Initialize()
     {
         hp = maxHP;
         state = FighterState.Idle;
+        impact.ResetImpact();
     }
 
     /**
@@ -58,7 +63,10 @@ public class Fighter : MonoBehaviour
 		currentHitbox = GetComponentInChildren<Hitbox>();
 		currentHitbox.opponent = opponent;
 		charController = GetComponent<CharacterController>();
-	}
+
+        impact = GetComponent<Impact>();
+
+    }
 
 	void Start()
     {
@@ -272,15 +280,23 @@ public class Fighter : MonoBehaviour
         Gamefeel.Instance.InitScreenshake(0.2f, 0.2f);
     }
 
+    public bool IsDead()
+    {
+        return state == FighterState.Death;
+    }
+
     public void ImpulseOppositToOpponent(float force)
     {
         Vector3 impulseDir = (transform.position - opponent.transform.position).normalized;
+        impulseDir.y = 0f;
+        impact.AddImpact(impulseDir, force);
     }
 
     public void SucceedAttack()
     {
         if(state == FighterState.Attack)
         {
+            GameManager.Instance.TryWin();
 			currentHitbox.SetAttacking(false);
             ImpulseOppositToOpponent(4f);
         }
