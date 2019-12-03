@@ -9,7 +9,6 @@ public class Fighter : MonoBehaviour
     //Stats
     private float speed = 6f;
     private int maxHP = 3;
-    
 	
 
     //Values
