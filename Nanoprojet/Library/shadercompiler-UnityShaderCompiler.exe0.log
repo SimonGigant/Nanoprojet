@@ -1,2 +1,195 @@
 Base path: 'D:/Work/UnityEditor/2019.2.14f1/Editor/Data', plugins path 'D:/Work/UnityEditor/2019.2.14f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
+Cmd: preprocessCompute
+  insize=5540 outsize=5542 ok=1
+Cmd: preprocessCompute
+  insize=4941 outsize=4943 ok=1
+Cmd: preprocess
+  insize=12901 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=4530 outsize=4532 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=4532 outsize=1757 ok=1
+Cmd: preprocessCompute
+  insize=4997 outsize=4999 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=4999 outsize=2123 ok=1
+Cmd: preprocess
+  insize=12925 outsize=424 ok=1
+Cmd: preprocessCompute
+  insize=4896 outsize=4898 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=4898 outsize=1975 ok=1
+Cmd: preprocessCompute
+  insize=4997 outsize=4999 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=4999 outsize=2123 ok=1
+Cmd: preprocess
+  insize=12925 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=4987 outsize=4989 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=4989 outsize=1898 ok=1
+Cmd: preprocessCompute
+  insize=4997 outsize=4999 ok=1
+Cmd: preprocess
+  insize=12925 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=4896 outsize=4898 ok=1
+Cmd: preprocessCompute
+  insize=4997 outsize=4999 ok=1
+Cmd: preprocess
+  insize=12925 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=4658 outsize=4660 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=4660 outsize=1947 ok=1
+Cmd: preprocessCompute
+  insize=2802 outsize=2804 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=2804 outsize=1210 ok=1
+Cmd: preprocess
+  insize=12831 outsize=424 ok=1
+Cmd: preprocessCompute
+  insize=4658 outsize=4660 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=4660 outsize=1947 ok=1
+Cmd: preprocessCompute
+  insize=2802 outsize=2804 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=2804 outsize=1210 ok=1
+Cmd: preprocess
+  insize=12831 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5481 outsize=5483 ok=1
+Cmd: preprocessCompute
+  insize=3592 outsize=3594 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=3594 outsize=1390 ok=1
+Cmd: preprocess
+  insize=12917 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5481 outsize=5483 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=5483 outsize=2341 ok=1
+Cmd: preprocessCompute
+  insize=3592 outsize=3594 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=3594 outsize=1390 ok=1
+Cmd: preprocess
+  insize=12917 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5481 outsize=5483 ok=1
+Cmd: preprocessCompute
+  insize=3592 outsize=3594 ok=1
+Cmd: preprocess
+  insize=12917 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5481 outsize=5483 ok=1
+Cmd: preprocessCompute
+  insize=3592 outsize=3594 ok=1
+Cmd: preprocess
+  insize=12917 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5481 outsize=5483 ok=1
+Cmd: preprocessCompute
+  insize=3592 outsize=3594 ok=1
+Cmd: preprocess
+  insize=12917 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5481 outsize=5483 ok=1
+Cmd: preprocessCompute
+  insize=3592 outsize=3594 ok=1
+Cmd: preprocess
+  insize=12917 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5481 outsize=5483 ok=1
+Cmd: preprocessCompute
+  insize=3592 outsize=3594 ok=1
+Cmd: preprocess
+  insize=12917 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5489 outsize=5491 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=5491 outsize=2321 ok=1
+Cmd: preprocessCompute
+  insize=4824 outsize=4826 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Packages/com.unity.visualeffectgraph/Shaders/VFXCommon.cginc(561): pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+  api=4 insize=4826 outsize=8774 ok=1
+Cmd: preprocess
+  insize=12925 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5489 outsize=5491 ok=1
+Cmd: preprocessCompute
+  insize=4729 outsize=4731 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Packages/com.unity.visualeffectgraph/Shaders/VFXCommon.cginc(561): pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+  api=4 insize=4731 outsize=8672 ok=1
+Cmd: preprocess
+  insize=12925 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5489 outsize=5491 ok=1
+Cmd: preprocessCompute
+  insize=4729 outsize=4731 ok=1
+Cmd: preprocess
+  insize=13058 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5489 outsize=5491 ok=1
+Cmd: preprocessCompute
+  insize=4729 outsize=4731 ok=1
+Cmd: preprocess
+  insize=12925 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5489 outsize=5491 ok=1
+Cmd: preprocessCompute
+  insize=4729 outsize=4731 ok=1
+Cmd: preprocess
+  insize=13385 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5489 outsize=5491 ok=1
+Cmd: preprocessCompute
+  insize=4729 outsize=4731 ok=1
+Cmd: preprocess
+  insize=13146 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5489 outsize=5491 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=5491 outsize=2313 ok=1
+Cmd: preprocessCompute
+  insize=4729 outsize=4731 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Packages/com.unity.visualeffectgraph/Shaders/VFXCommon.cginc(561): pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+  api=4 insize=4731 outsize=8752 ok=1
+Cmd: preprocess
+  insize=13073 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5489 outsize=5491 ok=1
+Cmd: preprocessCompute
+  insize=4729 outsize=4731 ok=1
+Cmd: preprocess
+  insize=13146 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5489 outsize=5491 ok=1
+Cmd: preprocessCompute
+  insize=4729 outsize=4731 ok=1
+Cmd: preprocess
+  insize=13146 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5489 outsize=5491 ok=1
+Cmd: preprocessCompute
+  insize=4729 outsize=4731 ok=1
+Cmd: preprocess
+  insize=13146 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5456 outsize=5458 ok=1
+Cmd: preprocessCompute
+  insize=4716 outsize=4718 ok=1
+Cmd: preprocess
+  insize=13146 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5456 outsize=5458 ok=1
+Cmd: preprocessCompute
+  insize=4716 outsize=4718 ok=1
+Cmd: preprocess
+  insize=13146 outsize=425 ok=1
