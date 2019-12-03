@@ -23,11 +23,6 @@ public class Human : Control
         playerInput.currentActionMap["Move"].canceled += ctx => lstickBuffer = Vector2.zero;
     }
 
-    public void Pair()
-    {
-
-    }
-
     // Update is called once per frame
     void Update()
     {
