@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 Base path: 'D:/Work/UnityEditor/2019.2.14f1/Editor/Data', plugins path 'D:/Work/UnityEditor/2019.2.14f1/Editor/Data/PlaybackEngines'
+=======
+<<<<<<< Updated upstream
+Base path: 'C:/Program Files/Unity/Hub/Editor/2019.2.14f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2019.2.14f1/Editor/Data/PlaybackEngines'
+=======
+Base path: 'C:/Program Files/Unity/Hub/Editor/2019.2.13f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2019.2.13f1/Editor/Data/PlaybackEngines'
+>>>>>>> Stashed changes
+>>>>>>> master
 Cmd: initializeCompiler
 Cmd: preprocessCompute
   insize=5540 outsize=5542 ok=1

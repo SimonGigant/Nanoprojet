@@ -1,5 +1,13 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/WIP/SceneNicolas.unity
+=======
+<<<<<<< Updated upstream
+- path: Assets/Scenes/WIP/SceneSimon.unity
+=======
+- path: Assets/Scenes/WIP/SceneCharline.unity
+>>>>>>> Stashed changes
+>>>>>>> master
   isLoaded: 1
   isActive: 1
   isSubScene: 0

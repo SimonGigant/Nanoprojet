@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class GameManager : MonoBehaviour
 {
@@ -23,8 +24,10 @@ public class GameManager : MonoBehaviour
     }
 
     private int[] victory = new int[2];
-    [SerializeField] private Fighter[] fighters = new Fighter[2];
+    [SerializeField] private GameObject[] prefabs;
+    [SerializeField] private Fighter[] fighters;
     private Vector3[] startingPositions = new Vector3[2];
+    private PlayerInputManager playerInputManager;
     
     private void InitGame()
     {
@@ -32,6 +35,15 @@ public class GameManager : MonoBehaviour
         for(int i = 0; i < 2; ++i)
         {
             startingPositions[i] = fighters[i].transform.position;
+        }
+    }
+
+    private void Update()
+    {
+        if(playerInputManager.playerCount == 1)
+        {
+            fighters[1] = GameObject.Instantiate(prefabs[1]).GetComponent<Fighter>();
+            fighters[1].SetOpponent(fighters[0]);
         }
     }
 
@@ -46,6 +58,7 @@ public class GameManager : MonoBehaviour
         {
             fighters[i].transform.position = startingPositions[i];
             fighters[i].Initialize();
+            fighters[i].SetOpponent(fighters[(i + 1) % 2]);
         }
     }
 

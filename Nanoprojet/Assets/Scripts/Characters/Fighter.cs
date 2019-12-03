@@ -302,6 +302,11 @@ public class Fighter : MonoBehaviour
         }
     }
 
+    public void SetOpponent(Fighter op)
+    {
+        opponent = op;
+    }
+
 	public void DashEnd()
 	{
 		if(state == FighterState.Dash)
