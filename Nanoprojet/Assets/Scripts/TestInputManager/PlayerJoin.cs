@@ -10,14 +10,13 @@ public class PlayerJoin : MonoBehaviour
     
     void Start()
     {
+        playerInput = GetComponent<PlayerInputManager>();
         playerInput.playerPrefab = prefabs[0];
     }
     
     // Update is called once per frame
     void Update()
     {
-        playerInput = GetComponent<PlayerInputManager>();
-
         if(playerInput.playerCount == 1)
         {
             playerInput.playerPrefab = prefabs[1];
