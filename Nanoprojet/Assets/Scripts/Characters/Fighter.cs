@@ -9,7 +9,6 @@ public class Fighter : MonoBehaviour
     //Stats
     private float speed = 6f;
     private int maxHP = 3;
-    
 	
 
     //Values
@@ -63,9 +62,7 @@ public class Fighter : MonoBehaviour
 		currentHitbox = GetComponentInChildren<Hitbox>();
 		currentHitbox.opponent = opponent;
 		charController = GetComponent<CharacterController>();
-
         impact = GetComponent<Impact>();
-
     }
 
 	void Start()
@@ -75,6 +72,10 @@ public class Fighter : MonoBehaviour
     
     void Update()
     {
+        if (!GameManager.Instance.PlayerCanInteract()) {
+            return;
+        }
+
         counterInState += Time.deltaTime;
         switch (state)
         {
@@ -215,7 +216,11 @@ public class Fighter : MonoBehaviour
 
     public bool Move(Vector2 dir)
     {
-        if(dir.magnitude.Equals(0f) || (state != FighterState.Idle && state != FighterState.Dash))
+        if (!GameManager.Instance.PlayerCanInteract())
+        {
+            return false;
+        }
+        if (dir.magnitude.Equals(0f) || (state != FighterState.Idle && state != FighterState.Dash))
         {
             return false;
         }
@@ -236,6 +241,10 @@ public class Fighter : MonoBehaviour
 
     public bool DashButton()
     {
+        if (!GameManager.Instance.PlayerCanInteract())
+        {
+            return false;
+        }
         if (state == FighterState.Idle && Time.time > lastDash + dashCooldown)
         {
             ChangeState(FighterState.Dash);
@@ -246,7 +255,11 @@ public class Fighter : MonoBehaviour
 
     public bool AttackButton()
     {
-        if(state == FighterState.Idle)
+        if (!GameManager.Instance.PlayerCanInteract())
+        {
+            return false;
+        }
+        if (state == FighterState.Idle)
         {
             ChangeState(FighterState.SetUpAttack);
             return true;
@@ -263,7 +276,11 @@ public class Fighter : MonoBehaviour
 
     public void Damage(int amount)
     {
-        if(state == FighterState.Block)
+        if (!GameManager.Instance.PlayerCanInteract())
+        {
+            return;
+        }
+        if (state == FighterState.Block)
         {
             Debug.Log("Parade !");
             ChangeState(FighterState.Idle);
@@ -294,7 +311,11 @@ public class Fighter : MonoBehaviour
 
     public void SucceedAttack()
     {
-        if(state == FighterState.Attack)
+        if (!GameManager.Instance.PlayerCanInteract())
+        {
+            return;
+        }
+        if (state == FighterState.Attack)
         {
             GameManager.Instance.TryWin();
 			currentHitbox.SetAttacking(false);

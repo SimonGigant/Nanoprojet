@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+
+public enum GameState { GameStart, Fight, RoundStart, RoundEnd, GameEnd };
+
 public class GameManager : MonoBehaviour
 {
     public static GameManager _instance;
@@ -28,7 +31,15 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Fighter[] fighters;
     private Vector3[] startingPositions = new Vector3[2];
     private PlayerInputManager playerInputManager;
-    
+    private GameState state = GameState.GameStart;
+
+
+    private void Start()
+    {
+        playerInputManager = GetComponent<PlayerInputManager>();
+        InitGame();
+    }
+
     private void InitGame()
     {
         //Temporary, we should generate the fighters instead of reading them
@@ -40,16 +51,15 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if(playerInputManager.playerCount == 1)
-        {
-            fighters[1] = GameObject.Instantiate(prefabs[1]).GetComponent<Fighter>();
-            fighters[1].SetOpponent(fighters[0]);
+        switch (state) {
+            case GameState.GameStart:
+            {
+                fighters[1].SetOpponent(fighters[0]);
+                fighters[0].SetOpponent(fighters[1]);
+                state = GameState.Fight;
+                break;
+            }
         }
-    }
-
-    private void Start()
-    {
-        InitGame();
     }
 
     private void InitRound()
@@ -60,6 +70,13 @@ public class GameManager : MonoBehaviour
             fighters[i].Initialize();
             fighters[i].SetOpponent(fighters[(i + 1) % 2]);
         }
+    }
+
+    //Public methods;
+
+    public bool PlayerCanInteract()
+    {
+        return state == GameState.Fight;
     }
 
     public void TryWin()
