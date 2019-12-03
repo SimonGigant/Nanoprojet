@@ -17,7 +17,7 @@ public class StickFX : MonoBehaviour
 	public FXState attackState;
 	public FXState attackLagState;
 
-
+	[System.Serializable]
 	public class FXState
 	{
 		[GradientUsage(true)]
