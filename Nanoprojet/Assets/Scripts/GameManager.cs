@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour
     {
         if(playerInputManager.playerCount == 1)
         {
-            fighters[1] = GameObject.Instantiate(prefabs[1]);
+            fighters[1] = GameObject.Instantiate(prefabs[1]).GetComponent<Fighter>();
             fighters[1].SetOpponent(fighters[0]);
         }
     }
