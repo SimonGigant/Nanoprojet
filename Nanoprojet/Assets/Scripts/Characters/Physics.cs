@@ -35,7 +35,7 @@ public class Physics : MonoBehaviour
 
 	public void AddForce(Vector3 dir)
 	{
-		if (dir == Vector3.zero) return;
+		if (dir.magnitude < 0.01f) return;//to do check deadzone
 
 		currentDirection = Vector3.Lerp(currentDirection, dir, rotationLerp * Time.deltaTime);
 
@@ -59,7 +59,7 @@ public class Physics : MonoBehaviour
 		}
 		controller.Move((currentDirection * currentSpeed + gravity) * Time.deltaTime);
 		isForce = false;
-		Debug.Log(velocity);
+
 	}
 
 }

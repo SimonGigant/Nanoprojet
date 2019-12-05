@@ -23,13 +23,15 @@ public class Fighter : MonoBehaviour
 	private float lastDash;
     private Impact impact;
     private Animator animator;
+	private FXManager fxManager;
+	private Dash dash;
 
 	//Counters
 	private float counterInState;
 
     //Serialized fields
-    [SerializeField] private Fighter opponent;
-	[SerializeField] private float dashCooldown = 2;
+    [SerializeField]private Fighter opponent;
+	[SerializeField]private float dashCooldown = 0.5f;
 	[SerializeField]private float setUpAttackDuration = 0.2f;
 	[SerializeField]private float blockDuration = 0.5f;
 	[SerializeField]private float attackDuration = 0.2f;
@@ -37,6 +39,7 @@ public class Fighter : MonoBehaviour
 	//accessors
 	public FighterState currentState => state;
 	public Vector2 direction => currentDirection;
+	public float stateCounter => counterInState;
 
     public void Initialize()
     {
@@ -63,6 +66,8 @@ public class Fighter : MonoBehaviour
 		physics = GetComponent<Physics>();
         impact = GetComponent<Impact>();
         animator = GetComponentInChildren<Animator>();
+		fxManager = GetComponent<FXManager>();
+		dash = GetComponent<Dash>();
     }
 
 	void Start()
@@ -134,7 +139,9 @@ public class Fighter : MonoBehaviour
         {
             case FighterState.Dash:
                 {
+					dash.InitDash();
                     TensionManager.Instance.AddTension(10f);
+					fxManager.DashFx();
                     break;
                 }
             case FighterState.SetUpAttack:
@@ -162,7 +169,7 @@ public class Fighter : MonoBehaviour
 		if(nextState != state)
 		{
 			state = nextState;
-            GetComponent<Dash>().OnStateChange(nextState);
+            //GetComponent<Dash>().OnStateChange(nextState);
 		}
        
     }
@@ -179,6 +186,7 @@ public class Fighter : MonoBehaviour
 
     private void Dash()
     {
+		
     }
 
     private void SetUpAttack()
@@ -220,8 +228,7 @@ public class Fighter : MonoBehaviour
 
     private void Movement(Vector2 movement)
     {
-        Vector3 dir = new Vector3(movement.x, 0f, movement.y) * Time.deltaTime;
-		dir -= Vector3.up * 4 * Time.deltaTime; //add gravity to force the player to stay on the ground
+        Vector3 dir = new Vector3(movement.x, 0f, movement.y);
 		physics.AddForce(dir);
     }
 
@@ -304,8 +311,11 @@ public class Fighter : MonoBehaviour
             ChangeState(FighterState.Idle);
             ImpulseOppositToOpponent(7f);
             opponent.ImpulseOppositToOpponent(7f);
+			fxManager.ParryFX();
             return;
         }
+
+		fxManager.HitFX();
         hp -= amount;
         if (hp <= 0)
         {

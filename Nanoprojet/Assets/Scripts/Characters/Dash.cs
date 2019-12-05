@@ -7,18 +7,9 @@ public class Dash : MonoBehaviour
 	//private fields
 	private Fighter fighter;
 	private float counter;
-	private bool doDash = false;
-	private Rigidbody rb;
 	private Physics physics;
 	private Vector3 startPosition;
 	private Vector3 direction;
-
-	//Light
-	[SerializeField]private Light dashLight;
-	[SerializeField]private float lightFlashDuration = 1;
-
-
-
 
 	//serialized field
 	[SerializeField]private float duration;
@@ -30,44 +21,28 @@ public class Dash : MonoBehaviour
 	{
 		fighter = GetComponent<Fighter>();
 		physics = GetComponent<Physics>();
-		dashLight.enabled = false;
 	}
 
-	public void OnStateChange(FighterState newState)
+	public void InitDash()
 	{
-		if (newState == FighterState.Dash)
-		{
-			counter = 0;
-			doDash = true;
-			startPosition = transform.position;
-			direction = new Vector3(fighter.direction.x, 0, fighter.direction.y).normalized;
-			dashLight.enabled = true;
-			dashLight.transform.parent = null;
-			dashLight.transform.position = transform.position;
-		}
-		else
-		{
-			doDash = false;
-			dashLight.enabled = false;
-		}
+		counter = 0;
+		startPosition = transform.position;
+		direction = new Vector3(fighter.direction.x, 0, fighter.direction.y).normalized;
 	}
 
 	private void Update()
 	{
-		if (doDash)
+		if(fighter.currentState == FighterState.Dash)
 		{
 			Vector3 prevPos = startPosition + direction * distance * curve.Evaluate(counter / duration);
 			counter += Time.deltaTime;
-			Vector3 nextPos = startPosition + direction  * distance * curve.Evaluate(counter / duration);
+			Vector3 nextPos = startPosition + direction * distance * curve.Evaluate(counter / duration);
 			physics.directMove(nextPos - prevPos);
-			if(counter > lightFlashDuration)
-			{
-				dashLight.enabled = false;
-			}
 			if (counter >= duration)
 			{
 				fighter.DashEnd();
 			}
 		}
+
 	}
 }
