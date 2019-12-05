@@ -134,12 +134,13 @@ public class Fighter : MonoBehaviour
         {
             case FighterState.Dash:
                 {
-
+                    TensionManager.Instance.AddTension(10f);
                     break;
                 }
             case FighterState.SetUpAttack:
                 {
                     animator.SetTrigger("Attack");
+                    TensionManager.Instance.AddTension(15f);
                     break;
                 }
             case FighterState.Attack:
@@ -299,6 +300,7 @@ public class Fighter : MonoBehaviour
         if (state == FighterState.Block)
         {
             Debug.Log("Parade !");
+            TensionManager.Instance.AddTension(35f);
             ChangeState(FighterState.Idle);
             ImpulseOppositToOpponent(7f);
             opponent.ImpulseOppositToOpponent(7f);
@@ -341,6 +343,7 @@ public class Fighter : MonoBehaviour
             GameManager.Instance.TryWin();
 			currentHitbox.SetAttacking(false);
             ImpulseOppositToOpponent(4f);
+            TensionManager.Instance.AddTension(50f);
         }
     }
 
