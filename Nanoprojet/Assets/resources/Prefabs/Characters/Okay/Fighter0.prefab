@@ -211,6 +211,7 @@ GameObject:
   - component: {fileID: 481850002310423635}
   - component: {fileID: 3743556189591451798}
   - component: {fileID: 8547624607994208190}
+  - component: {fileID: 7818359320822828310}
   m_Layer: 0
   m_Name: Fighter0
   m_TagString: Untagged
@@ -542,6 +543,23 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     intensity: 0
+--- !u!114 &7818359320822828310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2286401034946105124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76451c37179cde84db46d74a0d901083, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxSpeed: 1
+  acceleration: 1
+  deceleration: 1
+  rotationLerp: 10
+  currentSpeed: 0
 --- !u!1001 &2286401035998286763
 PrefabInstance:
   m_ObjectHideFlags: 0

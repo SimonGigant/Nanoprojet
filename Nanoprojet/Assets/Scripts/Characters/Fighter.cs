@@ -16,7 +16,7 @@ public class Fighter : MonoBehaviour
 	[SerializeField][DisplayWithoutEdit]
     private FighterState state;
     private Vector2 currentDirection;
-	private CharacterController charController;
+	private Physics physics;
     private bool moved = false;
 
     private Hitbox currentHitbox;
@@ -60,7 +60,7 @@ public class Fighter : MonoBehaviour
 	{
 		currentHitbox = GetComponentInChildren<Hitbox>();
 		currentHitbox.opponent = opponent;
-		charController = GetComponent<CharacterController>();
+		physics = GetComponent<Physics>();
         impact = GetComponent<Impact>();
         animator = GetComponentInChildren<Animator>();
     }
@@ -222,7 +222,7 @@ public class Fighter : MonoBehaviour
     {
         Vector3 dir = new Vector3(movement.x, 0f, movement.y) * Time.deltaTime;
 		dir -= Vector3.up * 4 * Time.deltaTime; //add gravity to force the player to stay on the ground
-		charController.Move(dir);
+		physics.AddForce(dir);
     }
 
     //************************************************************************

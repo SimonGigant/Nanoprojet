@@ -9,7 +9,7 @@ public class Dash : MonoBehaviour
 	private float counter;
 	private bool doDash = false;
 	private Rigidbody rb;
-	private CharacterController controller;
+	private Physics physics;
 	private Vector3 startPosition;
 	private Vector3 direction;
 
@@ -29,7 +29,7 @@ public class Dash : MonoBehaviour
 	private void Awake()
 	{
 		fighter = GetComponent<Fighter>();
-		controller = GetComponent<CharacterController>();
+		physics = GetComponent<Physics>();
 		dashLight.enabled = false;
 	}
 
@@ -59,7 +59,7 @@ public class Dash : MonoBehaviour
 			Vector3 prevPos = startPosition + direction * distance * curve.Evaluate(counter / duration);
 			counter += Time.deltaTime;
 			Vector3 nextPos = startPosition + direction  * distance * curve.Evaluate(counter / duration);
-			controller.Move(nextPos - prevPos);
+			physics.directMove(nextPos - prevPos);
 			if(counter > lightFlashDuration)
 			{
 				dashLight.enabled = false;
