@@ -16,12 +16,12 @@ public class @Controls : IInputActionCollection, IDisposable
     ""maps"": [
         {
             ""name"": ""Player"",
-            ""id"": ""cb7ee5da-d205-4f79-90dd-dbb3d949db38"",
+            ""id"": ""2ea58891-df6a-4f05-8f0f-d957696a48b2"",
             ""actions"": [
                 {
                     ""name"": ""Move"",
                     ""type"": ""Value"",
-                    ""id"": ""be639af0-bb78-4a87-86a8-530873a5df37"",
+                    ""id"": ""427c5058-33b2-4c41-af86-f32216d0e922"",
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """"
@@ -29,7 +29,7 @@ public class @Controls : IInputActionCollection, IDisposable
                 {
                     ""name"": ""Dash"",
                     ""type"": ""Button"",
-                    ""id"": ""d252a138-8cd1-4079-96fc-33dba295bb93"",
+                    ""id"": ""6f80992d-1de6-45a1-8bc3-971bf2aa4131"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """"
@@ -37,7 +37,7 @@ public class @Controls : IInputActionCollection, IDisposable
                 {
                     ""name"": ""Attack"",
                     ""type"": ""Button"",
-                    ""id"": ""d6f0a0d2-3786-477e-8c07-c6100bec39f3"",
+                    ""id"": ""a35e7ba2-4170-497b-8d1b-62b2870404ee"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """"
@@ -46,7 +46,7 @@ public class @Controls : IInputActionCollection, IDisposable
             ""bindings"": [
                 {
                     ""name"": """",
-                    ""id"": ""2a72bd9b-fe70-4c90-9a6a-02f8016faa00"",
+                    ""id"": ""87846829-ad40-483c-8b44-5d77ec8b95df"",
                     ""path"": ""<Gamepad>/leftStick"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -57,7 +57,7 @@ public class @Controls : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""07288dbf-9ec6-49b2-8fc8-47094378fca7"",
+                    ""id"": ""9397a1b4-ad73-4d58-84a0-a0e15f646ace"",
                     ""path"": ""<Gamepad>/buttonSouth"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -68,7 +68,7 @@ public class @Controls : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""a0be57a8-db4c-4519-93e8-942a2ea37673"",
+                    ""id"": ""81c16995-2687-4d09-9304-0f21c2cde0d7"",
                     ""path"": ""<Gamepad>/buttonWest"",
                     ""interactions"": """",
                     ""processors"": """",

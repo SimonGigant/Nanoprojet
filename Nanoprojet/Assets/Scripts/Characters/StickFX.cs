@@ -16,12 +16,8 @@ public class StickFX : MonoBehaviour
 	public FXState blockState;
 	public FXState attackState;
 	public FXState attackLagState;
-
-<<<<<<< Updated upstream
+    
 	[System.Serializable]
-=======
-
->>>>>>> Stashed changes
 	public class FXState
 	{
 		[GradientUsage(true)]
