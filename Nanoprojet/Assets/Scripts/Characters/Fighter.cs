@@ -17,13 +17,12 @@ public class Fighter : MonoBehaviour
     private FighterState state;
     private Vector2 currentDirection;
 	private CharacterController charController;
-
-
-
+    private bool moved = false;
 
     private Hitbox currentHitbox;
 	private float lastDash;
     private Impact impact;
+    private Animator animator;
 
 	//Counters
 	private float counterInState;
@@ -63,13 +62,14 @@ public class Fighter : MonoBehaviour
 		currentHitbox.opponent = opponent;
 		charController = GetComponent<CharacterController>();
         impact = GetComponent<Impact>();
+        animator = GetComponentInChildren<Animator>();
     }
 
 	void Start()
     {
         Initialize();
     }
-    
+
     void Update()
     {
         if (!GameManager.Instance.PlayerCanInteract()) {
@@ -110,6 +110,15 @@ public class Fighter : MonoBehaviour
                     break;
                 }
         }
+
+        if (moved)
+        {
+            moved = false;
+        }
+        else
+        {
+            animator.SetFloat("Speed", 0f);
+        }
     }
 
     /**
@@ -126,6 +135,11 @@ public class Fighter : MonoBehaviour
             case FighterState.Dash:
                 {
 
+                    break;
+                }
+            case FighterState.SetUpAttack:
+                {
+                    animator.SetTrigger("Attack");
                     break;
                 }
             case FighterState.Attack:
@@ -207,7 +221,7 @@ public class Fighter : MonoBehaviour
     {
         Vector3 dir = new Vector3(movement.x, 0f, movement.y) * Time.deltaTime;
 		dir -= Vector3.up * 4 * Time.deltaTime; //add gravity to force the player to stay on the ground
-		charController.Move(dir );
+		charController.Move(dir);
     }
 
     //************************************************************************
@@ -236,6 +250,8 @@ public class Fighter : MonoBehaviour
         }
         Vector2 movement = dir * speed;
         Movement(movement);
+        animator.SetFloat("Speed",movement.magnitude);
+        moved = true;
         return true;
     }
 
@@ -292,6 +308,11 @@ public class Fighter : MonoBehaviour
         if (hp <= 0)
         {
             ChangeState(FighterState.Death);
+            animator.SetTrigger("Death");
+        }
+        else
+        {
+            animator.SetTrigger("Hit");
         }
         ImpulseOppositToOpponent(15f);
         Gamefeel.Instance.InitScreenshake(0.2f, 0.2f);
