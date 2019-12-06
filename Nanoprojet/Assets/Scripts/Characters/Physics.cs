@@ -24,6 +24,8 @@ public class Physics : MonoBehaviour
 	//accessors
 	public float speed => currentSpeed;
 	public float velocity => controller.velocity.magnitude;
+	public float orientationVelocity => Mathf.Sign( Vector3.Dot(controller.velocity.normalized, transform.forward));
+	
 
 	//external component
 	private CharacterController controller;
@@ -59,7 +61,6 @@ public class Physics : MonoBehaviour
 		}
 		controller.Move((currentDirection * currentSpeed + gravity) * Time.deltaTime);
 		isForce = false;
-
 	}
 
 }

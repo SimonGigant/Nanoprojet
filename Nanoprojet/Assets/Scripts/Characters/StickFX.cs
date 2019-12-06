@@ -8,6 +8,9 @@ public class StickFX : MonoBehaviour
 {
 	[SerializeField]
 	private VisualEffect vfx;
+	[SerializeField]
+	private Light fxLight;
+
 	private Fighter fighter;
 
 	
@@ -25,11 +28,15 @@ public class StickFX : MonoBehaviour
 		[GradientUsage(true)]
 		public Gradient gradient;
 		public float intensity;
+		public Color lightColor;
+		public float lightIntensity;
 
-		public void Apply(VisualEffect fx)
+		public void Apply(VisualEffect fx, Light l)
 		{
 			fx.SetFloat("Intensity", intensity);
 			fx.SetGradient("MainGradient", gradient);
+			l.color = lightColor;
+			l.intensity = lightIntensity;
 		}
 	}
 
@@ -58,20 +65,22 @@ public class StickFX : MonoBehaviour
 		{
 			case FighterState.SetUpAttack:
 				vfx.SendEvent("OnPlay");
-				setUpAttackState.Apply(vfx);
+				fxLight.enabled = true;
+				setUpAttackState.Apply(vfx, fxLight);
 				break;
 			case FighterState.Block:
-				blockState.Apply(vfx);
+				blockState.Apply(vfx, fxLight);
 				break;
 			case FighterState.Attack:
-				attackState.Apply(vfx);
+				attackState.Apply(vfx, fxLight);
 				break;
 			case FighterState.AttackLag:
-				attackLagState.Apply(vfx);
+				attackLagState.Apply(vfx, fxLight);
 				break;
 			default:
-				defaultState.Apply(vfx);
+				defaultState.Apply(vfx, fxLight);
 				vfx.SendEvent("OnStop");
+				fxLight.enabled = false;
 				break;
 		}
 	}
