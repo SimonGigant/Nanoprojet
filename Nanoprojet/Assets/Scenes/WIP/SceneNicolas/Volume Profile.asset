@@ -72,21 +72,21 @@ MonoBehaviour:
     min: 0
   cascadeShadowSplitCount:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 1
     min: 1
     max: 4
   cascadeShadowSplit0:
     m_OverrideState: 1
-    m_Value: 0.89
+    m_Value: 0
   cascadeShadowSplit1:
     m_OverrideState: 1
-    m_Value: 0.15
+    m_Value: 0
   cascadeShadowSplit2:
     m_OverrideState: 1
-    m_Value: 0.3
+    m_Value: 0
   cascadeShadowBorder0:
     m_OverrideState: 1
-    m_Value: 0.11772854
+    m_Value: 0
   cascadeShadowBorder1:
     m_OverrideState: 1
     m_Value: 0
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24f077503be6ae942a1e1245dbd53ea9, type: 3}
   m_Name: Bloom
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   m_AdvancedMode: 0
   intensity:
     m_OverrideState: 1
@@ -312,11 +312,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4910d90e50201484ba448b791a192696, type: 3}
   m_Name: VolumetricLightingController
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   m_AdvancedMode: 0
   depthExtent:
     m_OverrideState: 1
-    m_Value: 17.96
+    m_Value: 23.6
     min: 0.1
   sliceDistributionUniformity:
     m_OverrideState: 1
@@ -353,7 +353,7 @@ MonoBehaviour:
     max: 1
   maxFogDistance:
     m_OverrideState: 1
-    m_Value: 1000
+    m_Value: 100
     min: 0
   mipFogMaxMip:
     m_OverrideState: 1
@@ -376,7 +376,7 @@ MonoBehaviour:
     showEyeDropper: 1
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 10
+    m_Value: 100
     min: 1
   baseHeight:
     m_OverrideState: 1
@@ -386,7 +386,7 @@ MonoBehaviour:
     m_Value: 38
   anisotropy:
     m_OverrideState: 1
-    m_Value: 0.316
+    m_Value: 0
     min: -1
     max: 1
   globalLightProbeDimmer:
