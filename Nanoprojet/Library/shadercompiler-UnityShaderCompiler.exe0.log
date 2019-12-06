@@ -1,2 +1,143 @@
 Base path: 'D:/Work/UnityEditor/2019.2.14f1/Editor/Data', plugins path 'D:/Work/UnityEditor/2019.2.14f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
+Cmd: compileSnippet
+  api=4 type=0 insize=6538 outsize=810 kw=_NORMALMAP_TANGENT_SPACE pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6538 outsize=262 kw=_NORMALMAP_TANGENT_SPACE pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: preprocessCompute
+  insize=5439 outsize=5441 ok=1
+Cmd: preprocessCompute
+  insize=4709 outsize=4711 ok=1
+Cmd: preprocess
+  insize=13130 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5473 outsize=5475 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=5475 outsize=2321 ok=1
+Cmd: preprocessCompute
+  insize=4697 outsize=4699 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Packages/com.unity.visualeffectgraph/Shaders/VFXCommon.cginc(561): pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+  api=4 insize=4699 outsize=8672 ok=1
+Cmd: preprocess
+  insize=13130 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5473 outsize=5475 ok=1
+Cmd: preprocessCompute
+  insize=4697 outsize=4699 ok=1
+Cmd: preprocess
+  insize=13130 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5473 outsize=5475 ok=1
+Cmd: preprocessCompute
+  insize=4697 outsize=4699 ok=1
+Cmd: preprocess
+  insize=13130 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5473 outsize=5475 ok=1
+Cmd: preprocessCompute
+  insize=4697 outsize=4699 ok=1
+Cmd: preprocess
+  insize=13130 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5473 outsize=5475 ok=1
+Cmd: preprocessCompute
+  insize=4697 outsize=4699 ok=1
+Cmd: preprocess
+  insize=13130 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5473 outsize=5475 ok=1
+Cmd: preprocessCompute
+  insize=4697 outsize=4699 ok=1
+Cmd: preprocess
+  insize=13130 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5473 outsize=5475 ok=1
+Cmd: preprocessCompute
+  insize=4697 outsize=4699 ok=1
+Cmd: preprocess
+  insize=13130 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5473 outsize=5475 ok=1
+Cmd: preprocessCompute
+  insize=4697 outsize=4699 ok=1
+Cmd: preprocess
+  insize=13130 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5473 outsize=5475 ok=1
+Cmd: preprocessCompute
+  insize=4697 outsize=4699 ok=1
+Cmd: preprocess
+  insize=13130 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5439 outsize=5441 ok=1
+Cmd: preprocessCompute
+  insize=4709 outsize=4711 ok=1
+Cmd: preprocess
+  insize=13130 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5473 outsize=5475 ok=1
+Cmd: preprocessCompute
+  insize=4697 outsize=4699 ok=1
+Cmd: preprocess
+  insize=13130 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5473 outsize=5475 ok=1
+Cmd: preprocessCompute
+  insize=4697 outsize=4699 ok=1
+Cmd: preprocess
+  insize=13130 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5473 outsize=5475 ok=1
+Cmd: preprocessCompute
+  insize=4697 outsize=4699 ok=1
+Cmd: preprocess
+  insize=13130 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5473 outsize=5475 ok=1
+Cmd: preprocessCompute
+  insize=4697 outsize=4699 ok=1
+Cmd: preprocess
+  insize=13130 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5439 outsize=5441 ok=1
+Cmd: preprocessCompute
+  insize=4709 outsize=4711 ok=1
+Cmd: preprocess
+  insize=13130 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5473 outsize=5475 ok=1
+Cmd: preprocessCompute
+  insize=4697 outsize=4699 ok=1
+Cmd: preprocess
+  insize=13130 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5473 outsize=5475 ok=1
+Cmd: preprocessCompute
+  insize=4697 outsize=4699 ok=1
+Cmd: preprocess
+  insize=13130 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5473 outsize=5475 ok=1
+Cmd: preprocessCompute
+  insize=4697 outsize=4699 ok=1
+Cmd: preprocess
+  insize=13130 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5439 outsize=5441 ok=1
+Cmd: preprocessCompute
+  insize=4709 outsize=4711 ok=1
+Cmd: preprocess
+  insize=13130 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5439 outsize=5441 ok=1
+Cmd: preprocessCompute
+  insize=4709 outsize=4711 ok=1
+Cmd: preprocess
+  insize=13130 outsize=425 ok=1
+Cmd: preprocessCompute
+  insize=5439 outsize=5441 ok=1
+Cmd: preprocessCompute
+  insize=4709 outsize=4711 ok=1
+Cmd: preprocess
+  insize=13130 outsize=425 ok=1

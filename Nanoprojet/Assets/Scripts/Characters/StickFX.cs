@@ -16,7 +16,9 @@ public class StickFX : MonoBehaviour
 	public FXState blockState;
 	public FXState attackState;
 	public FXState attackLagState;
-    
+
+	private FighterState lastState;
+
 	[System.Serializable]
 	public class FXState
 	{
@@ -46,9 +48,16 @@ public class StickFX : MonoBehaviour
 
 	private void UpdateFX()
 	{
+		if(fighter.currentState == lastState)
+		{
+			return;
+		}
+		lastState = fighter.currentState;
+
 		switch (fighter.currentState)
 		{
 			case FighterState.SetUpAttack:
+				vfx.SendEvent("OnPlay");
 				setUpAttackState.Apply(vfx);
 				break;
 			case FighterState.Block:
@@ -62,6 +71,7 @@ public class StickFX : MonoBehaviour
 				break;
 			default:
 				defaultState.Apply(vfx);
+				vfx.SendEvent("OnStop");
 				break;
 		}
 	}
